@@ -1,0 +1,28 @@
+{
+ "experiment": "e07_n10_sampling",
+ "date": "2026-10-01 16:13:16",
+ "families": 522,
+ "candidates": 2676614000,
+ "apn": 161197,
+ "classified": 8490,
+ "new_classes": [],
+ "by_kind": {
+  "gf2": [
+   2874000,
+   2419
+  ],
+  "subfield": [
+   1830000,
+   773
+  ],
+  "sparse": [
+   1762000,
+   4726
+  ],
+  "residue": [
+   2670148000,
+   153279
+  ]
+ },
+ "seconds": 551
+}

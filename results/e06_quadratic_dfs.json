@@ -1,0 +1,30 @@
+{
+ "experiment": "e06_quadratic_dfs",
+ "date": "2026-10-01 16:04:02",
+ "rows": [
+  {
+   "n": 6,
+   "restarts": 3000,
+   "node_limit": 1000000,
+   "functions": 3000,
+   "classes": 13,
+   "seconds": 3.2
+  },
+  {
+   "n": 7,
+   "restarts": 400,
+   "node_limit": 1000000,
+   "functions": 237,
+   "classes": 194,
+   "seconds": 18.4
+  },
+  {
+   "n": 8,
+   "restarts": 36,
+   "node_limit": 30000000,
+   "functions": 0,
+   "classes": 0,
+   "seconds": 220.2
+  }
+ ]
+}

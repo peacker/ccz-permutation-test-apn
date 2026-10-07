@@ -1,0 +1,981 @@
+{
+ "seconds": 300,
+ "classes": [
+  {
+   "class": "class1",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class2",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class3",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class4",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class5",
+   "finished": false,
+   "solutions": 5
+  },
+  {
+   "class": "class6",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class7",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class8",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class9",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class13",
+   "finished": true,
+   "solutions": 0
+  },
+  {
+   "class": "class14",
+   "finished": true,
+   "solutions": 0
+  },
+  {
+   "class": "class15",
+   "finished": true,
+   "solutions": 0
+  },
+  {
+   "class": "class16",
+   "finished": true,
+   "solutions": 0
+  },
+  {
+   "class": "class17",
+   "finished": true,
+   "solutions": 0
+  },
+  {
+   "class": "class18",
+   "finished": true,
+   "solutions": 0
+  },
+  {
+   "class": "class19",
+   "finished": true,
+   "solutions": 0
+  },
+  {
+   "class": "class20",
+   "finished": true,
+   "solutions": 0
+  },
+  {
+   "class": "class21",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class22",
+   "finished": true,
+   "solutions": 0
+  },
+  {
+   "class": "class23",
+   "finished": true,
+   "solutions": 0
+  },
+  {
+   "class": "class24",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class25",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class26",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class27",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class28",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class29",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class30",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class31",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class32",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class33",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class34",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class35",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class36",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class37",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class38",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class45",
+   "finished": true,
+   "solutions": 0
+  },
+  {
+   "class": "class46",
+   "finished": true,
+   "solutions": 0
+  },
+  {
+   "class": "class47",
+   "finished": false,
+   "solutions": 63
+  },
+  {
+   "class": "class48",
+   "finished": true,
+   "solutions": 0
+  },
+  {
+   "class": "class49",
+   "finished": false,
+   "solutions": 10
+  },
+  {
+   "class": "class50",
+   "finished": true,
+   "solutions": 0
+  },
+  {
+   "class": "class51",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class52",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class53",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class54",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class55",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class56",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class57",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class58",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class59",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class60",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class61",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class62",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class63",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class64",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class65",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class72",
+   "finished": true,
+   "solutions": 0
+  },
+  {
+   "class": "class73",
+   "finished": true,
+   "solutions": 0
+  },
+  {
+   "class": "class74",
+   "finished": true,
+   "solutions": 0
+  },
+  {
+   "class": "class75",
+   "finished": false,
+   "solutions": 12
+  },
+  {
+   "class": "class76",
+   "finished": true,
+   "solutions": 0
+  },
+  {
+   "class": "class77",
+   "finished": true,
+   "solutions": 0
+  },
+  {
+   "class": "class78",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class79",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class80",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class81",
+   "finished": true,
+   "solutions": 0
+  },
+  {
+   "class": "class82",
+   "finished": true,
+   "solutions": 0
+  },
+  {
+   "class": "class83",
+   "finished": true,
+   "solutions": 0
+  },
+  {
+   "class": "class84",
+   "finished": true,
+   "solutions": 0
+  },
+  {
+   "class": "class85",
+   "finished": true,
+   "solutions": 0
+  },
+  {
+   "class": "class86",
+   "finished": true,
+   "solutions": 0
+  },
+  {
+   "class": "class87",
+   "finished": true,
+   "solutions": 0
+  },
+  {
+   "class": "class88",
+   "finished": true,
+   "solutions": 0
+  },
+  {
+   "class": "class89",
+   "finished": true,
+   "solutions": 0
+  },
+  {
+   "class": "class90",
+   "finished": true,
+   "solutions": 0
+  },
+  {
+   "class": "class91",
+   "finished": true,
+   "solutions": 0
+  },
+  {
+   "class": "class92",
+   "finished": true,
+   "solutions": 0
+  },
+  {
+   "class": "class93",
+   "finished": true,
+   "solutions": 0
+  },
+  {
+   "class": "class94",
+   "finished": true,
+   "solutions": 0
+  },
+  {
+   "class": "class95",
+   "finished": true,
+   "solutions": 0
+  },
+  {
+   "class": "class96",
+   "finished": true,
+   "solutions": 0
+  },
+  {
+   "class": "class97",
+   "finished": true,
+   "solutions": 0
+  },
+  {
+   "class": "class98",
+   "finished": true,
+   "solutions": 0
+  },
+  {
+   "class": "class99",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class100",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class104",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class105",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class108",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class109",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class110",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class111",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class113",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class114",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class115",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class116",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class117",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class118",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class119",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class120",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class121",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class122",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class123",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class124",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class125",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class126",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class127",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class128",
+   "finished": true,
+   "solutions": 0
+  },
+  {
+   "class": "class129",
+   "finished": true,
+   "solutions": 0
+  },
+  {
+   "class": "class130",
+   "finished": true,
+   "solutions": 0
+  },
+  {
+   "class": "class131",
+   "finished": true,
+   "solutions": 0
+  },
+  {
+   "class": "class132",
+   "finished": true,
+   "solutions": 0
+  },
+  {
+   "class": "class133",
+   "finished": true,
+   "solutions": 0
+  },
+  {
+   "class": "class134",
+   "finished": true,
+   "solutions": 0
+  },
+  {
+   "class": "class135",
+   "finished": true,
+   "solutions": 0
+  },
+  {
+   "class": "class136",
+   "finished": true,
+   "solutions": 0
+  },
+  {
+   "class": "class137",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class138",
+   "finished": true,
+   "solutions": 0
+  },
+  {
+   "class": "class139",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class140",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class142",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class143",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class144",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class145",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class146",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class147",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class148",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class149",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class150",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class151",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class152",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class153",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class154",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class155",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class156",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class163",
+   "finished": false,
+   "solutions": 299
+  },
+  {
+   "class": "class164",
+   "finished": true,
+   "solutions": 0
+  },
+  {
+   "class": "class165",
+   "finished": true,
+   "solutions": 0
+  },
+  {
+   "class": "class166",
+   "finished": true,
+   "solutions": 0
+  },
+  {
+   "class": "class167",
+   "finished": false,
+   "solutions": 297
+  },
+  {
+   "class": "class168",
+   "finished": true,
+   "solutions": 0
+  },
+  {
+   "class": "class169",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class170",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class171",
+   "finished": true,
+   "solutions": 0
+  },
+  {
+   "class": "class172",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class173",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class174",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class175",
+   "finished": true,
+   "solutions": 0
+  },
+  {
+   "class": "class176",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class177",
+   "finished": true,
+   "solutions": 0
+  },
+  {
+   "class": "class180",
+   "finished": true,
+   "solutions": 0
+  },
+  {
+   "class": "class181",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class185",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class186",
+   "finished": true,
+   "solutions": 0
+  },
+  {
+   "class": "class189",
+   "finished": true,
+   "solutions": 0
+  },
+  {
+   "class": "class190",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class191",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class192",
+   "finished": true,
+   "solutions": 0
+  },
+  {
+   "class": "class193",
+   "finished": true,
+   "solutions": 0
+  },
+  {
+   "class": "class194",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class195",
+   "finished": true,
+   "solutions": 0
+  },
+  {
+   "class": "class196",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class197",
+   "finished": true,
+   "solutions": 0
+  },
+  {
+   "class": "class198",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class199",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class202",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class204",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class207",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class208",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class209",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class210",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class212",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class213",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class214",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class215",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class217",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class218",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class227",
+   "finished": true,
+   "solutions": 0
+  },
+  {
+   "class": "class228",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class229",
+   "finished": true,
+   "solutions": 0
+  },
+  {
+   "class": "class233",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class234",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class235",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class238",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class239",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class240",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class243",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class244",
+   "finished": true,
+   "solutions": 0
+  },
+  {
+   "class": "class245",
+   "finished": true,
+   "solutions": 0
+  },
+  {
+   "class": "class315",
+   "finished": true,
+   "solutions": 0
+  },
+  {
+   "class": "class316",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class317",
+   "finished": true,
+   "solutions": 0
+  },
+  {
+   "class": "class319",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class320",
+   "finished": false,
+   "solutions": 0
+  },
+  {
+   "class": "class321",
+   "finished": true,
+   "solutions": 0
+  },
+  {
+   "class": "class322",
+   "finished": true,
+   "solutions": 0
+  }
+ ],
+ "note": "deterministic quad_apn.c, 18 in parallel, run 2026-09-29"
+}

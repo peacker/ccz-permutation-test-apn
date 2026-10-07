@@ -1,0 +1,270 @@
+{
+ "experiment": "e04_n10_known_classes",
+ "date": "2026-10-02 16:40:58",
+ "instances": 6366,
+ "apn_instances": 1266,
+ "classes": 20,
+ "classes_per_family": {
+  "Gold": 2,
+  "F4": 2,
+  "F3": 2,
+  "F12": 6,
+  "F13": 5,
+  "Beierle-Leander": 3
+ },
+ "beierle_leander": [
+  {
+   "function": "Beierle-Leander #1",
+   "apn": true,
+   "in_family_classes": false,
+   "family_class": null
+  },
+  {
+   "function": "Beierle-Leander #2",
+   "apn": true,
+   "in_family_classes": true,
+   "family_class": "F13 i=3 k=0 a=1 b=1 c=236"
+  },
+  {
+   "function": "Beierle-Leander #3",
+   "apn": true,
+   "in_family_classes": false,
+   "family_class": null
+  },
+  {
+   "function": "Beierle-Leander #4",
+   "apn": true,
+   "in_family_classes": true,
+   "family_class": "F13 i=3 k=0 a=1 b=236 c=1"
+  },
+  {
+   "function": "Beierle-Leander #5",
+   "apn": true,
+   "in_family_classes": false,
+   "family_class": null
+  }
+ ],
+ "rows": [
+  {
+   "family": "Gold",
+   "representative": "Gold x^3",
+   "verdict": "none",
+   "nonbent_rows": 341,
+   "max_dim_NB": 5,
+   "projections_tested": {
+    "5": 11
+   },
+   "spaces_found": 0,
+   "condition2_inconclusive": true
+  },
+  {
+   "family": "Gold",
+   "representative": "Gold x^9",
+   "verdict": "none",
+   "nonbent_rows": 341,
+   "max_dim_NB": 5,
+   "projections_tested": {
+    "5": 11
+   },
+   "spaces_found": 0,
+   "condition2_inconclusive": true
+  },
+  {
+   "family": "F4",
+   "representative": "F4 a=1",
+   "verdict": "none",
+   "nonbent_rows": 341,
+   "max_dim_NB": 5,
+   "projections_tested": {
+    "5": 1
+   },
+   "spaces_found": 0,
+   "condition2_inconclusive": false
+  },
+  {
+   "family": "F4",
+   "representative": "F4 a=236",
+   "verdict": "none",
+   "nonbent_rows": 341,
+   "max_dim_NB": 5,
+   "projections_tested": {
+    "5": 1
+   },
+   "spaces_found": 0,
+   "condition2_inconclusive": false
+  },
+  {
+   "family": "F3",
+   "representative": "F3 i=1 c=1014 s=807",
+   "verdict": "none",
+   "nonbent_rows": 341,
+   "max_dim_NB": 4,
+   "projections_tested": {},
+   "spaces_found": 0,
+   "condition2_inconclusive": false
+  },
+  {
+   "family": "F3",
+   "representative": "F3 i=2 c=941 s=1007",
+   "verdict": "none",
+   "nonbent_rows": 341,
+   "max_dim_NB": 4,
+   "projections_tested": {},
+   "spaces_found": 0,
+   "condition2_inconclusive": false
+  },
+  {
+   "family": "F12",
+   "representative": "F12 i=3 u=729 a=84 b=14",
+   "verdict": "none",
+   "nonbent_rows": 341,
+   "max_dim_NB": 3,
+   "projections_tested": {},
+   "spaces_found": 0,
+   "condition2_inconclusive": false
+  },
+  {
+   "family": "F12",
+   "representative": "F12 i=4 u=748 a=770 b=85",
+   "verdict": "none",
+   "nonbent_rows": 341,
+   "max_dim_NB": 4,
+   "projections_tested": {},
+   "spaces_found": 0,
+   "condition2_inconclusive": false
+  },
+  {
+   "family": "F12",
+   "representative": "F12 i=2 u=62 a=366 b=308",
+   "verdict": "none",
+   "nonbent_rows": 341,
+   "max_dim_NB": 3,
+   "projections_tested": {},
+   "spaces_found": 0,
+   "condition2_inconclusive": false
+  },
+  {
+   "family": "F12",
+   "representative": "F12 i=1 u=362 a=857 b=568",
+   "verdict": "none",
+   "nonbent_rows": 341,
+   "max_dim_NB": 4,
+   "projections_tested": {},
+   "spaces_found": 0,
+   "condition2_inconclusive": false
+  },
+  {
+   "family": "F12",
+   "representative": "F12 i=3 u=940 a=567 b=781",
+   "verdict": "none",
+   "nonbent_rows": 341,
+   "max_dim_NB": 3,
+   "projections_tested": {},
+   "spaces_found": 0,
+   "condition2_inconclusive": false
+  },
+  {
+   "family": "F12",
+   "representative": "F12 i=1 u=66 a=314 b=568",
+   "verdict": "none",
+   "nonbent_rows": 341,
+   "max_dim_NB": 4,
+   "projections_tested": {},
+   "spaces_found": 0,
+   "condition2_inconclusive": false
+  },
+  {
+   "family": "F13",
+   "representative": "F13 i=3 k=0 a=1 b=1 c=236",
+   "verdict": "none",
+   "nonbent_rows": 341,
+   "max_dim_NB": 5,
+   "projections_tested": {
+    "5": 1
+   },
+   "spaces_found": 0,
+   "condition2_inconclusive": false
+  },
+  {
+   "family": "F13",
+   "representative": "F13 i=3 k=0 a=1 b=236 c=1",
+   "verdict": "none",
+   "nonbent_rows": 341,
+   "max_dim_NB": 5,
+   "projections_tested": {
+    "5": 1
+   },
+   "spaces_found": 0,
+   "condition2_inconclusive": false
+  },
+  {
+   "family": "F13",
+   "representative": "F13 i=3 k=0 a=1 b=236 c=237",
+   "verdict": "none",
+   "nonbent_rows": 341,
+   "max_dim_NB": 4,
+   "projections_tested": {},
+   "spaces_found": 0,
+   "condition2_inconclusive": false
+  },
+  {
+   "family": "F13",
+   "representative": "F13 i=3 k=0 a=236 b=236 c=237",
+   "verdict": "none",
+   "nonbent_rows": 341,
+   "max_dim_NB": 3,
+   "projections_tested": {},
+   "spaces_found": 0,
+   "condition2_inconclusive": false
+  },
+  {
+   "family": "F13",
+   "representative": "F13 i=3 k=2 a=236 b=0 c=0",
+   "verdict": "none",
+   "nonbent_rows": 341,
+   "max_dim_NB": 3,
+   "projections_tested": {},
+   "spaces_found": 0,
+   "condition2_inconclusive": false
+  },
+  {
+   "family": "Beierle-Leander",
+   "representative": "Beierle-Leander #1",
+   "verdict": "none",
+   "nonbent_rows": 341,
+   "max_dim_NB": 3,
+   "projections_tested": {},
+   "spaces_found": 0,
+   "condition2_inconclusive": false
+  },
+  {
+   "family": "Beierle-Leander",
+   "representative": "Beierle-Leander #3",
+   "verdict": "none",
+   "nonbent_rows": 341,
+   "max_dim_NB": 5,
+   "projections_tested": {
+    "5": 2
+   },
+   "spaces_found": 0,
+   "condition2_inconclusive": true
+  },
+  {
+   "family": "Beierle-Leander",
+   "representative": "Beierle-Leander #5",
+   "verdict": "none",
+   "nonbent_rows": 341,
+   "max_dim_NB": 4,
+   "projections_tested": {},
+   "spaces_found": 0,
+   "condition2_inconclusive": false
+  }
+ ],
+ "all_instances": {
+  "tested": 402,
+  "verdicts": {
+   "none": 402
+  },
+  "excluded_by_counting": 256
+ }
+}

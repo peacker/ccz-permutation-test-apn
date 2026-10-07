@@ -1,0 +1,84 @@
+{
+ "experiment": "e03_ccz_validation",
+ "date": "2026-10-01 15:40:13",
+ "rows": [
+  {
+   "function": "x^3",
+   "n": 6,
+   "degree": 2,
+   "exhaustive_count": 190,
+   "exhaustive_verdict": "none",
+   "exhaustive_time": 0.1,
+   "dual_count": 190,
+   "dual_verdict": "none",
+   "dual_time": 0.08,
+   "max_dim_NB": 3
+  },
+  {
+   "function": "Kim (u = 7)",
+   "n": 6,
+   "degree": 2,
+   "exhaustive_count": 222,
+   "exhaustive_verdict": "permutation",
+   "exhaustive_time": 0.06,
+   "exhaustive_permutation_is_apn": true,
+   "dual_count": 222,
+   "dual_verdict": "permutation",
+   "dual_time": 0.05,
+   "max_dim_NB": 3,
+   "dual_permutation_is_apn": true
+  },
+  {
+   "function": "Edel-Pott (switching u = 26)",
+   "n": 6,
+   "degree": 3,
+   "exhaustive_count": 25,
+   "exhaustive_verdict": "none",
+   "exhaustive_time": 0.02
+  },
+  {
+   "function": "x^3",
+   "n": 8,
+   "degree": 2,
+   "exhaustive_count": 256,
+   "exhaustive_verdict": "none",
+   "exhaustive_time": 111.09,
+   "dual_count": 256,
+   "dual_verdict": "none",
+   "dual_time": 0.15,
+   "max_dim_NB": 2
+  },
+  {
+   "function": "x^9",
+   "n": 8,
+   "degree": 2,
+   "exhaustive_count": 256,
+   "exhaustive_verdict": "none",
+   "exhaustive_time": 112.07,
+   "dual_count": 256,
+   "dual_verdict": "none",
+   "dual_time": 0.14,
+   "max_dim_NB": 2
+  },
+  {
+   "function": "x^3 + Tr(x^9)",
+   "n": 8,
+   "degree": 2,
+   "exhaustive_count": 256,
+   "exhaustive_verdict": "none",
+   "exhaustive_time": 146.23,
+   "dual_count": 256,
+   "dual_verdict": "none",
+   "dual_time": 0.1,
+   "max_dim_NB": 3
+  },
+  {
+   "function": "x^57 (Kasami)",
+   "n": 8,
+   "degree": 4,
+   "exhaustive_count": 1,
+   "exhaustive_verdict": "none",
+   "exhaustive_time": 90.0
+  }
+ ]
+}

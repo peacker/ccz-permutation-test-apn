@@ -1,0 +1,39 @@
+{
+ "experiment": "e10_f4_n22_a1_m",
+ "date": "2026-10-06 22:33:51",
+ "rows": [
+  {
+   "a": 1,
+   "log_a_mod_3": 0,
+   "nonbent": 1398101,
+   "n": 22,
+   "subspaces_dim_m_plus_1": null,
+   "subspaces_dim_m": 1,
+   "spanning_pairs": 0,
+   "symmetry": true,
+   "dims": "m",
+   "rows_seconds": 1239,
+   "search_seconds": 225250,
+   "all_spread_lines": true,
+   "contains_a_line": true,
+   "bases_dim_m": [
+    [
+     2097152,
+     1049342,
+     524742,
+     264226,
+     133746,
+     66234,
+     35158,
+     16934,
+     10820,
+     5042,
+     1368
+    ]
+   ],
+   "verdict": "none (necessary condition)",
+   "note": "run with --sym --dims m: dimension m+1 was not searched; an (m+1)-dimensional subspace would contain 2^(m+1)-1 subspaces of dimension m, so a single m-dimensional subspace excludes it",
+   "server": "2 x AMD EPYC 7763, 128 threads at nice 10"
+  }
+ ]
+}

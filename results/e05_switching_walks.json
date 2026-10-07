@@ -1,0 +1,711 @@
+{
+ "experiment": "e05_switching_walks",
+ "date": "2026-10-01 15:48:54",
+ "6": {
+  "sources": 4,
+  "classes_reached": 13,
+  "walk_complete": true,
+  "nonquadratic": [
+   {
+    "source": "x^3 + a(x^17 + x^18 + x^20 + x^24)",
+    "u": 26,
+    "nonquadratic_rank": 1
+   },
+   {
+    "source": "switch[3]",
+    "u": 31,
+    "nonquadratic_rank": 1
+   },
+   {
+    "source": "switch[3]",
+    "u": 43,
+    "nonquadratic_rank": 1
+   },
+   {
+    "source": "switch[5]",
+    "u": 29,
+    "nonquadratic_rank": 1
+   },
+   {
+    "source": "switch[8]",
+    "u": 26,
+    "nonquadratic_rank": 1
+   },
+   {
+    "source": "switch[8]",
+    "u": 30,
+    "nonquadratic_rank": 1
+   },
+   {
+    "source": "switch[9]",
+    "u": 57,
+    "nonquadratic_rank": 1
+   },
+   {
+    "source": "switch[9]",
+    "u": 63,
+    "nonquadratic_rank": 1
+   }
+  ],
+  "new_class_ccz": [
+   {
+    "class": "switch[2]",
+    "verdict": "none",
+    "max_dim_NB": 2
+   },
+   {
+    "class": "switch[3]",
+    "verdict": "none",
+    "max_dim_NB": 2
+   },
+   {
+    "class": "switch[4]",
+    "verdict": "none",
+    "max_dim_NB": 2
+   },
+   {
+    "class": "switch[5]",
+    "verdict": "none",
+    "max_dim_NB": 2
+   },
+   {
+    "class": "switch[6]",
+    "verdict": "none",
+    "max_dim_NB": 2
+   },
+   {
+    "class": "switch[7]",
+    "verdict": "none",
+    "max_dim_NB": 3
+   },
+   {
+    "class": "switch[8]",
+    "verdict": "none",
+    "max_dim_NB": 3
+   },
+   {
+    "class": "switch[9]",
+    "verdict": "none",
+    "max_dim_NB": 2
+   },
+   {
+    "class": "switch[10]",
+    "verdict": "permutation",
+    "max_dim_NB": 3
+   },
+   {
+    "class": "switch[11]",
+    "verdict": "none",
+    "max_dim_NB": 2
+   },
+   {
+    "class": "switch[12]",
+    "verdict": "none",
+    "max_dim_NB": 2
+   }
+  ],
+  "stats": [
+   {
+    "source": "x^3 (Gold)",
+    "nontrivial_u": 2,
+    "kernel_dims": [
+     12,
+     13
+    ]
+   },
+   {
+    "source": "x^3 + a(x^17 + x^18 + x^20 + x^24)",
+    "nontrivial_u": 31,
+    "kernel_dims": [
+     12,
+     13,
+     14,
+     15,
+     16,
+     17
+    ]
+   },
+   {
+    "source": "switch[2]",
+    "nontrivial_u": 42,
+    "kernel_dims": [
+     12,
+     13
+    ]
+   },
+   {
+    "source": "switch[3]",
+    "nontrivial_u": 31,
+    "kernel_dims": [
+     12,
+     13,
+     14,
+     15,
+     16,
+     17
+    ]
+   },
+   {
+    "source": "switch[4]",
+    "nontrivial_u": 33,
+    "kernel_dims": [
+     12,
+     13,
+     14,
+     15,
+     17
+    ]
+   },
+   {
+    "source": "switch[5]",
+    "nontrivial_u": 32,
+    "kernel_dims": [
+     12,
+     13,
+     14,
+     15,
+     16,
+     17
+    ]
+   },
+   {
+    "source": "switch[6]",
+    "nontrivial_u": 46,
+    "kernel_dims": [
+     12,
+     13,
+     15,
+     17
+    ]
+   },
+   {
+    "source": "switch[7]",
+    "nontrivial_u": 35,
+    "kernel_dims": [
+     12,
+     13,
+     14,
+     15
+    ]
+   },
+   {
+    "source": "switch[8]",
+    "nontrivial_u": 34,
+    "kernel_dims": [
+     12,
+     13,
+     14,
+     15,
+     16
+    ]
+   },
+   {
+    "source": "switch[9]",
+    "nontrivial_u": 27,
+    "kernel_dims": [
+     12,
+     13,
+     14,
+     15,
+     16,
+     17
+    ]
+   },
+   {
+    "source": "switch[10]",
+    "nontrivial_u": 42,
+    "kernel_dims": [
+     12,
+     13
+    ]
+   },
+   {
+    "source": "switch[11]",
+    "nontrivial_u": 26,
+    "kernel_dims": [
+     12,
+     13,
+     14,
+     15,
+     17
+    ]
+   },
+   {
+    "source": "switch[12]",
+    "nontrivial_u": 42,
+    "kernel_dims": [
+     12,
+     13,
+     14
+    ]
+   }
+  ]
+ },
+ "8": {
+  "sources": 5,
+  "classes_reached": 17,
+  "walk_complete": true,
+  "nonquadratic": [],
+  "new_class_ccz": [
+   {
+    "class": "switch[4]",
+    "verdict": "none",
+    "max_dim_NB": 3
+   },
+   {
+    "class": "switch[5]",
+    "verdict": "none",
+    "max_dim_NB": 3
+   },
+   {
+    "class": "switch[6]",
+    "verdict": "none",
+    "max_dim_NB": 3
+   },
+   {
+    "class": "switch[7]",
+    "verdict": "none",
+    "max_dim_NB": 2
+   },
+   {
+    "class": "switch[8]",
+    "verdict": "none",
+    "max_dim_NB": 3
+   },
+   {
+    "class": "switch[9]",
+    "verdict": "none",
+    "max_dim_NB": 3
+   },
+   {
+    "class": "switch[10]",
+    "verdict": "none",
+    "max_dim_NB": 3
+   },
+   {
+    "class": "switch[11]",
+    "verdict": "none",
+    "max_dim_NB": 3
+   },
+   {
+    "class": "switch[12]",
+    "verdict": "none",
+    "max_dim_NB": 3
+   },
+   {
+    "class": "switch[13]",
+    "verdict": "none",
+    "max_dim_NB": 3
+   },
+   {
+    "class": "switch[14]",
+    "verdict": "none",
+    "max_dim_NB": 3
+   },
+   {
+    "class": "switch[15]",
+    "verdict": "none",
+    "max_dim_NB": 3
+   },
+   {
+    "class": "switch[16]",
+    "verdict": "none",
+    "max_dim_NB": 3
+   }
+  ],
+  "stats": [
+   {
+    "source": "x^3 (Gold)",
+    "nontrivial_u": 3,
+    "kernel_dims": [
+     17
+    ]
+   },
+   {
+    "source": "x^9 (Gold)",
+    "nontrivial_u": 1,
+    "kernel_dims": [
+     16,
+     18
+    ]
+   },
+   {
+    "source": "x^57 (Kasami)",
+    "nontrivial_u": 0,
+    "kernel_dims": [
+     16
+    ]
+   },
+   {
+    "source": "x^3 + Tr(x^9)",
+    "nontrivial_u": 15,
+    "kernel_dims": [
+     16,
+     17
+    ]
+   },
+   {
+    "source": "x^3 + b^-1 Tr(b^3 x^9), b in GF(4)",
+    "nontrivial_u": 9,
+    "kernel_dims": [
+     16,
+     17
+    ]
+   },
+   {
+    "source": "switch[4]",
+    "nontrivial_u": 7,
+    "kernel_dims": [
+     16,
+     17,
+     18
+    ]
+   },
+   {
+    "source": "switch[5]",
+    "nontrivial_u": 5,
+    "kernel_dims": [
+     16,
+     17
+    ]
+   },
+   {
+    "source": "switch[6]",
+    "nontrivial_u": 3,
+    "kernel_dims": [
+     16,
+     17
+    ]
+   },
+   {
+    "source": "switch[7]",
+    "nontrivial_u": 3,
+    "kernel_dims": [
+     16,
+     17
+    ]
+   },
+   {
+    "source": "switch[8]",
+    "nontrivial_u": 13,
+    "kernel_dims": [
+     16,
+     17,
+     18
+    ]
+   },
+   {
+    "source": "switch[9]",
+    "nontrivial_u": 3,
+    "kernel_dims": [
+     16,
+     17
+    ]
+   },
+   {
+    "source": "switch[10]",
+    "nontrivial_u": 3,
+    "kernel_dims": [
+     16,
+     17
+    ]
+   },
+   {
+    "source": "switch[11]",
+    "nontrivial_u": 5,
+    "kernel_dims": [
+     16,
+     17
+    ]
+   },
+   {
+    "source": "switch[12]",
+    "nontrivial_u": 5,
+    "kernel_dims": [
+     16,
+     17
+    ]
+   },
+   {
+    "source": "switch[13]",
+    "nontrivial_u": 5,
+    "kernel_dims": [
+     16,
+     17
+    ]
+   },
+   {
+    "source": "switch[14]",
+    "nontrivial_u": 3,
+    "kernel_dims": [
+     16,
+     17,
+     18
+    ]
+   },
+   {
+    "source": "switch[15]",
+    "nontrivial_u": 2,
+    "kernel_dims": [
+     16,
+     17
+    ]
+   },
+   {
+    "source": "switch[16]",
+    "nontrivial_u": 1,
+    "kernel_dims": [
+     16,
+     18
+    ]
+   }
+  ]
+ },
+ "9": {
+  "sources": 8,
+  "classes_reached": 6,
+  "walk_complete": true,
+  "nonquadratic": [],
+  "new_class_ccz": [],
+  "stats": [
+   {
+    "source": "x^3 (Gold)",
+    "nontrivial_u": 1,
+    "kernel_dims": [
+     19
+    ]
+   },
+   {
+    "source": "x^5 (Gold)",
+    "nontrivial_u": 0,
+    "kernel_dims": [
+     18
+    ]
+   },
+   {
+    "source": "x^17 (Gold)",
+    "nontrivial_u": 0,
+    "kernel_dims": [
+     18
+    ]
+   },
+   {
+    "source": "x^13 (Kasami)",
+    "nontrivial_u": 0,
+    "kernel_dims": [
+     18
+    ]
+   },
+   {
+    "source": "x^241 (Kasami)",
+    "nontrivial_u": 0,
+    "kernel_dims": [
+     18
+    ]
+   },
+   {
+    "source": "x^19 (Welch/Niho)",
+    "nontrivial_u": 0,
+    "kernel_dims": [
+     18
+    ]
+   },
+   {
+    "source": "x^510 (inverse)",
+    "nontrivial_u": 0,
+    "kernel_dims": [
+     18
+    ]
+   },
+   {
+    "source": "x^3 + Tr(x^9)",
+    "nontrivial_u": 7,
+    "kernel_dims": [
+     18,
+     19
+    ]
+   },
+   {
+    "source": "switch[4]",
+    "nontrivial_u": 3,
+    "kernel_dims": [
+     18,
+     19
+    ]
+   },
+   {
+    "source": "switch[5]",
+    "nontrivial_u": 3,
+    "kernel_dims": [
+     18,
+     19
+    ]
+   }
+  ]
+ },
+ "10": {
+  "sources": 26,
+  "classes_reached": 20,
+  "walk_complete": true,
+  "nonquadratic": [],
+  "new_class_ccz": [],
+  "stats": [
+   {
+    "source": "x^3 (Gold)",
+    "nontrivial_u": 3,
+    "kernel_dims": [
+     21
+    ]
+   },
+   {
+    "source": "x^9 (Gold)",
+    "nontrivial_u": 0,
+    "kernel_dims": [
+     20
+    ]
+   },
+   {
+    "source": "x^57 (Kasami)",
+    "nontrivial_u": 0,
+    "kernel_dims": [
+     20
+    ]
+   },
+   {
+    "source": "x^339 (Dobbertin)",
+    "nontrivial_u": 0,
+    "kernel_dims": [
+     20
+    ]
+   },
+   {
+    "source": "x^3 + Tr(x^9)",
+    "nontrivial_u": 3,
+    "kernel_dims": [
+     20,
+     21
+    ]
+   },
+   {
+    "source": "x^3 + b^-1 Tr(b^3 x^9), b in GF(4)",
+    "nontrivial_u": 3,
+    "kernel_dims": [
+     20,
+     21
+    ]
+   },
+   {
+    "source": "F3 i=1 c=1014 s=807",
+    "nontrivial_u": 0,
+    "kernel_dims": [
+     20
+    ]
+   },
+   {
+    "source": "F3 i=2 c=941 s=1007",
+    "nontrivial_u": 0,
+    "kernel_dims": [
+     20
+    ]
+   },
+   {
+    "source": "F12 i=3 u=729 a=84 b=14",
+    "nontrivial_u": 0,
+    "kernel_dims": [
+     20
+    ]
+   },
+   {
+    "source": "F12 i=4 u=748 a=770 b=85",
+    "nontrivial_u": 0,
+    "kernel_dims": [
+     20
+    ]
+   },
+   {
+    "source": "F12 i=2 u=62 a=366 b=308",
+    "nontrivial_u": 0,
+    "kernel_dims": [
+     20
+    ]
+   },
+   {
+    "source": "F12 i=1 u=362 a=857 b=568",
+    "nontrivial_u": 0,
+    "kernel_dims": [
+     20
+    ]
+   },
+   {
+    "source": "F12 i=3 u=940 a=567 b=781",
+    "nontrivial_u": 0,
+    "kernel_dims": [
+     20
+    ]
+   },
+   {
+    "source": "F12 i=1 u=66 a=314 b=568",
+    "nontrivial_u": 0,
+    "kernel_dims": [
+     20
+    ]
+   },
+   {
+    "source": "F13 i=3 k=0 a=1 b=1 c=236",
+    "nontrivial_u": 0,
+    "kernel_dims": [
+     20
+    ]
+   },
+   {
+    "source": "F13 i=3 k=0 a=1 b=236 c=1",
+    "nontrivial_u": 0,
+    "kernel_dims": [
+     20
+    ]
+   },
+   {
+    "source": "F13 i=3 k=0 a=1 b=236 c=237",
+    "nontrivial_u": 0,
+    "kernel_dims": [
+     20
+    ]
+   },
+   {
+    "source": "F13 i=3 k=0 a=236 b=236 c=237",
+    "nontrivial_u": 0,
+    "kernel_dims": [
+     20
+    ]
+   },
+   {
+    "source": "F13 i=3 k=2 a=236 b=0 c=0",
+    "nontrivial_u": 0,
+    "kernel_dims": [
+     20
+    ]
+   },
+   {
+    "source": "Beierle-Leander #1",
+    "nontrivial_u": 0,
+    "kernel_dims": [
+     20
+    ]
+   },
+   {
+    "source": "Beierle-Leander #3",
+    "nontrivial_u": 0,
+    "kernel_dims": [
+     20
+    ]
+   },
+   {
+    "source": "Beierle-Leander #5",
+    "nontrivial_u": 0,
+    "kernel_dims": [
+     20
+    ]
+   }
+  ]
+ }
+}

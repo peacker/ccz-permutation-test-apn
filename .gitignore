@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+external/
+results/*.log
+STOP
+data/apn_10bit.txt

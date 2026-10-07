@@ -1,0 +1,273 @@
+{
+ "experiment": "e01_inverse_function",
+ "date": "2026-10-01 16:17:17",
+ "flats": [
+  {
+   "n": 4,
+   "cost": 15,
+   "expected_cost": 15,
+   "bad_flats": 5,
+   "gf4_lines": 5,
+   "bad_flats_are_gf4_lines": true
+  },
+  {
+   "n": 6,
+   "cost": 63,
+   "expected_cost": 63,
+   "bad_flats": 21,
+   "gf4_lines": 21,
+   "bad_flats_are_gf4_lines": true
+  },
+  {
+   "n": 8,
+   "cost": 255,
+   "expected_cost": 255,
+   "bad_flats": 85,
+   "gf4_lines": 85,
+   "bad_flats_are_gf4_lines": true
+  },
+  {
+   "n": 10,
+   "cost": 1023,
+   "expected_cost": 1023,
+   "bad_flats": 341,
+   "gf4_lines": 341,
+   "bad_flats_are_gf4_lines": true
+  }
+ ],
+ "transpositions_n8": {
+  "transpositions": 32640,
+  "improving": 0,
+  "neutral": 255,
+  "neutral_all_involve_0": true,
+  "min_positive_delta": 222,
+  "second_step_min_delta": 0,
+  "second_step_neutral": 255
+ },
+ "annealing_n8": {
+  "iters": 20000000,
+  "runs": [
+   {
+    "involution_moves": false,
+    "t0": 2.0,
+    "t1": 0.1,
+    "seed": 0,
+    "best_cost": 255
+   },
+   {
+    "involution_moves": false,
+    "t0": 2.0,
+    "t1": 0.1,
+    "seed": 1,
+    "best_cost": 255
+   },
+   {
+    "involution_moves": false,
+    "t0": 2.0,
+    "t1": 0.1,
+    "seed": 2,
+    "best_cost": 255
+   },
+   {
+    "involution_moves": false,
+    "t0": 20.0,
+    "t1": 0.5,
+    "seed": 0,
+    "best_cost": 255
+   },
+   {
+    "involution_moves": false,
+    "t0": 20.0,
+    "t1": 0.5,
+    "seed": 1,
+    "best_cost": 255
+   },
+   {
+    "involution_moves": false,
+    "t0": 20.0,
+    "t1": 0.5,
+    "seed": 2,
+    "best_cost": 255
+   },
+   {
+    "involution_moves": false,
+    "t0": 60.0,
+    "t1": 1.0,
+    "seed": 0,
+    "best_cost": 255
+   },
+   {
+    "involution_moves": false,
+    "t0": 60.0,
+    "t1": 1.0,
+    "seed": 1,
+    "best_cost": 255
+   },
+   {
+    "involution_moves": false,
+    "t0": 60.0,
+    "t1": 1.0,
+    "seed": 2,
+    "best_cost": 255
+   },
+   {
+    "involution_moves": true,
+    "t0": 2.0,
+    "t1": 0.1,
+    "seed": 0,
+    "best_cost": 255
+   },
+   {
+    "involution_moves": true,
+    "t0": 2.0,
+    "t1": 0.1,
+    "seed": 1,
+    "best_cost": 255
+   },
+   {
+    "involution_moves": true,
+    "t0": 2.0,
+    "t1": 0.1,
+    "seed": 2,
+    "best_cost": 255
+   },
+   {
+    "involution_moves": true,
+    "t0": 20.0,
+    "t1": 0.5,
+    "seed": 0,
+    "best_cost": 255
+   },
+   {
+    "involution_moves": true,
+    "t0": 20.0,
+    "t1": 0.5,
+    "seed": 1,
+    "best_cost": 255
+   },
+   {
+    "involution_moves": true,
+    "t0": 20.0,
+    "t1": 0.5,
+    "seed": 2,
+    "best_cost": 255
+   },
+   {
+    "involution_moves": true,
+    "t0": 60.0,
+    "t1": 1.0,
+    "seed": 0,
+    "best_cost": 255
+   },
+   {
+    "involution_moves": true,
+    "t0": 60.0,
+    "t1": 1.0,
+    "seed": 1,
+    "best_cost": 255
+   },
+   {
+    "involution_moves": true,
+    "t0": 60.0,
+    "t1": 1.0,
+    "seed": 2,
+    "best_cost": 255
+   }
+  ]
+ },
+ "annealing_random_n8": {
+  "iters": 20000000,
+  "runs": [
+   {
+    "seed": 0,
+    "start_cost": 8181,
+    "best_cost": 4827
+   },
+   {
+    "seed": 1,
+    "start_cost": 8319,
+    "best_cost": 4848
+   },
+   {
+    "seed": 2,
+    "start_cost": 7830,
+    "best_cost": 4815
+   },
+   {
+    "seed": 3,
+    "start_cost": 8112,
+    "best_cost": 4926
+   },
+   {
+    "seed": 4,
+    "start_cost": 7953,
+    "best_cost": 4830
+   },
+   {
+    "seed": 5,
+    "start_cost": 8250,
+    "best_cost": 4794
+   },
+   {
+    "seed": 6,
+    "start_cost": 8049,
+    "best_cost": 4788
+   },
+   {
+    "seed": 7,
+    "start_cost": 8184,
+    "best_cost": 4848
+   },
+   {
+    "seed": 8,
+    "start_cost": 8517,
+    "best_cost": 4776
+   },
+   {
+    "seed": 9,
+    "start_cost": 7992,
+    "best_cost": 4848
+   },
+   {
+    "seed": 10,
+    "start_cost": 8463,
+    "best_cost": 4833
+   },
+   {
+    "seed": 11,
+    "start_cost": 8106,
+    "best_cost": 4839
+   },
+   {
+    "seed": 12,
+    "start_cost": 8133,
+    "best_cost": 4860
+   },
+   {
+    "seed": 13,
+    "start_cost": 8301,
+    "best_cost": 4812
+   },
+   {
+    "seed": 14,
+    "start_cost": 8235,
+    "best_cost": 4866
+   },
+   {
+    "seed": 15,
+    "start_cost": 7884,
+    "best_cost": 4788
+   },
+   {
+    "seed": 16,
+    "start_cost": 8022,
+    "best_cost": 4851
+   },
+   {
+    "seed": 17,
+    "start_cost": 8361,
+    "best_cost": 4812
+   }
+  ]
+ }
+}

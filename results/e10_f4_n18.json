@@ -1,0 +1,41 @@
+{
+ "experiment": "e10_f4_n18",
+ "date": "2026-10-02 20:40:34",
+ "rows": [
+  {
+   "a": 1,
+   "log_a_mod_3": 0,
+   "nonbent": 87381,
+   "subspaces_dim_10": 0,
+   "subspaces_dim_9": 3,
+   "spanning_pairs": 3,
+   "rows_seconds": 57,
+   "search_seconds": 311,
+   "walsh_zero_spaces": 0,
+   "verdict": "none (Theorem 8)",
+   "theorem8_seconds": 2
+  },
+  {
+   "a": 2,
+   "log_a_mod_3": 1,
+   "nonbent": 87381,
+   "subspaces_dim_10": 0,
+   "subspaces_dim_9": 0,
+   "spanning_pairs": 0,
+   "rows_seconds": 55,
+   "search_seconds": 342,
+   "verdict": "none (necessary condition)"
+  },
+  {
+   "a": 4,
+   "log_a_mod_3": 2,
+   "nonbent": 87381,
+   "subspaces_dim_10": 0,
+   "subspaces_dim_9": 0,
+   "spanning_pairs": 0,
+   "rows_seconds": 56,
+   "search_seconds": 314,
+   "verdict": "none (necessary condition)"
+  }
+ ]
+}

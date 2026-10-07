@@ -1,0 +1,4332 @@
+{
+ "experiment": "e11_n10_recent_instances",
+ "date": "2026-10-06 11:18:38",
+ "summary": {
+  "instances": 507,
+  "apn_instances": 373,
+  "in_e4_classes": 351,
+  "certified": 373,
+  "new_classes": 5,
+  "new_classes_excluded_by_counting": 5,
+  "classes_per_source": {
+   "Budaghyan-Ivkovic-Kaleyski: Table 2 #1": [
+    "NEW: Budaghyan-Ivkovic-Kaleyski Table 2 #1 beta = 236"
+   ],
+   "Budaghyan-Ivkovic-Kaleyski: Table 2 #2": [
+    "F13 i=3 k=2 a=236 b=0 c=0"
+   ],
+   "Budaghyan-Ivkovic-Kaleyski: Table 2 #3": [
+    "NEW: Budaghyan-Ivkovic-Kaleyski Table 2 #3 beta = 236"
+   ],
+   "Budaghyan-Ivkovic-Kaleyski: Table 2 #4": [
+    "NEW: Budaghyan-Ivkovic-Kaleyski Table 2 #4 beta = 236"
+   ],
+   "Budaghyan-Ivkovic-Kaleyski: Table 2 #5": [
+    "NEW: Budaghyan-Ivkovic-Kaleyski Table 2 #5 beta = 236"
+   ],
+   "Budaghyan-Ivkovic-Kaleyski: Table 2 #6": [
+    "NEW: Budaghyan-Ivkovic-Kaleyski Table 2 #6 beta = 236"
+   ],
+   "Calderini-Li-Villa: CLV family 1": [
+    "F13 i=3 k=0 a=1 b=236 c=237",
+    "F13 i=3 k=0 a=236 b=236 c=237"
+   ],
+   "Calderini-Li-Villa: CLV family 2": [
+    "NEW: Budaghyan-Ivkovic-Kaleyski Table 2 #1 beta = 236"
+   ],
+   "Carlet: Carlet family": [
+    "F3 i=1 c=1014 s=807",
+    "F3 i=2 c=941 s=1007"
+   ],
+   "Gologlu: Gologlu F1": [
+    "F13 i=3 k=0 a=1 b=236 c=237",
+    "F13 i=3 k=0 a=236 b=236 c=237"
+   ],
+   "Gologlu: Gologlu F2": [
+    "F13 i=3 k=0 a=1 b=1 c=236",
+    "F13 i=3 k=0 a=1 b=236 c=1"
+   ],
+   "Li-Zhou-Li-Qu: Li-Zhou-Li-Qu Thm 5": [
+    "NEW: Budaghyan-Ivkovic-Kaleyski Table 2 #1 beta = 236"
+   ],
+   "Yu-Li-Ichanska-Kaleyski: x^513+x^192+x^96+x^48+x^33+x^18+x^12": [
+    "F4 a=1"
+   ],
+   "Zheng et al.: Thm 3.3 family": [
+    "F13 i=3 k=0 a=1 b=1 c=236",
+    "F13 i=3 k=0 a=1 b=236 c=1",
+    "F13 i=3 k=0 a=236 b=236 c=237",
+    "F3 i=1 c=1014 s=807",
+    "Gold x^3"
+   ],
+   "Zheng et al.: Zheng et al. Example 1": [
+    "Beierle-Leander #3"
+   ],
+   "Zheng et al.: Zheng et al. F15": [
+    "F13 i=3 k=0 a=1 b=236 c=1"
+   ],
+   "Zheng et al.: Zheng et al. Remark 3.6": [
+    "F13 i=3 k=0 a=1 b=1 c=236"
+   ]
+  },
+  "zheng_example1_apn_parameters": [
+   "alpha = g^13",
+   "alpha = g^367"
+  ]
+ },
+ "switching": {
+  "complete": true,
+  "classes_reached": 5,
+  "in_e4_classes": 0,
+  "in_new_classes": 5,
+  "other": 0,
+  "nonquadratic": [],
+  "new_class_ccz": []
+ },
+ "e4_invariant_matches": [
+  {
+   "function": "Beierle-Leander #2",
+   "class": "F13 i=3 k=0 a=1 b=1 c=236",
+   "ea_equivalent": true
+  },
+  {
+   "function": "Beierle-Leander #4",
+   "class": "F13 i=3 k=0 a=1 b=236 c=1",
+   "ea_equivalent": true
+  }
+ ],
+ "rows": [
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. F15",
+   "parameter": "alpha = g^1",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=1",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Remark 3.6",
+   "parameter": "alpha = g^1",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=1 c=236",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Example 1",
+   "parameter": "alpha = g^1",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. F15",
+   "parameter": "alpha = g^5",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=1",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Remark 3.6",
+   "parameter": "alpha = g^5",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=1 c=236",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Example 1",
+   "parameter": "alpha = g^5",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. F15",
+   "parameter": "alpha = g^7",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=1",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Remark 3.6",
+   "parameter": "alpha = g^7",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=1 c=236",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Example 1",
+   "parameter": "alpha = g^7",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. F15",
+   "parameter": "alpha = g^13",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=1",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Remark 3.6",
+   "parameter": "alpha = g^13",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=1 c=236",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Example 1",
+   "parameter": "alpha = g^13",
+   "apn": true,
+   "known_class": "Beierle-Leander #3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. F15",
+   "parameter": "alpha = g^17",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=1",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Remark 3.6",
+   "parameter": "alpha = g^17",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=1 c=236",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Example 1",
+   "parameter": "alpha = g^17",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. F15",
+   "parameter": "alpha = g^19",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=1",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Remark 3.6",
+   "parameter": "alpha = g^19",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=1 c=236",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Example 1",
+   "parameter": "alpha = g^19",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. F15",
+   "parameter": "alpha = g^23",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=1",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Remark 3.6",
+   "parameter": "alpha = g^23",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=1 c=236",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Example 1",
+   "parameter": "alpha = g^23",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. F15",
+   "parameter": "alpha = g^25",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=1",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Remark 3.6",
+   "parameter": "alpha = g^25",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=1 c=236",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Example 1",
+   "parameter": "alpha = g^25",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. F15",
+   "parameter": "alpha = g^29",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=1",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Remark 3.6",
+   "parameter": "alpha = g^29",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=1 c=236",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Example 1",
+   "parameter": "alpha = g^29",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. F15",
+   "parameter": "alpha = g^35",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=1",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Remark 3.6",
+   "parameter": "alpha = g^35",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=1 c=236",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Example 1",
+   "parameter": "alpha = g^35",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. F15",
+   "parameter": "alpha = g^37",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=1",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Remark 3.6",
+   "parameter": "alpha = g^37",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=1 c=236",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Example 1",
+   "parameter": "alpha = g^37",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. F15",
+   "parameter": "alpha = g^41",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=1",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Remark 3.6",
+   "parameter": "alpha = g^41",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=1 c=236",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Example 1",
+   "parameter": "alpha = g^41",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. F15",
+   "parameter": "alpha = g^43",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=1",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Remark 3.6",
+   "parameter": "alpha = g^43",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=1 c=236",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Example 1",
+   "parameter": "alpha = g^43",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. F15",
+   "parameter": "alpha = g^47",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=1",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Remark 3.6",
+   "parameter": "alpha = g^47",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=1 c=236",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Example 1",
+   "parameter": "alpha = g^47",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. F15",
+   "parameter": "alpha = g^49",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=1",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Remark 3.6",
+   "parameter": "alpha = g^49",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=1 c=236",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Example 1",
+   "parameter": "alpha = g^49",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. F15",
+   "parameter": "alpha = g^53",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=1",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Remark 3.6",
+   "parameter": "alpha = g^53",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=1 c=236",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Example 1",
+   "parameter": "alpha = g^53",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. F15",
+   "parameter": "alpha = g^59",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=1",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Remark 3.6",
+   "parameter": "alpha = g^59",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=1 c=236",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Example 1",
+   "parameter": "alpha = g^59",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. F15",
+   "parameter": "alpha = g^61",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=1",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Remark 3.6",
+   "parameter": "alpha = g^61",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=1 c=236",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Example 1",
+   "parameter": "alpha = g^61",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. F15",
+   "parameter": "alpha = g^71",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=1",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Remark 3.6",
+   "parameter": "alpha = g^71",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=1 c=236",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Example 1",
+   "parameter": "alpha = g^71",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. F15",
+   "parameter": "alpha = g^73",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=1",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Remark 3.6",
+   "parameter": "alpha = g^73",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=1 c=236",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Example 1",
+   "parameter": "alpha = g^73",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. F15",
+   "parameter": "alpha = g^79",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=1",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Remark 3.6",
+   "parameter": "alpha = g^79",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=1 c=236",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Example 1",
+   "parameter": "alpha = g^79",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. F15",
+   "parameter": "alpha = g^83",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=1",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Remark 3.6",
+   "parameter": "alpha = g^83",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=1 c=236",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Example 1",
+   "parameter": "alpha = g^83",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. F15",
+   "parameter": "alpha = g^85",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=1",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Remark 3.6",
+   "parameter": "alpha = g^85",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=1 c=236",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Example 1",
+   "parameter": "alpha = g^85",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. F15",
+   "parameter": "alpha = g^89",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=1",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Remark 3.6",
+   "parameter": "alpha = g^89",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=1 c=236",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Example 1",
+   "parameter": "alpha = g^89",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. F15",
+   "parameter": "alpha = g^91",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=1",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Remark 3.6",
+   "parameter": "alpha = g^91",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=1 c=236",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Example 1",
+   "parameter": "alpha = g^91",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. F15",
+   "parameter": "alpha = g^95",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=1",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Remark 3.6",
+   "parameter": "alpha = g^95",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=1 c=236",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Example 1",
+   "parameter": "alpha = g^95",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. F15",
+   "parameter": "alpha = g^101",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=1",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Remark 3.6",
+   "parameter": "alpha = g^101",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=1 c=236",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Example 1",
+   "parameter": "alpha = g^101",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. F15",
+   "parameter": "alpha = g^103",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=1",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Remark 3.6",
+   "parameter": "alpha = g^103",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=1 c=236",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Example 1",
+   "parameter": "alpha = g^103",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. F15",
+   "parameter": "alpha = g^107",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=1",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Remark 3.6",
+   "parameter": "alpha = g^107",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=1 c=236",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Example 1",
+   "parameter": "alpha = g^107",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. F15",
+   "parameter": "alpha = g^109",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=1",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Remark 3.6",
+   "parameter": "alpha = g^109",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=1 c=236",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Example 1",
+   "parameter": "alpha = g^109",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. F15",
+   "parameter": "alpha = g^115",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=1",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Remark 3.6",
+   "parameter": "alpha = g^115",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=1 c=236",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Example 1",
+   "parameter": "alpha = g^115",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. F15",
+   "parameter": "alpha = g^119",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=1",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Remark 3.6",
+   "parameter": "alpha = g^119",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=1 c=236",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Example 1",
+   "parameter": "alpha = g^119",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. F15",
+   "parameter": "alpha = g^125",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=1",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Remark 3.6",
+   "parameter": "alpha = g^125",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=1 c=236",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Example 1",
+   "parameter": "alpha = g^125",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. F15",
+   "parameter": "alpha = g^127",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=1",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Remark 3.6",
+   "parameter": "alpha = g^127",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=1 c=236",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Example 1",
+   "parameter": "alpha = g^127",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. F15",
+   "parameter": "alpha = g^149",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=1",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Remark 3.6",
+   "parameter": "alpha = g^149",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=1 c=236",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Example 1",
+   "parameter": "alpha = g^149",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. F15",
+   "parameter": "alpha = g^151",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=1",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Remark 3.6",
+   "parameter": "alpha = g^151",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=1 c=236",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Example 1",
+   "parameter": "alpha = g^151",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. F15",
+   "parameter": "alpha = g^157",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=1",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Remark 3.6",
+   "parameter": "alpha = g^157",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=1 c=236",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Example 1",
+   "parameter": "alpha = g^157",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. F15",
+   "parameter": "alpha = g^167",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=1",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Remark 3.6",
+   "parameter": "alpha = g^167",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=1 c=236",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Example 1",
+   "parameter": "alpha = g^167",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. F15",
+   "parameter": "alpha = g^173",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=1",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Remark 3.6",
+   "parameter": "alpha = g^173",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=1 c=236",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Example 1",
+   "parameter": "alpha = g^173",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. F15",
+   "parameter": "alpha = g^175",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=1",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Remark 3.6",
+   "parameter": "alpha = g^175",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=1 c=236",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Example 1",
+   "parameter": "alpha = g^175",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. F15",
+   "parameter": "alpha = g^179",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=1",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Remark 3.6",
+   "parameter": "alpha = g^179",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=1 c=236",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Example 1",
+   "parameter": "alpha = g^179",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. F15",
+   "parameter": "alpha = g^181",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=1",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Remark 3.6",
+   "parameter": "alpha = g^181",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=1 c=236",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Example 1",
+   "parameter": "alpha = g^181",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. F15",
+   "parameter": "alpha = g^191",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=1",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Remark 3.6",
+   "parameter": "alpha = g^191",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=1 c=236",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Example 1",
+   "parameter": "alpha = g^191",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. F15",
+   "parameter": "alpha = g^205",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=1",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Remark 3.6",
+   "parameter": "alpha = g^205",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=1 c=236",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Example 1",
+   "parameter": "alpha = g^205",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. F15",
+   "parameter": "alpha = g^215",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=1",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Remark 3.6",
+   "parameter": "alpha = g^215",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=1 c=236",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Example 1",
+   "parameter": "alpha = g^215",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. F15",
+   "parameter": "alpha = g^221",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=1",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Remark 3.6",
+   "parameter": "alpha = g^221",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=1 c=236",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Example 1",
+   "parameter": "alpha = g^221",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. F15",
+   "parameter": "alpha = g^223",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=1",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Remark 3.6",
+   "parameter": "alpha = g^223",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=1 c=236",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Example 1",
+   "parameter": "alpha = g^223",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. F15",
+   "parameter": "alpha = g^235",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=1",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Remark 3.6",
+   "parameter": "alpha = g^235",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=1 c=236",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Example 1",
+   "parameter": "alpha = g^235",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. F15",
+   "parameter": "alpha = g^239",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=1",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Remark 3.6",
+   "parameter": "alpha = g^239",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=1 c=236",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Example 1",
+   "parameter": "alpha = g^239",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. F15",
+   "parameter": "alpha = g^245",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=1",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Remark 3.6",
+   "parameter": "alpha = g^245",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=1 c=236",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Example 1",
+   "parameter": "alpha = g^245",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. F15",
+   "parameter": "alpha = g^247",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=1",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Remark 3.6",
+   "parameter": "alpha = g^247",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=1 c=236",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Example 1",
+   "parameter": "alpha = g^247",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. F15",
+   "parameter": "alpha = g^251",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=1",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Remark 3.6",
+   "parameter": "alpha = g^251",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=1 c=236",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Example 1",
+   "parameter": "alpha = g^251",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. F15",
+   "parameter": "alpha = g^343",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=1",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Remark 3.6",
+   "parameter": "alpha = g^343",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=1 c=236",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Example 1",
+   "parameter": "alpha = g^343",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. F15",
+   "parameter": "alpha = g^347",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=1",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Remark 3.6",
+   "parameter": "alpha = g^347",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=1 c=236",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Example 1",
+   "parameter": "alpha = g^347",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. F15",
+   "parameter": "alpha = g^367",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=1",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Remark 3.6",
+   "parameter": "alpha = g^367",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=1 c=236",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Example 1",
+   "parameter": "alpha = g^367",
+   "apn": true,
+   "known_class": "Beierle-Leander #3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. F15",
+   "parameter": "alpha = g^379",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=1",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Remark 3.6",
+   "parameter": "alpha = g^379",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=1 c=236",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Example 1",
+   "parameter": "alpha = g^379",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. F15",
+   "parameter": "alpha = g^383",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=1",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Remark 3.6",
+   "parameter": "alpha = g^383",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=1 c=236",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Example 1",
+   "parameter": "alpha = g^383",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. F15",
+   "parameter": "alpha = g^439",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=1",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Remark 3.6",
+   "parameter": "alpha = g^439",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=1 c=236",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Example 1",
+   "parameter": "alpha = g^439",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. F15",
+   "parameter": "alpha = g^479",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=1",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Remark 3.6",
+   "parameter": "alpha = g^479",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=1 c=236",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Example 1",
+   "parameter": "alpha = g^479",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. F15",
+   "parameter": "alpha = g^511",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=1",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Remark 3.6",
+   "parameter": "alpha = g^511",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=1 c=236",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Zheng et al. Example 1",
+   "parameter": "alpha = g^511",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=3 a=583 b=868 c=822",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=1 a=262 b=121 c=508",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=7 a=484 b=668 c=389",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=3 a=97 b=500 c=30",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=1 c=236",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=7 a=444 b=623 c=781",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=1 a=713 b=457 c=273",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=3 a=606 b=968 c=105",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=5 a=32 b=23 c=27",
+   "apn": true,
+   "known_class": "F3 i=1 c=1014 s=807",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=9 a=10 b=962 c=903",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=7 a=703 b=222 c=993",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=7 a=744 b=30 c=541",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=1",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=3 a=783 b=449 c=962",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=3 a=694 b=225 c=780",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=7 a=976 b=297 c=949",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=1 a=427 b=858 c=939",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=9 a=945 b=658 c=103",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=3 a=645 b=1017 c=742",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=5 a=124 b=761 c=341",
+   "apn": true,
+   "known_class": "F3 i=1 c=1014 s=807",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=9 a=959 b=991 c=433",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=9 a=850 b=933 c=687",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=3 a=311 b=291 c=602",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=7 a=867 b=964 c=518",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=7 a=604 b=874 c=36",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=7 a=249 b=762 c=817",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=7 a=425 b=681 c=178",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=5 a=562 b=904 c=720",
+   "apn": true,
+   "known_class": "F3 i=1 c=1014 s=807",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=5 a=89 b=450 c=680",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=9 a=111 b=798 c=168",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=9 a=861 b=403 c=380",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=7 a=751 b=31 c=481",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=1 a=316 b=721 c=869",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=9 a=608 b=593 c=404",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=3 a=173 b=515 c=233",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=1 a=790 b=205 c=553",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=9 a=238 b=415 c=527",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=5 a=976 b=868 c=592",
+   "apn": true,
+   "known_class": "F3 i=1 c=1014 s=807",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=5 a=471 b=932 c=276",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=9 a=624 b=981 c=747",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=1 a=393 b=803 c=878",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=9 a=829 b=133 c=532",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=9 a=211 b=437 c=973",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=1 a=493 b=891 c=374",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=9 a=424 b=497 c=833",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=5 a=425 b=355 c=2",
+   "apn": true,
+   "known_class": "F3 i=1 c=1014 s=807",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=9 a=554 b=639 c=806",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=9 a=340 b=470 c=615",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=1 a=824 b=236 c=651",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=3 a=564 b=599 c=186",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=236 b=236 c=237",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=1 a=818 b=565 c=817",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=5 a=34 b=862 c=967",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=1 a=86 b=889 c=18",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=5 a=256 b=276 c=113",
+   "apn": true,
+   "known_class": "F3 i=1 c=1014 s=807",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=9 a=190 b=353 c=298",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=1 a=172 b=164 c=262",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=9 a=975 b=173 c=673",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=5 a=664 b=729 c=302",
+   "apn": true,
+   "known_class": "F3 i=1 c=1014 s=807",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=7 a=720 b=330 c=509",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=7 a=117 b=25 c=320",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=3 a=265 b=112 c=260",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=9 a=1001 b=215 c=989",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=9 a=443 b=837 c=999",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=1 a=231 b=19 c=407",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=3 a=37 b=737 c=983",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=3 a=457 b=722 c=519",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=7 a=558 b=853 c=226",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=9 a=462 b=229 c=537",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=1 a=405 b=692 c=590",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=5 a=676 b=647 c=437",
+   "apn": true,
+   "known_class": "F3 i=1 c=1014 s=807",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=1 a=756 b=306 c=129",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=3 a=897 b=49 c=314",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=1 a=880 b=79 c=318",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=5 a=762 b=163 c=427",
+   "apn": true,
+   "known_class": "F3 i=1 c=1014 s=807",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=9 a=259 b=134 c=9",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=9 a=900 b=871 c=39",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=9 a=840 b=223 c=986",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=9 a=472 b=176 c=848",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=9 a=522 b=39 c=388",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=3 a=356 b=102 c=211",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=9 a=691 b=919 c=444",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=9 a=199 b=505 c=107",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=7 a=304 b=517 c=512",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=1 a=334 b=627 c=893",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=7 a=922 b=289 c=19",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=3 a=206 b=879 c=336",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=236 b=236 c=237",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=9 a=802 b=139 c=348",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=7 a=219 b=273 c=691",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=1 a=858 b=389 c=955",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=9 a=497 b=787 c=1010",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=9 a=241 b=67 c=743",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=1 a=87 b=137 c=174",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=3 a=933 b=552 c=219",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=5 a=778 b=341 c=615",
+   "apn": true,
+   "known_class": "F3 i=1 c=1014 s=807",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=9 a=862 b=262 c=377",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=5 a=349 b=117 c=299",
+   "apn": true,
+   "known_class": "F3 i=1 c=1014 s=807",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=3 a=889 b=967 c=619",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=7 a=139 b=594 c=565",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=1 a=329 b=41 c=417",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=1 a=390 b=887 c=1016",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=3 a=849 b=129 c=350",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=1 c=236",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=1 a=630 b=602 c=801",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=7 a=79 b=585 c=564",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=1 c=236",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=3 a=580 b=84 c=976",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=5 a=374 b=913 c=303",
+   "apn": true,
+   "known_class": "F3 i=1 c=1014 s=807",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=9 a=548 b=948 c=118",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=7 a=919 b=284 c=111",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=1 a=848 b=303 c=13",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=9 a=687 b=15 c=94",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=7 a=118 b=846 c=907",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=1 a=193 b=246 c=805",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=9 a=432 b=166 c=119",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=7 a=172 b=698 c=248",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=3 a=762 b=866 c=106",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=7 a=933 b=988 c=388",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=9 a=932 b=838 c=302",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=9 a=260 b=729 c=489",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=5 a=103 b=213 c=668",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=5 a=41 b=28 c=11",
+   "apn": true,
+   "known_class": "F3 i=1 c=1014 s=807",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=5 a=744 b=611 c=328",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=7 a=401 b=321 c=409",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=1 a=66 b=936 c=325",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=9 a=994 b=467 c=115",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=5 a=221 b=804 c=633",
+   "apn": true,
+   "known_class": "F3 i=1 c=1014 s=807",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=9 a=889 b=705 c=481",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=5 a=266 b=188 c=555",
+   "apn": true,
+   "known_class": "F3 i=1 c=1014 s=807",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=1 a=1007 b=772 c=459",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=1 a=668 b=589 c=659",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=5 a=964 b=233 c=400",
+   "apn": true,
+   "known_class": "F3 i=1 c=1014 s=807",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=5 a=43 b=336 c=192",
+   "apn": true,
+   "known_class": "F3 i=1 c=1014 s=807",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=5 a=812 b=868 c=593",
+   "apn": true,
+   "known_class": "F3 i=1 c=1014 s=807",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=5 a=252 b=343 c=104",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=9 a=627 b=593 c=827",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=9 a=95 b=251 c=226",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=1 a=828 b=250 c=412",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=1 a=275 b=565 c=889",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=1 a=747 b=77 c=23",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=1 a=298 b=769 c=812",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=5 a=506 b=481 c=884",
+   "apn": true,
+   "known_class": "F3 i=1 c=1014 s=807",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=3 a=104 b=514 c=797",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=5 a=79 b=522 c=973",
+   "apn": true,
+   "known_class": "F3 i=1 c=1014 s=807",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=3 a=184 b=795 c=154",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=3 a=842 b=887 c=328",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=5 a=110 b=727 c=527",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=9 a=301 b=130 c=916",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=3 a=146 b=559 c=933",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=1 a=799 b=324 c=841",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=9 a=824 b=689 c=929",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=9 a=861 b=967 c=765",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=3 a=183 b=307 c=444",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=9 a=162 b=50 c=732",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=3 a=259 b=797 c=66",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=7 a=828 b=441 c=563",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=5 a=555 b=450 c=872",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=9 a=465 b=12 c=406",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=5 a=176 b=265 c=498",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=1 a=813 b=662 c=956",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=7 a=1000 b=585 c=20",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=1 a=709 b=364 c=594",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=3 a=608 b=129 c=142",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=5 a=1007 b=849 c=284",
+   "apn": true,
+   "known_class": "F3 i=1 c=1014 s=807",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=7 a=578 b=411 c=177",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=9 a=92 b=240 c=498",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=1 a=182 b=542 c=325",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=9 a=915 b=665 c=943",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=7 a=953 b=703 c=655",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=3 a=245 b=321 c=507",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=1 c=236",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=7 a=980 b=231 c=730",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=7 a=346 b=574 c=626",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=5 a=996 b=662 c=225",
+   "apn": true,
+   "known_class": "F3 i=1 c=1014 s=807",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=1 a=944 b=74 c=782",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=9 a=661 b=899 c=378",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=3 a=524 b=785 c=812",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=3 a=320 b=306 c=710",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=5 a=870 b=566 c=381",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=3 a=719 b=719 c=755",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=7 a=609 b=88 c=877",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=1 a=919 b=621 c=984",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=9 a=585 b=387 c=181",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=3 a=257 b=437 c=223",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=9 a=737 b=776 c=802",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=1 a=507 b=698 c=404",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=5 a=394 b=528 c=866",
+   "apn": true,
+   "known_class": "F3 i=1 c=1014 s=807",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=3 a=558 b=748 c=1019",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=1",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=1 a=537 b=1005 c=93",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=5 a=644 b=104 c=274",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=1 a=983 b=999 c=143",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=9 a=863 b=991 c=676",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=1 a=456 b=872 c=947",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=3 a=995 b=872 c=392",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=7 a=407 b=169 c=932",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=5 a=449 b=130 c=638",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=7 a=983 b=218 c=123",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=7 a=616 b=547 c=419",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=1 a=677 b=303 c=285",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=3 a=388 b=768 c=573",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=1 a=983 b=195 c=542",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=7 a=593 b=22 c=32",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=9 a=249 b=856 c=267",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=3 a=178 b=292 c=152",
+   "apn": false
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=9 a=206 b=280 c=319",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Zheng et al.",
+   "name": "Thm 3.3 family",
+   "parameter": "Zheng et al. Thm 3.3 s=9 a=776 b=257 c=853",
+   "apn": true,
+   "known_class": "Gold x^3",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Budaghyan-Ivkovic-Kaleyski",
+   "name": "Table 2 #1",
+   "parameter": "beta = 236",
+   "apn": true,
+   "spectrum_as_printed": true,
+   "known_class": null,
+   "new_class": "Budaghyan-Ivkovic-Kaleyski Table 2 #1 beta = 236",
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Budaghyan-Ivkovic-Kaleyski",
+   "name": "Table 2 #1",
+   "parameter": "beta = 237",
+   "apn": true,
+   "spectrum_as_printed": true,
+   "known_class": null,
+   "new_class": "Budaghyan-Ivkovic-Kaleyski Table 2 #1 beta = 236",
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Budaghyan-Ivkovic-Kaleyski",
+   "name": "Table 2 #2",
+   "parameter": "beta = 236",
+   "apn": true,
+   "spectrum_as_printed": true,
+   "known_class": "F13 i=3 k=2 a=236 b=0 c=0",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Budaghyan-Ivkovic-Kaleyski",
+   "name": "Table 2 #2",
+   "parameter": "beta = 237",
+   "apn": true,
+   "spectrum_as_printed": true,
+   "known_class": "F13 i=3 k=2 a=236 b=0 c=0",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Budaghyan-Ivkovic-Kaleyski",
+   "name": "Table 2 #3",
+   "parameter": "beta = 236",
+   "apn": true,
+   "spectrum_as_printed": true,
+   "known_class": null,
+   "new_class": "Budaghyan-Ivkovic-Kaleyski Table 2 #3 beta = 236",
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Budaghyan-Ivkovic-Kaleyski",
+   "name": "Table 2 #3",
+   "parameter": "beta = 237",
+   "apn": true,
+   "spectrum_as_printed": true,
+   "known_class": null,
+   "new_class": "Budaghyan-Ivkovic-Kaleyski Table 2 #3 beta = 236",
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Budaghyan-Ivkovic-Kaleyski",
+   "name": "Table 2 #4",
+   "parameter": "beta = 236",
+   "apn": true,
+   "spectrum_as_printed": true,
+   "known_class": null,
+   "new_class": "Budaghyan-Ivkovic-Kaleyski Table 2 #4 beta = 236",
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Budaghyan-Ivkovic-Kaleyski",
+   "name": "Table 2 #4",
+   "parameter": "beta = 237",
+   "apn": true,
+   "spectrum_as_printed": true,
+   "known_class": null,
+   "new_class": "Budaghyan-Ivkovic-Kaleyski Table 2 #4 beta = 236",
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Budaghyan-Ivkovic-Kaleyski",
+   "name": "Table 2 #5",
+   "parameter": "beta = 236",
+   "apn": true,
+   "spectrum_as_printed": true,
+   "known_class": null,
+   "new_class": "Budaghyan-Ivkovic-Kaleyski Table 2 #5 beta = 236",
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Budaghyan-Ivkovic-Kaleyski",
+   "name": "Table 2 #5",
+   "parameter": "beta = 237",
+   "apn": true,
+   "spectrum_as_printed": true,
+   "known_class": null,
+   "new_class": "Budaghyan-Ivkovic-Kaleyski Table 2 #5 beta = 236",
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Budaghyan-Ivkovic-Kaleyski",
+   "name": "Table 2 #6",
+   "parameter": "beta = 236",
+   "apn": true,
+   "spectrum_as_printed": true,
+   "known_class": null,
+   "new_class": "Budaghyan-Ivkovic-Kaleyski Table 2 #6 beta = 236",
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Budaghyan-Ivkovic-Kaleyski",
+   "name": "Table 2 #6",
+   "parameter": "beta = 237",
+   "apn": true,
+   "spectrum_as_printed": true,
+   "known_class": null,
+   "new_class": "Budaghyan-Ivkovic-Kaleyski Table 2 #6 beta = 236",
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Gologlu",
+   "name": "Gologlu F1",
+   "parameter": "Gologlu F1 k=1",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=236 b=236 c=237",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Gologlu",
+   "name": "Gologlu F2",
+   "parameter": "Gologlu F2 k=1",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=1",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Gologlu",
+   "name": "Gologlu F1",
+   "parameter": "Gologlu F1 k=2",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=237",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Gologlu",
+   "name": "Gologlu F2",
+   "parameter": "Gologlu F2 k=2",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=1 c=236",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Gologlu",
+   "name": "Gologlu F1",
+   "parameter": "Gologlu F1 k=3",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=237",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Gologlu",
+   "name": "Gologlu F2",
+   "parameter": "Gologlu F2 k=3",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=1 c=236",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Gologlu",
+   "name": "Gologlu F1",
+   "parameter": "Gologlu F1 k=4",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=236 b=236 c=237",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Gologlu",
+   "name": "Gologlu F2",
+   "parameter": "Gologlu F2 k=4",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=1",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Calderini-Li-Villa",
+   "name": "CLV family 1",
+   "parameter": "CLV family 1 k=1 alpha=1",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=236 b=236 c=237",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Calderini-Li-Villa",
+   "name": "CLV family 1",
+   "parameter": "CLV family 1 k=1 alpha=6",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=236 b=236 c=237",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Calderini-Li-Villa",
+   "name": "CLV family 1",
+   "parameter": "CLV family 1 k=1 alpha=7",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=236 b=236 c=237",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Calderini-Li-Villa",
+   "name": "CLV family 1",
+   "parameter": "CLV family 1 k=1 alpha=20",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=236 b=236 c=237",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Calderini-Li-Villa",
+   "name": "CLV family 1",
+   "parameter": "CLV family 1 k=1 alpha=21",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=236 b=236 c=237",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Calderini-Li-Villa",
+   "name": "CLV family 1",
+   "parameter": "CLV family 1 k=1 alpha=22",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=236 b=236 c=237",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Calderini-Li-Villa",
+   "name": "CLV family 1",
+   "parameter": "CLV family 1 k=1 alpha=23",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=236 b=236 c=237",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Calderini-Li-Villa",
+   "name": "CLV family 1",
+   "parameter": "CLV family 1 k=1 alpha=24",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=236 b=236 c=237",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Calderini-Li-Villa",
+   "name": "CLV family 1",
+   "parameter": "CLV family 1 k=1 alpha=25",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=236 b=236 c=237",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Calderini-Li-Villa",
+   "name": "CLV family 1",
+   "parameter": "CLV family 1 k=1 alpha=28",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=236 b=236 c=237",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Calderini-Li-Villa",
+   "name": "CLV family 1",
+   "parameter": "CLV family 1 k=1 alpha=29",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=236 b=236 c=237",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Calderini-Li-Villa",
+   "name": "CLV family 1",
+   "parameter": "CLV family 1 k=2 alpha=1",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=237",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Calderini-Li-Villa",
+   "name": "CLV family 1",
+   "parameter": "CLV family 1 k=2 alpha=8",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=237",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Calderini-Li-Villa",
+   "name": "CLV family 1",
+   "parameter": "CLV family 1 k=2 alpha=9",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=237",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Calderini-Li-Villa",
+   "name": "CLV family 1",
+   "parameter": "CLV family 1 k=2 alpha=10",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=237",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Calderini-Li-Villa",
+   "name": "CLV family 1",
+   "parameter": "CLV family 1 k=2 alpha=11",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=237",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Calderini-Li-Villa",
+   "name": "CLV family 1",
+   "parameter": "CLV family 1 k=2 alpha=14",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=237",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Calderini-Li-Villa",
+   "name": "CLV family 1",
+   "parameter": "CLV family 1 k=2 alpha=15",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=237",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Calderini-Li-Villa",
+   "name": "CLV family 1",
+   "parameter": "CLV family 1 k=2 alpha=18",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=237",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Calderini-Li-Villa",
+   "name": "CLV family 1",
+   "parameter": "CLV family 1 k=2 alpha=19",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=237",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Calderini-Li-Villa",
+   "name": "CLV family 1",
+   "parameter": "CLV family 1 k=2 alpha=30",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=237",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Calderini-Li-Villa",
+   "name": "CLV family 1",
+   "parameter": "CLV family 1 k=2 alpha=31",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=237",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Calderini-Li-Villa",
+   "name": "CLV family 1",
+   "parameter": "CLV family 1 k=3 alpha=1",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=237",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Calderini-Li-Villa",
+   "name": "CLV family 1",
+   "parameter": "CLV family 1 k=3 alpha=8",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=237",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Calderini-Li-Villa",
+   "name": "CLV family 1",
+   "parameter": "CLV family 1 k=3 alpha=9",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=237",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Calderini-Li-Villa",
+   "name": "CLV family 1",
+   "parameter": "CLV family 1 k=3 alpha=10",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=237",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Calderini-Li-Villa",
+   "name": "CLV family 1",
+   "parameter": "CLV family 1 k=3 alpha=11",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=237",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Calderini-Li-Villa",
+   "name": "CLV family 1",
+   "parameter": "CLV family 1 k=3 alpha=14",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=237",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Calderini-Li-Villa",
+   "name": "CLV family 1",
+   "parameter": "CLV family 1 k=3 alpha=15",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=237",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Calderini-Li-Villa",
+   "name": "CLV family 1",
+   "parameter": "CLV family 1 k=3 alpha=18",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=237",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Calderini-Li-Villa",
+   "name": "CLV family 1",
+   "parameter": "CLV family 1 k=3 alpha=19",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=237",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Calderini-Li-Villa",
+   "name": "CLV family 1",
+   "parameter": "CLV family 1 k=3 alpha=30",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=237",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Calderini-Li-Villa",
+   "name": "CLV family 1",
+   "parameter": "CLV family 1 k=3 alpha=31",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=1 b=236 c=237",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Calderini-Li-Villa",
+   "name": "CLV family 1",
+   "parameter": "CLV family 1 k=4 alpha=1",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=236 b=236 c=237",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Calderini-Li-Villa",
+   "name": "CLV family 1",
+   "parameter": "CLV family 1 k=4 alpha=6",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=236 b=236 c=237",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Calderini-Li-Villa",
+   "name": "CLV family 1",
+   "parameter": "CLV family 1 k=4 alpha=7",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=236 b=236 c=237",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Calderini-Li-Villa",
+   "name": "CLV family 1",
+   "parameter": "CLV family 1 k=4 alpha=20",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=236 b=236 c=237",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Calderini-Li-Villa",
+   "name": "CLV family 1",
+   "parameter": "CLV family 1 k=4 alpha=21",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=236 b=236 c=237",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Calderini-Li-Villa",
+   "name": "CLV family 1",
+   "parameter": "CLV family 1 k=4 alpha=22",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=236 b=236 c=237",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Calderini-Li-Villa",
+   "name": "CLV family 1",
+   "parameter": "CLV family 1 k=4 alpha=23",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=236 b=236 c=237",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Calderini-Li-Villa",
+   "name": "CLV family 1",
+   "parameter": "CLV family 1 k=4 alpha=24",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=236 b=236 c=237",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Calderini-Li-Villa",
+   "name": "CLV family 1",
+   "parameter": "CLV family 1 k=4 alpha=25",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=236 b=236 c=237",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Calderini-Li-Villa",
+   "name": "CLV family 1",
+   "parameter": "CLV family 1 k=4 alpha=28",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=236 b=236 c=237",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Calderini-Li-Villa",
+   "name": "CLV family 1",
+   "parameter": "CLV family 1 k=4 alpha=29",
+   "apn": true,
+   "known_class": "F13 i=3 k=0 a=236 b=236 c=237",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Calderini-Li-Villa",
+   "name": "CLV family 2",
+   "parameter": "CLV family 2 alpha=1",
+   "apn": true,
+   "known_class": null,
+   "new_class": "Budaghyan-Ivkovic-Kaleyski Table 2 #1 beta = 236",
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Calderini-Li-Villa",
+   "name": "CLV family 2",
+   "parameter": "CLV family 2 alpha=6",
+   "apn": true,
+   "known_class": null,
+   "new_class": "Budaghyan-Ivkovic-Kaleyski Table 2 #1 beta = 236",
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Calderini-Li-Villa",
+   "name": "CLV family 2",
+   "parameter": "CLV family 2 alpha=7",
+   "apn": true,
+   "known_class": null,
+   "new_class": "Budaghyan-Ivkovic-Kaleyski Table 2 #1 beta = 236",
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Calderini-Li-Villa",
+   "name": "CLV family 2",
+   "parameter": "CLV family 2 alpha=20",
+   "apn": true,
+   "known_class": null,
+   "new_class": "Budaghyan-Ivkovic-Kaleyski Table 2 #1 beta = 236",
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Calderini-Li-Villa",
+   "name": "CLV family 2",
+   "parameter": "CLV family 2 alpha=21",
+   "apn": true,
+   "known_class": null,
+   "new_class": "Budaghyan-Ivkovic-Kaleyski Table 2 #1 beta = 236",
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Calderini-Li-Villa",
+   "name": "CLV family 2",
+   "parameter": "CLV family 2 alpha=22",
+   "apn": true,
+   "known_class": null,
+   "new_class": "Budaghyan-Ivkovic-Kaleyski Table 2 #1 beta = 236",
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Calderini-Li-Villa",
+   "name": "CLV family 2",
+   "parameter": "CLV family 2 alpha=23",
+   "apn": true,
+   "known_class": null,
+   "new_class": "Budaghyan-Ivkovic-Kaleyski Table 2 #1 beta = 236",
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Calderini-Li-Villa",
+   "name": "CLV family 2",
+   "parameter": "CLV family 2 alpha=24",
+   "apn": true,
+   "known_class": null,
+   "new_class": "Budaghyan-Ivkovic-Kaleyski Table 2 #1 beta = 236",
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Calderini-Li-Villa",
+   "name": "CLV family 2",
+   "parameter": "CLV family 2 alpha=25",
+   "apn": true,
+   "known_class": null,
+   "new_class": "Budaghyan-Ivkovic-Kaleyski Table 2 #1 beta = 236",
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Calderini-Li-Villa",
+   "name": "CLV family 2",
+   "parameter": "CLV family 2 alpha=28",
+   "apn": true,
+   "known_class": null,
+   "new_class": "Budaghyan-Ivkovic-Kaleyski Table 2 #1 beta = 236",
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Calderini-Li-Villa",
+   "name": "CLV family 2",
+   "parameter": "CLV family 2 alpha=29",
+   "apn": true,
+   "known_class": null,
+   "new_class": "Budaghyan-Ivkovic-Kaleyski Table 2 #1 beta = 236",
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Li-Zhou-Li-Qu",
+   "name": "Li-Zhou-Li-Qu Thm 5",
+   "parameter": "",
+   "apn": true,
+   "known_class": null,
+   "new_class": "Budaghyan-Ivkovic-Kaleyski Table 2 #1 beta = 236",
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Carlet",
+   "name": "Carlet family",
+   "parameter": "Carlet k=1 b=23 c=19 d=27",
+   "apn": true,
+   "known_class": "F3 i=1 c=1014 s=807",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Carlet",
+   "name": "Carlet family",
+   "parameter": "Carlet k=4 b=21 c=31 d=7",
+   "apn": true,
+   "known_class": "F3 i=1 c=1014 s=807",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Carlet",
+   "name": "Carlet family",
+   "parameter": "Carlet k=3 b=10 c=28 d=12",
+   "apn": true,
+   "known_class": "F3 i=2 c=941 s=1007",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Carlet",
+   "name": "Carlet family",
+   "parameter": "Carlet k=1 b=17 c=6 d=27",
+   "apn": true,
+   "known_class": "F3 i=1 c=1014 s=807",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Carlet",
+   "name": "Carlet family",
+   "parameter": "Carlet k=1 b=22 c=4 d=28",
+   "apn": true,
+   "known_class": "F3 i=1 c=1014 s=807",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Carlet",
+   "name": "Carlet family",
+   "parameter": "Carlet k=4 b=17 c=19 d=13",
+   "apn": true,
+   "known_class": "F3 i=1 c=1014 s=807",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Carlet",
+   "name": "Carlet family",
+   "parameter": "Carlet k=1 b=4 c=23 d=29",
+   "apn": true,
+   "known_class": "F3 i=1 c=1014 s=807",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Carlet",
+   "name": "Carlet family",
+   "parameter": "Carlet k=3 b=14 c=25 d=25",
+   "apn": true,
+   "known_class": "F3 i=2 c=941 s=1007",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Carlet",
+   "name": "Carlet family",
+   "parameter": "Carlet k=2 b=30 c=16 d=21",
+   "apn": true,
+   "known_class": "F3 i=2 c=941 s=1007",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Carlet",
+   "name": "Carlet family",
+   "parameter": "Carlet k=3 b=12 c=4 d=10",
+   "apn": true,
+   "known_class": "F3 i=2 c=941 s=1007",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Carlet",
+   "name": "Carlet family",
+   "parameter": "Carlet k=4 b=9 c=16 d=29",
+   "apn": true,
+   "known_class": "F3 i=1 c=1014 s=807",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Carlet",
+   "name": "Carlet family",
+   "parameter": "Carlet k=2 b=8 c=8 d=28",
+   "apn": true,
+   "known_class": "F3 i=2 c=941 s=1007",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Carlet",
+   "name": "Carlet family",
+   "parameter": "Carlet k=1 b=13 c=19 d=4",
+   "apn": true,
+   "known_class": "F3 i=1 c=1014 s=807",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Carlet",
+   "name": "Carlet family",
+   "parameter": "Carlet k=1 b=11 c=6 d=14",
+   "apn": true,
+   "known_class": "F3 i=1 c=1014 s=807",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Carlet",
+   "name": "Carlet family",
+   "parameter": "Carlet k=4 b=14 c=31 d=28",
+   "apn": true,
+   "known_class": "F3 i=1 c=1014 s=807",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Carlet",
+   "name": "Carlet family",
+   "parameter": "Carlet k=4 b=10 c=14 d=15",
+   "apn": true,
+   "known_class": "F3 i=1 c=1014 s=807",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Carlet",
+   "name": "Carlet family",
+   "parameter": "Carlet k=1 b=13 c=5 d=2",
+   "apn": true,
+   "known_class": "F3 i=1 c=1014 s=807",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Carlet",
+   "name": "Carlet family",
+   "parameter": "Carlet k=4 b=18 c=12 d=25",
+   "apn": true,
+   "known_class": "F3 i=1 c=1014 s=807",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Carlet",
+   "name": "Carlet family",
+   "parameter": "Carlet k=4 b=9 c=3 d=24",
+   "apn": true,
+   "known_class": "F3 i=1 c=1014 s=807",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Carlet",
+   "name": "Carlet family",
+   "parameter": "Carlet k=3 b=8 c=5 d=29",
+   "apn": true,
+   "known_class": "F3 i=2 c=941 s=1007",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Carlet",
+   "name": "Carlet family",
+   "parameter": "Carlet k=4 b=5 c=12 d=1",
+   "apn": true,
+   "known_class": "F3 i=1 c=1014 s=807",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Carlet",
+   "name": "Carlet family",
+   "parameter": "Carlet k=2 b=6 c=9 d=3",
+   "apn": true,
+   "known_class": "F3 i=2 c=941 s=1007",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Carlet",
+   "name": "Carlet family",
+   "parameter": "Carlet k=4 b=8 c=25 d=28",
+   "apn": true,
+   "known_class": "F3 i=1 c=1014 s=807",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Carlet",
+   "name": "Carlet family",
+   "parameter": "Carlet k=1 b=17 c=5 d=16",
+   "apn": true,
+   "known_class": "F3 i=1 c=1014 s=807",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Carlet",
+   "name": "Carlet family",
+   "parameter": "Carlet k=4 b=3 c=16 d=20",
+   "apn": true,
+   "known_class": "F3 i=1 c=1014 s=807",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Carlet",
+   "name": "Carlet family",
+   "parameter": "Carlet k=2 b=16 c=24 d=7",
+   "apn": true,
+   "known_class": "F3 i=2 c=941 s=1007",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Carlet",
+   "name": "Carlet family",
+   "parameter": "Carlet k=3 b=6 c=27 d=15",
+   "apn": true,
+   "known_class": "F3 i=2 c=941 s=1007",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Carlet",
+   "name": "Carlet family",
+   "parameter": "Carlet k=2 b=21 c=21 d=25",
+   "apn": true,
+   "known_class": "F3 i=2 c=941 s=1007",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Carlet",
+   "name": "Carlet family",
+   "parameter": "Carlet k=3 b=24 c=5 d=3",
+   "apn": true,
+   "known_class": "F3 i=2 c=941 s=1007",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Carlet",
+   "name": "Carlet family",
+   "parameter": "Carlet k=2 b=3 c=31 d=16",
+   "apn": true,
+   "known_class": "F3 i=2 c=941 s=1007",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Carlet",
+   "name": "Carlet family",
+   "parameter": "Carlet k=2 b=1 c=9 d=16",
+   "apn": true,
+   "known_class": "F3 i=2 c=941 s=1007",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Carlet",
+   "name": "Carlet family",
+   "parameter": "Carlet k=2 b=8 c=7 d=11",
+   "apn": true,
+   "known_class": "F3 i=2 c=941 s=1007",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Carlet",
+   "name": "Carlet family",
+   "parameter": "Carlet k=1 b=4 c=13 d=11",
+   "apn": true,
+   "known_class": "F3 i=1 c=1014 s=807",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Carlet",
+   "name": "Carlet family",
+   "parameter": "Carlet k=2 b=30 c=4 d=16",
+   "apn": true,
+   "known_class": "F3 i=2 c=941 s=1007",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Carlet",
+   "name": "Carlet family",
+   "parameter": "Carlet k=4 b=12 c=0 d=24",
+   "apn": true,
+   "known_class": "F3 i=1 c=1014 s=807",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Carlet",
+   "name": "Carlet family",
+   "parameter": "Carlet k=3 b=20 c=18 d=26",
+   "apn": true,
+   "known_class": "F3 i=2 c=941 s=1007",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Carlet",
+   "name": "Carlet family",
+   "parameter": "Carlet k=4 b=19 c=28 d=19",
+   "apn": true,
+   "known_class": "F3 i=1 c=1014 s=807",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Carlet",
+   "name": "Carlet family",
+   "parameter": "Carlet k=4 b=17 c=29 d=17",
+   "apn": true,
+   "known_class": "F3 i=1 c=1014 s=807",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Carlet",
+   "name": "Carlet family",
+   "parameter": "Carlet k=3 b=30 c=21 d=24",
+   "apn": true,
+   "known_class": "F3 i=2 c=941 s=1007",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Carlet",
+   "name": "Carlet family",
+   "parameter": "Carlet k=2 b=16 c=23 d=8",
+   "apn": true,
+   "known_class": "F3 i=2 c=941 s=1007",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Carlet",
+   "name": "Carlet family",
+   "parameter": "Carlet k=3 b=26 c=16 d=18",
+   "apn": true,
+   "known_class": "F3 i=2 c=941 s=1007",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Carlet",
+   "name": "Carlet family",
+   "parameter": "Carlet k=4 b=17 c=27 d=21",
+   "apn": true,
+   "known_class": "F3 i=1 c=1014 s=807",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Carlet",
+   "name": "Carlet family",
+   "parameter": "Carlet k=4 b=13 c=31 d=25",
+   "apn": true,
+   "known_class": "F3 i=1 c=1014 s=807",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Carlet",
+   "name": "Carlet family",
+   "parameter": "Carlet k=4 b=5 c=4 d=8",
+   "apn": true,
+   "known_class": "F3 i=1 c=1014 s=807",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Carlet",
+   "name": "Carlet family",
+   "parameter": "Carlet k=2 b=10 c=16 d=26",
+   "apn": true,
+   "known_class": "F3 i=2 c=941 s=1007",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Carlet",
+   "name": "Carlet family",
+   "parameter": "Carlet k=1 b=14 c=17 d=17",
+   "apn": true,
+   "known_class": "F3 i=1 c=1014 s=807",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Carlet",
+   "name": "Carlet family",
+   "parameter": "Carlet k=3 b=12 c=26 d=3",
+   "apn": true,
+   "known_class": "F3 i=2 c=941 s=1007",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Carlet",
+   "name": "Carlet family",
+   "parameter": "Carlet k=4 b=19 c=17 d=31",
+   "apn": true,
+   "known_class": "F3 i=1 c=1014 s=807",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Carlet",
+   "name": "Carlet family",
+   "parameter": "Carlet k=2 b=31 c=23 d=30",
+   "apn": true,
+   "known_class": "F3 i=2 c=941 s=1007",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Carlet",
+   "name": "Carlet family",
+   "parameter": "Carlet k=2 b=16 c=14 d=5",
+   "apn": true,
+   "known_class": "F3 i=2 c=941 s=1007",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  },
+  {
+   "source": "Yu-Li-Ichanska-Kaleyski",
+   "name": "x^513+x^192+x^96+x^48+x^33+x^18+x^12",
+   "parameter": "",
+   "apn": true,
+   "known_class": "F4 a=1",
+   "new_class": null,
+   "ea_equivalent_to_reference": true
+  }
+ ],
+ "new_classes": [
+  {
+   "class": "Budaghyan-Ivkovic-Kaleyski Table 2 #1 beta = 236",
+   "members": [
+    "Budaghyan-Ivkovic-Kaleyski: Table 2 #1",
+    "Calderini-Li-Villa: CLV family 2",
+    "Li-Zhou-Li-Qu: Li-Zhou-Li-Qu Thm 5"
+   ],
+   "verdict": "none",
+   "max_dim_NB": 4,
+   "nonbent_rows": 341,
+   "condition2_inconclusive": false,
+   "switching_nontrivial_u": 1
+  },
+  {
+   "class": "Budaghyan-Ivkovic-Kaleyski Table 2 #3 beta = 236",
+   "members": [
+    "Budaghyan-Ivkovic-Kaleyski: Table 2 #3"
+   ],
+   "verdict": "none",
+   "max_dim_NB": 4,
+   "nonbent_rows": 341,
+   "condition2_inconclusive": false,
+   "switching_nontrivial_u": 1
+  },
+  {
+   "class": "Budaghyan-Ivkovic-Kaleyski Table 2 #4 beta = 236",
+   "members": [
+    "Budaghyan-Ivkovic-Kaleyski: Table 2 #4"
+   ],
+   "verdict": "none",
+   "max_dim_NB": 4,
+   "nonbent_rows": 341,
+   "condition2_inconclusive": false,
+   "switching_nontrivial_u": 1
+  },
+  {
+   "class": "Budaghyan-Ivkovic-Kaleyski Table 2 #5 beta = 236",
+   "members": [
+    "Budaghyan-Ivkovic-Kaleyski: Table 2 #5"
+   ],
+   "verdict": "none",
+   "max_dim_NB": 4,
+   "nonbent_rows": 341,
+   "condition2_inconclusive": false,
+   "switching_nontrivial_u": 0
+  },
+  {
+   "class": "Budaghyan-Ivkovic-Kaleyski Table 2 #6 beta = 236",
+   "members": [
+    "Budaghyan-Ivkovic-Kaleyski: Table 2 #6"
+   ],
+   "verdict": "none",
+   "max_dim_NB": 4,
+   "nonbent_rows": 341,
+   "condition2_inconclusive": false,
+   "switching_nontrivial_u": 1
+  }
+ ]
+}

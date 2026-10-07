@@ -1,0 +1,146 @@
+{
+ "experiment": "e09_f4_family",
+ "date": "2026-10-02 17:06:05",
+ "rows": [
+  {
+   "n": 6,
+   "a": 1,
+   "a_is_cube": true,
+   "nonbent": 21,
+   "subspaces_dim_m": 3,
+   "subspaces_dim_m_plus_1": 0,
+   "all_spread_lines": true,
+   "contains_a_line": true,
+   "condition_inconclusive": true,
+   "verdict": "none",
+   "seconds": 0.0
+  },
+  {
+   "n": 6,
+   "a": 2,
+   "a_is_cube": false,
+   "nonbent": 21,
+   "subspaces_dim_m": 0,
+   "subspaces_dim_m_plus_1": 0,
+   "all_spread_lines": true,
+   "contains_a_line": false,
+   "condition_inconclusive": false,
+   "verdict": "none",
+   "seconds": 0.1
+  },
+  {
+   "n": 6,
+   "a": 4,
+   "a_is_cube": false,
+   "nonbent": 21,
+   "subspaces_dim_m": 0,
+   "subspaces_dim_m_plus_1": 0,
+   "all_spread_lines": true,
+   "contains_a_line": false,
+   "condition_inconclusive": false,
+   "verdict": "none",
+   "seconds": 0.0
+  },
+  {
+   "n": 10,
+   "a": 1,
+   "a_is_cube": true,
+   "nonbent": 341,
+   "subspaces_dim_m": 1,
+   "subspaces_dim_m_plus_1": 0,
+   "all_spread_lines": true,
+   "contains_a_line": true,
+   "condition_inconclusive": false,
+   "verdict": "none",
+   "seconds": 0.1
+  },
+  {
+   "n": 10,
+   "a": 2,
+   "a_is_cube": false,
+   "nonbent": 341,
+   "subspaces_dim_m": 1,
+   "subspaces_dim_m_plus_1": 0,
+   "all_spread_lines": true,
+   "contains_a_line": false,
+   "condition_inconclusive": false,
+   "verdict": "none",
+   "seconds": 0.1
+  },
+  {
+   "n": 10,
+   "a": 4,
+   "a_is_cube": false,
+   "nonbent": 341,
+   "subspaces_dim_m": 1,
+   "subspaces_dim_m_plus_1": 0,
+   "all_spread_lines": true,
+   "contains_a_line": false,
+   "condition_inconclusive": false,
+   "verdict": "none",
+   "seconds": 0.1
+  },
+  {
+   "n": 14,
+   "a": 1,
+   "a_is_cube": true,
+   "nonbent": 5461,
+   "subspaces_dim_m": 1,
+   "subspaces_dim_m_plus_1": 0,
+   "all_spread_lines": true,
+   "contains_a_line": true,
+   "condition_inconclusive": false,
+   "verdict": "none",
+   "seconds": 18.7
+  },
+  {
+   "n": 14,
+   "a": 2,
+   "a_is_cube": false,
+   "nonbent": 5461,
+   "subspaces_dim_m": 1,
+   "subspaces_dim_m_plus_1": 0,
+   "all_spread_lines": true,
+   "contains_a_line": false,
+   "condition_inconclusive": false,
+   "verdict": "none",
+   "seconds": 18.6
+  },
+  {
+   "n": 14,
+   "a": 4,
+   "a_is_cube": false,
+   "nonbent": 5461,
+   "subspaces_dim_m": 1,
+   "subspaces_dim_m_plus_1": 0,
+   "all_spread_lines": true,
+   "contains_a_line": false,
+   "condition_inconclusive": false,
+   "verdict": "none",
+   "seconds": 18.5
+  }
+ ],
+ "cube_subspaces": [
+  {
+   "n": 6,
+   "dim_3": 3,
+   "dim_3_inside_a_line": 3,
+   "dim_2": 28,
+   "dim_2_inside_a_line": 21
+  },
+  {
+   "n": 10,
+   "dim_5": 11,
+   "dim_5_inside_a_line": 11,
+   "dim_4": 341,
+   "dim_4_inside_a_line": 341
+  },
+  {
+   "n": 14,
+   "dim_7": 43,
+   "dim_7_inside_a_line": 43,
+   "dim_6": 5461,
+   "dim_6_inside_a_line": 5461
+  }
+ ]
+}

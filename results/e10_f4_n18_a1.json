@@ -1,0 +1,56 @@
+{
+ "experiment": "e10_f4_n18_a1",
+ "date": "2026-10-03 10:14:12",
+ "rows": [
+  {
+   "a": 1,
+   "log_a_mod_3": 0,
+   "nonbent": 87381,
+   "subspaces_dim_10": 0,
+   "subspaces_dim_9": 3,
+   "spanning_pairs": 3,
+   "rows_seconds": 19,
+   "search_seconds": 1266,
+   "all_spread_lines": true,
+   "contains_a_line": true,
+   "bases_dim_9": [
+    [
+     131380,
+     65679,
+     32816,
+     16743,
+     8263,
+     4458,
+     2484,
+     1467,
+     650
+    ],
+    [
+     131494,
+     65800,
+     32944,
+     17430,
+     8462,
+     5140,
+     2048,
+     684,
+     110
+    ],
+    [
+     131272,
+     65547,
+     33827,
+     16433,
+     8405,
+     5285,
+     2073,
+     552,
+     483
+    ]
+   ],
+   "walsh_zero_spaces": 0,
+   "verdict": "none (Theorem 8)",
+   "theorem8_seconds": 3
+  }
+ ]
+}

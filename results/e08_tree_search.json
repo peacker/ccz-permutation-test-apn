@@ -1,0 +1,50 @@
+{
+ "experiment": "e08_tree_search",
+ "date": "2026-10-02 16:08:41",
+ "sweep": {
+  "seconds": 300,
+  "classes": 195,
+  "finished": 69,
+  "with_solutions": [
+   "class5",
+   "class47",
+   "class49",
+   "class75",
+   "class163",
+   "class167"
+  ]
+ },
+ "solutions": 4638,
+ "apn": 4638,
+ "classes": 16,
+ "known_classes_hit": [
+  "Beierle-Leander #1",
+  "Beierle-Leander #3",
+  "F12 i=1 u=362 a=857 b=568",
+  "F12 i=1 u=66 a=314 b=568",
+  "F12 i=2 u=62 a=366 b=308",
+  "F12 i=3 u=729 a=84 b=14",
+  "F12 i=3 u=940 a=567 b=781",
+  "F12 i=4 u=748 a=770 b=85",
+  "F13 i=3 k=0 a=1 b=1 c=236",
+  "F13 i=3 k=0 a=1 b=236 c=1",
+  "F13 i=3 k=0 a=1 b=236 c=237",
+  "F13 i=3 k=0 a=236 b=236 c=237",
+  "F3 i=1 c=1014 s=807",
+  "F3 i=2 c=941 s=1007",
+  "Gold x^3",
+  "Gold x^9"
+ ],
+ "le_classes_with_solutions": [
+  "class5",
+  "class47",
+  "class49",
+  "class75",
+  "class163",
+  "class167"
+ ],
+ "new_classes": [],
+ "ccz_all_solutions": {
+  "none": 4638
+ }
+}
