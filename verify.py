@@ -191,6 +191,20 @@ if e22:
           r["n"] == 22 and r["subspaces_dim_m"] == 1 and r["all_spread_lines"] and r["contains_a_line"]
           and r["verdict"].startswith("none"))
 
+e22b = load("e10_f4_n22_a2_m")
+if e22b:
+    r = e22b["rows"][0]
+    check("Sec. 7 (E10, n = 22): a = alpha has exactly one 11-dim subspace, a spread line; all 127,101 "
+          "orbit representatives searched", r["n"] == 22 and r["a"] == 2 and r["subspaces_dim_m"] == 1
+          and r["all_spread_lines"] and r["representatives"] == 127101 and r["lanes_frontier"] == 0
+          and r["verdict"].startswith("none"))
+    import glob
+    lanes = glob.glob(os.path.join(os.path.dirname(os.path.abspath(__file__)), "results", "n22_a2_lanes", "lane_*.jsonl"))
+    idx = set()
+    for f in lanes:
+        idx |= {json.loads(l)["i"] for l in open(f) if l.strip()}
+    check("Sec. 7 (E10, n = 22): the saved lane data cover every orbit representative", len(idx) == 127101, str(len(idx)))
+
 e11 = load("e11_n10_recent_instances")
 if e11:
     sm, cps = e11["summary"], e11["summary"]["classes_per_source"]

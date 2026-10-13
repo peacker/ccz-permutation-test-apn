@@ -1,0 +1,36 @@
+{
+ "experiment": "e10_f4_n22_a2_m",
+ "date": "2026-10-13 07:15:49",
+ "rows": [
+  {
+   "n": 22,
+   "a": 2,
+   "nonbent": 1398101,
+   "representatives": 127101,
+   "ascending_run": {
+    "last_index": -1,
+    "subspaces": 0
+   },
+   "lanes_frontier": 0,
+   "subspaces_dim_m": 1,
+   "spread_lines_in_NB": 1,
+   "all_spread_lines": true,
+   "bases_dim_m": [
+    [
+     2097570,
+     1050187,
+     525964,
+     263972,
+     131411,
+     66386,
+     33976,
+     17801,
+     8222,
+     5448,
+     2609
+    ]
+   ],
+   "verdict": "none (necessary condition)"
+  }
+ ]
+}
