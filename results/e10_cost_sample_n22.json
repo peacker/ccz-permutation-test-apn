@@ -1,0 +1,27 @@
+{
+ "experiment": "e10_cost_sample_n22",
+ "date": "2026-10-13 08:32:42",
+ "k": 800,
+ "u": 0.13436424411240122,
+ "rows": [
+  {
+   "a": 1,
+   "representatives": 63644,
+   "sample": 800,
+   "mean_cpu_seconds": 736.712,
+   "max_cpu_seconds": 6980.4,
+   "estimated_total_core_hours": 13024.24
+  },
+  {
+   "a": 2,
+   "representatives": 127101,
+   "sample": 800,
+   "mean_cpu_seconds": 712.802,
+   "max_cpu_seconds": 6850.7,
+   "estimated_total_core_hours": 25166.05
+  }
+ ],
+ "ratio_per_representative": 0.968,
+ "ratio_total": 1.932,
+ "wall_seconds": 7247
+}

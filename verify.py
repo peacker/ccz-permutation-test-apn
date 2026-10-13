@@ -205,6 +205,14 @@ if e22b:
         idx |= {json.loads(l)["i"] for l in open(f) if l.strip()}
     check("Sec. 7 (E10, n = 22): the saved lane data cover every orbit representative", len(idx) == 127101, str(len(idx)))
 
+ec = load("e10_cost_sample_n22")
+if ec:
+    check("Sec. 7 (E10, n = 22): a single search costs the same for a = 1 and a = alpha (ratio of means 0.97)",
+          abs(ec["ratio_per_representative"] - 0.97) < 0.01, str(ec["ratio_per_representative"]))
+    tot = {r["a"]: r["estimated_total_core_hours"] for r in ec["rows"]}
+    check("Sec. 7 (E10, n = 22): about 13,000 and 25,000 thread-hours (ratio ~2 = ratio of representatives)",
+          round(tot[1], -3) == 13000 and round(tot[2], -3) == 25000 and abs(ec["ratio_total"] - 2) < 0.1, str(tot))
+
 e11 = load("e11_n10_recent_instances")
 if e11:
     sm, cps = e11["summary"], e11["summary"]["classes_per_source"]
