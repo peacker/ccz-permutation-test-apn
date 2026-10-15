@@ -64,7 +64,7 @@ def analyse(n, a, L, sub):
     a_line = frozenset(g.mul(a, x) for x in sub)
     has_a_line = any(frozenset(W) == a_line for W in spaces)
     spanning = any(len(x & y) == 1 for x, y in itertools.combinations(spaces, 2))
-    st, _ = ccz.ccz_to_permutation_dual(F, n, quadratic=True)
+    st, _ = ccz.ccz_to_permutation_projection(F, n, quadratic=True)
     cubes = {g.pow(x, 3) for x in range(1, g.N)}
     r = {"n": n, "a": a, "a_is_cube": a in cubes, "nonbent": len(rows),
          "subspaces_dim_m": len(S), "subspaces_dim_m_plus_1": 0 if larger is None else len(larger),

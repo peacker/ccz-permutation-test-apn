@@ -105,7 +105,7 @@ def _inv(lut):
 
 
 def _ccz(lut):
-    st, info = ccz.ccz_to_permutation_dual(np.array(lut), 10, mode="pairs")
+    st, info = ccz.ccz_to_permutation_projection(np.array(lut), 10, mode="pairs")
     return st
 
 
@@ -129,14 +129,14 @@ def collect(_):
             continue
         found[inv] = tables[lut]
         if inv not in known:
-            st, info = ccz.ccz_to_permutation_dual(np.array(lut), 10, mode="pairs")
+            st, info = ccz.ccz_to_permutation_projection(np.array(lut), 10, mode="pairs")
             new.append({"le_class": tables[lut], "verdict": st, "max_dim_NB": info["max_dim_NB"],
                         "table": list(lut)})
             print(f"NEW class from {tables[lut]}: CCZ to permutation {st}", flush=True)
     with ProcessPoolExecutor(os.cpu_count()) as ex:
         verdicts = list(ex.map(_ccz, apn, chunksize=4))
     all_verdicts = {v: verdicts.count(v) for v in set(verdicts)}
-    print("dual CCZ test on every solution:", all_verdicts, flush=True)
+    print("projection test on every solution:", all_verdicts, flush=True)
     sweep_state = json.load(open(STATE)) if os.path.exists(STATE) else None
     save("e08_tree_search", {
         "sweep": None if sweep_state is None else {

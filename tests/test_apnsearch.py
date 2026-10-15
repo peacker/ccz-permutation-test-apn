@@ -60,10 +60,10 @@ def test_dual_matches_exhaustive_n6():
     u, kim = families.kim6()
     for F in (g.power_table(3), kim):
         st_e, _ = ccz.ccz_to_permutation_exhaustive(F, 6)
-        st_d, info = ccz.ccz_to_permutation_dual(F, 6, mode="all")
+        st_d, info = ccz.ccz_to_permutation_projection(F, 6, mode="all")
         assert st_e == st_d
         assert info["subspaces"] == ccz.count_walsh_zero_spaces(F, 6)
-    st, info = ccz.ccz_to_permutation_dual(kim, 6)
+    st, info = ccz.ccz_to_permutation_projection(kim, 6)
     assert st == "permutation" and info["permutation_is_apn"]
     assert algebraic_degree(np.array(info["permutation"]), 6) == 4
 

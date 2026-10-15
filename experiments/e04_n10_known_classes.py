@@ -6,7 +6,7 @@ parameter samples of F3 (Budaghyan-Carlet) and F12 (Taniguchi); all F13-type fun
 (Budaghyan-Helleseth-Kaleyski) with parameters in GF(4); the five functions of
 Beierle-Leander (Zenodo 10.5281/zenodo.4738942). APN-ness is checked for every instance;
 classes are told apart by ortho-derivative spectra; one representative per class is
-tested with the dual CCZ test (Section 6). Also writes data/n10_known_classes.json.
+tested with the projection test (Section 6). Also writes data/n10_known_classes.json.
 """
 import json
 import os
@@ -44,7 +44,7 @@ def condition2_inconclusive(F):
 
 
 def ccz_job(F):
-    st, info = ccz.ccz_to_permutation_dual(np.array(F), 10, mode="pairs")
+    st, info = ccz.ccz_to_permutation_projection(np.array(F), 10, mode="pairs")
     return st, info["max_dim_NB"]
 
 
@@ -75,7 +75,7 @@ def main():
         classes.setdefault(inv, ("Beierle-Leander", d, F))
     rows = []
     for fam, d, F in classes.values():
-        st, info = ccz.ccz_to_permutation_dual(F, 10, mode="pairs")
+        st, info = ccz.ccz_to_permutation_projection(F, 10, mode="pairs")
         rows.append({"family": fam, "representative": d, "verdict": st,
                      "nonbent_rows": info["nonbent_rows"], "max_dim_NB": info["max_dim_NB"],
                      "projections_tested": {str(k): v[0] for k, v in info["per_dim"].items()},

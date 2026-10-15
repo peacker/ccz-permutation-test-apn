@@ -1,0 +1,60 @@
+{
+ "timeout": 3600,
+ "threads": 200,
+ "rows": [
+  {
+   "name": "x^3",
+   "n": 12,
+   "ours": {
+    "verdict": "none",
+    "max_dim_NB": 4,
+    "seconds": 0.634,
+    "wall_including_start": 1.405
+   },
+   "ours_all": {
+    "verdict": "none",
+    "max_dim_NB": 4,
+    "spaces": 12286,
+    "seconds": 81.645,
+    "wall_including_start": 82.678
+   },
+   "sboxu_wzs_1": {
+    "spaces": 12286,
+    "seconds": 3200.371,
+    "wall_including_start": 3203.062
+   },
+   "sboxu_perms": {
+    "permutations": 0,
+    "seconds": 744.363,
+    "wall_including_start": 746.87
+   }
+  },
+  {
+   "name": "x^3+Tr(x^9)",
+   "n": 12,
+   "ours": {
+    "verdict": "none",
+    "max_dim_NB": 4,
+    "seconds": 0.82,
+    "wall_including_start": 1.849
+   },
+   "ours_all": {
+    "verdict": "none",
+    "max_dim_NB": 4,
+    "spaces": 8038,
+    "seconds": 64.062,
+    "wall_including_start": 65.102
+   },
+   "sboxu_wzs_1": {
+    "spaces": 8038,
+    "seconds": 3507.105,
+    "wall_including_start": 3509.717
+   },
+   "sboxu_perms": {
+    "permutations": 0,
+    "seconds": 726.582,
+    "wall_including_start": 729.033
+   }
+  }
+ ]
+}

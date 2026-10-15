@@ -121,7 +121,7 @@ def main():
 
     tested = []
     for inv, (d, F) in new_classes.items():
-        st, info = ccz.ccz_to_permutation_dual(F, 10, mode="pairs")
+        st, info = ccz.ccz_to_permutation_projection(F, 10, mode="pairs")
         sw = switch_once(F, 10, False)                  # exact switching neighbourhood, as in E5
         members = sorted({f"{r['source']}: {r['name']}" for r, _ in apn if r["new_class"] == d})
         tested.append({"class": d, "members": members, "verdict": st, "max_dim_NB": info["max_dim_NB"],
@@ -134,7 +134,7 @@ def main():
     sw_ccz = []
 
     def on_new(label, G):
-        st, info = ccz.ccz_to_permutation_dual(G, 10, mode="pairs")
+        st, info = ccz.ccz_to_permutation_projection(G, 10, mode="pairs")
         sw_ccz.append({"class": label, "verdict": st, "max_dim_NB": info["max_dim_NB"]})
 
     res = walk([(d, F, False) for d, F in new_classes.values()], 10, seconds=3600,

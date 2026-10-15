@@ -1,0 +1,330 @@
+{
+ "timeout": 1200,
+ "threads": 200,
+ "rows": [
+  {
+   "name": "x^3",
+   "n": 6,
+   "ours": {
+    "verdict": "none",
+    "max_dim_NB": 3,
+    "seconds": 0.007,
+    "wall_including_start": 0.193
+   },
+   "ours_all": {
+    "verdict": "none",
+    "max_dim_NB": 3,
+    "spaces": 190,
+    "seconds": 0.03,
+    "wall_including_start": 0.215
+   },
+   "sboxu_wzs_1": {
+    "spaces": 190,
+    "seconds": 0.004,
+    "wall_including_start": 2.507
+   },
+   "sboxu_perms": {
+    "permutations": 0,
+    "seconds": 0.022,
+    "wall_including_start": 2.579
+   }
+  },
+  {
+   "name": "Kim",
+   "n": 6,
+   "ours": {
+    "verdict": "permutation",
+    "max_dim_NB": 3,
+    "seconds": 0.009,
+    "wall_including_start": 0.203
+   },
+   "ours_all": {
+    "verdict": "permutation",
+    "max_dim_NB": 3,
+    "spaces": 222,
+    "seconds": 0.036,
+    "wall_including_start": 0.227
+   },
+   "sboxu_wzs_1": {
+    "spaces": 222,
+    "seconds": 0.006,
+    "wall_including_start": 2.578
+   },
+   "sboxu_perms": {
+    "permutations": 512,
+    "seconds": 0.034,
+    "wall_including_start": 2.631
+   }
+  },
+  {
+   "name": "x^3",
+   "n": 8,
+   "ours": {
+    "verdict": "none",
+    "max_dim_NB": 2,
+    "seconds": 0.025,
+    "wall_including_start": 0.222
+   },
+   "ours_all": {
+    "verdict": "none",
+    "max_dim_NB": 2,
+    "spaces": 256,
+    "seconds": 0.102,
+    "wall_including_start": 0.307
+   },
+   "sboxu_wzs_1": {
+    "spaces": 256,
+    "seconds": 0.114,
+    "wall_including_start": 2.702
+   },
+   "sboxu_perms": {
+    "permutations": 0,
+    "seconds": 0.064,
+    "wall_including_start": 2.634
+   }
+  },
+  {
+   "name": "x^3+Tr(x^9)",
+   "n": 8,
+   "ours": {
+    "verdict": "none",
+    "max_dim_NB": 3,
+    "seconds": 0.025,
+    "wall_including_start": 0.226
+   },
+   "ours_all": {
+    "verdict": "none",
+    "max_dim_NB": 3,
+    "spaces": 256,
+    "seconds": 0.109,
+    "wall_including_start": 0.312
+   },
+   "sboxu_wzs_1": {
+    "spaces": 256,
+    "seconds": 0.118,
+    "wall_including_start": 2.682
+   },
+   "sboxu_perms": {
+    "permutations": 0,
+    "seconds": 0.065,
+    "wall_including_start": 2.659
+   }
+  },
+  {
+   "name": "x^9",
+   "n": 8,
+   "ours": {
+    "verdict": "none",
+    "max_dim_NB": 2,
+    "seconds": 0.024,
+    "wall_including_start": 0.234
+   },
+   "ours_all": {
+    "verdict": "none",
+    "max_dim_NB": 2,
+    "spaces": 256,
+    "seconds": 0.102,
+    "wall_including_start": 0.311
+   },
+   "sboxu_wzs_1": {
+    "spaces": 256,
+    "seconds": 0.116,
+    "wall_including_start": 2.752
+   },
+   "sboxu_perms": {
+    "permutations": 0,
+    "seconds": 0.064,
+    "wall_including_start": 2.695
+   }
+  },
+  {
+   "name": "x^3",
+   "n": 10,
+   "ours": {
+    "verdict": "none",
+    "max_dim_NB": 5,
+    "seconds": 0.242,
+    "wall_including_start": 0.675
+   },
+   "ours_all": {
+    "verdict": "none",
+    "max_dim_NB": 5,
+    "spaces": 1024,
+    "seconds": 3.37,
+    "wall_including_start": 3.795
+   },
+   "sboxu_wzs_1": {
+    "spaces": 1024,
+    "seconds": 19.867,
+    "wall_including_start": 22.509
+   },
+   "sboxu_perms": {
+    "permutations": 0,
+    "seconds": 5.466,
+    "wall_including_start": 7.909
+   }
+  },
+  {
+   "name": "x^3+Tr(x^9)",
+   "n": 10,
+   "ours": {
+    "verdict": "none",
+    "max_dim_NB": 5,
+    "seconds": 0.15,
+    "wall_including_start": 0.484
+   },
+   "ours_all": {
+    "verdict": "none",
+    "max_dim_NB": 5,
+    "spaces": 1744,
+    "seconds": 3.367,
+    "wall_including_start": 3.697
+   },
+   "sboxu_wzs_1": {
+    "spaces": 1744,
+    "seconds": 17.481,
+    "wall_including_start": 20.152
+   },
+   "sboxu_perms": {
+    "permutations": 0,
+    "seconds": 6.899,
+    "wall_including_start": 9.379
+   }
+  },
+  {
+   "name": "x^9",
+   "n": 10,
+   "ours": {
+    "verdict": "none",
+    "max_dim_NB": 5,
+    "seconds": 0.241,
+    "wall_including_start": 0.666
+   },
+   "ours_all": {
+    "verdict": "none",
+    "max_dim_NB": 5,
+    "spaces": 1024,
+    "seconds": 3.455,
+    "wall_including_start": 3.88
+   },
+   "sboxu_wzs_1": {
+    "spaces": 1024,
+    "seconds": 19.803,
+    "wall_including_start": 22.323
+   },
+   "sboxu_perms": {
+    "permutations": 0,
+    "seconds": 5.535,
+    "wall_including_start": 8.132
+   }
+  },
+  {
+   "name": "F4 a=alpha",
+   "n": 10,
+   "ours": {
+    "verdict": "none",
+    "max_dim_NB": 5,
+    "seconds": 0.146,
+    "wall_including_start": 0.473
+   },
+   "ours_all": {
+    "verdict": "none",
+    "max_dim_NB": 5,
+    "spaces": 1624,
+    "seconds": 3.21,
+    "wall_including_start": 3.526
+   },
+   "sboxu_wzs_1": {
+    "spaces": 1624,
+    "seconds": 17.617,
+    "wall_including_start": 20.168
+   },
+   "sboxu_perms": {
+    "permutations": 0,
+    "seconds": 6.561,
+    "wall_including_start": 9.03
+   }
+  },
+  {
+   "name": "Beierle-Leander #3",
+   "n": 10,
+   "ours": {
+    "verdict": "none",
+    "max_dim_NB": 5,
+    "seconds": 0.159,
+    "wall_including_start": 0.493
+   },
+   "ours_all": {
+    "verdict": "none",
+    "max_dim_NB": 5,
+    "spaces": 1644,
+    "seconds": 2.776,
+    "wall_including_start": 3.108
+   },
+   "sboxu_wzs_1": {
+    "spaces": 1644,
+    "seconds": 24.308,
+    "wall_including_start": 26.928
+   },
+   "sboxu_perms": {
+    "permutations": 0,
+    "seconds": 7.586,
+    "wall_including_start": 10.103
+   }
+  },
+  {
+   "name": "F3 (M=4)",
+   "n": 10,
+   "ours": {
+    "verdict": "none",
+    "max_dim_NB": 4,
+    "seconds": 0.145,
+    "wall_including_start": 0.464
+   },
+   "ours_all": {
+    "verdict": "none",
+    "max_dim_NB": 4,
+    "spaces": 1024,
+    "seconds": 2.264,
+    "wall_including_start": 2.565
+   },
+   "sboxu_wzs_1": {
+    "spaces": 1024,
+    "seconds": 40.783,
+    "wall_including_start": 43.4
+   },
+   "sboxu_perms": {
+    "permutations": 0,
+    "seconds": 8.633,
+    "wall_including_start": 11.264
+   }
+  },
+  {
+   "name": "F12 (M=3)",
+   "n": 10,
+   "ours": {
+    "verdict": "none",
+    "max_dim_NB": 3,
+    "seconds": 0.142,
+    "wall_including_start": 0.455
+   },
+   "ours_all": {
+    "verdict": "none",
+    "max_dim_NB": 3,
+    "spaces": 1024,
+    "seconds": 2.55,
+    "wall_including_start": 2.865
+   },
+   "sboxu_wzs_1": {
+    "spaces": 1024,
+    "seconds": 34.459,
+    "wall_including_start": 37.073
+   },
+   "sboxu_perms": {
+    "permutations": 0,
+    "seconds": 7.146,
+    "wall_including_start": 9.737
+   }
+  }
+ ]
+}

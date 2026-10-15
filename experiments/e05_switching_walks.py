@@ -4,7 +4,7 @@ E5: exact switching walks (Section 5) in dimensions 6, 8, 9 and 10.
 Sources: the APN power maps, x^3 + a^-1 Tr(a^3 x^9), and at n = 10 all known quadratic
 classes (data/n10_known_classes.json written by e04). For every source and every u the
 switching kernel is computed exactly; every new quadratic class is queued, and tested for
-CCZ-equivalence to a permutation with the dual test. Non-quadratic APN switchings are
+CCZ-equivalence to a permutation with the projection test. Non-quadratic APN switchings are
 recorded (n = 6 must reproduce the Edel-Pott function).
 """
 import json
@@ -43,7 +43,7 @@ def main():
         def on_new(label, G, n=n):
             if n % 2:
                 return
-            st, info = ccz.ccz_to_permutation_dual(G, n, mode="pairs")
+            st, info = ccz.ccz_to_permutation_projection(G, n, mode="pairs")
             ccz_results.append({"class": label, "verdict": st, "max_dim_NB": info["max_dim_NB"]})
             print(f"    new class {label}: CCZ to permutation: {st}", flush=True)
 

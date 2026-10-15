@@ -7,7 +7,7 @@ E7: sampling symmetry-restricted families of univariate quadratic functions in d
   residue   exponents e = d (mod m), m | 1023 (F(zeta x) = zeta^d F(x), zeta of order m)
 APN-ness from the bilinear matrix (fast.bilinear_apn_filter); classes from ortho-derivative
 spectra, compared with the 20 known classes (data/n10_known_classes.json from e04); every
-new class is tested with the dual CCZ test.
+new class is tested with the projection test.
 """
 import json
 import os
@@ -149,7 +149,7 @@ def main():
     rows = []
     for inv, i in new.items():
         fam, E, c = todo[i]
-        st, info = ccz.ccz_to_permutation_dual(np.array(tables[i][2]), n, mode="pairs")
+        st, info = ccz.ccz_to_permutation_projection(np.array(tables[i][2]), n, mode="pairs")
         rows.append({"family": [str(x) for x in fam], "terms": [(e, cc) for e, cc in zip(E, c) if cc],
                      "verdict": st, "max_dim_NB": info["max_dim_NB"]})
         print("NEW class:", rows[-1], flush=True)

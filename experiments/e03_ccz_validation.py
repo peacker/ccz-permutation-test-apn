@@ -1,5 +1,5 @@
 """
-E3: validation of the dual CCZ test against the exhaustive vector-space search (Section 6).
+E3: validation of the projection test against the exhaustive vector-space search (Section 6).
 
 For each function: number of n-dim Walsh zero spaces from the exhaustive search and from
 the dual parametrization (mode 'all'), and the CCZ-to-permutation verdict of both tests.
@@ -41,8 +41,8 @@ def row(name, F, n, dual=True):
         r["exhaustive_permutation_is_apn"] = info["permutation_is_apn"]
     if dual:
         t = time.time()
-        st_all, info_all = ccz.ccz_to_permutation_dual(F, n, mode="all")
-        st_p, info_p = ccz.ccz_to_permutation_dual(F, n, mode="pairs")
+        st_all, info_all = ccz.ccz_to_permutation_projection(F, n, mode="all")
+        st_p, info_p = ccz.ccz_to_permutation_projection(F, n, mode="pairs")
         r.update({"dual_count": info_all["subspaces"], "dual_verdict": st_p,
                   "dual_time": round(time.time() - t, 2), "max_dim_NB": info_p["max_dim_NB"]})
         if st_p == "permutation":

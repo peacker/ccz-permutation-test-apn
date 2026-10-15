@@ -7,7 +7,7 @@ contain two n-dimensional subspaces U, V with U n V = {0} [Canteaut-Perrin 2019]
 Vectors are packed as w = (a << n) | b.
 
 ccz_to_permutation_exhaustive  generic test: all n-dim subspaces of Z (practical up to n = 8)
-ccz_to_permutation_dual        exact test for functions whose Walsh supports
+ccz_to_permutation_projection        exact test for functions whose Walsh supports
                                S_b = {a : W_F(a, b) != 0} are affine subspaces (e.g. all
                                quadratic functions); see the paper, Section 6:
   U is determined by B = proj_b(U) (dim m), P = U_0^perp (U_0 = U n (F_2^n x 0), dim m) and
@@ -405,7 +405,7 @@ def _solve_psi(conds, m, max_free=22):
     return sols
 
 
-def ccz_to_permutation_dual(F, n, mode="pairs", node_limit=10**10, verbose=False,
+def ccz_to_permutation_projection(F, n, mode="pairs", node_limit=10**10, verbose=False,
                             quadratic=False):
     """Returns (status, info); status 'permutation' or 'none'.
 

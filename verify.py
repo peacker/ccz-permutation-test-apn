@@ -213,6 +213,25 @@ if ec:
     check("Sec. 7 (E10, n = 22): about 13,000 and 25,000 thread-hours (ratio ~2 = ratio of representatives)",
           round(tot[1], -3) == 13000 and round(tot[2], -3) == 25000 and abs(ec["ratio_total"] - 2) < 0.1, str(tot))
 
+b_small, b12 = load("e12_benchmark_sboxu_small"), load("e12_benchmark_sboxu_n12")
+if b_small and b12:
+    rows = b_small["rows"] + b12["rows"]
+    check("Table 3 (E12): the projection test and sboxU find the same Walsh zero spaces for all 14 functions",
+          len(rows) == 14 and all(r["ours_all"]["spaces"] == r["sboxu_wzs_1"]["spaces"] for r in rows))
+    check("Table 3 (E12): both find permutations exactly for the Kim function",
+          all((r["ours"]["verdict"] == "permutation") == (r["sboxu_perms"]["permutations"] > 0) == (r["name"] == "Kim")
+              for r in rows))
+    def ratios(n, a, b):
+        return [r[b]["seconds"] / r[a]["seconds"] for r in rows if r["n"] == n]
+    l10, d10 = ratios(10, "ours_all", "sboxu_wzs_1"), ratios(10, "ours", "sboxu_perms")
+    l12, d12 = ratios(12, "ours_all", "sboxu_wzs_1"), ratios(12, "ours", "sboxu_perms")
+    check("Sec. 8.3 (E12): n = 10: listing 5-18x, deciding 23-60x faster than sboxU",
+          round(min(l10)) == 5 and round(max(l10)) == 18 and round(min(d10)) == 23 and round(max(d10)) == 60,
+          f"list {min(l10):.1f}-{max(l10):.1f}, decide {min(d10):.0f}-{max(d10):.0f}")
+    check("Sec. 8.3 (E12): n = 12: listing 39-55x, deciding about 900-1,200x faster than sboxU",
+          round(min(l12)) == 39 and round(max(l12)) == 55 and round(min(d12), -2) == 900 and round(max(d12), -2) == 1200,
+          f"list {min(l12):.0f}-{max(l12):.0f}, decide {min(d12):.0f}-{max(d12):.0f}")
+
 e11 = load("e11_n10_recent_instances")
 if e11:
     sm, cps = e11["summary"], e11["summary"]["classes_per_source"]
