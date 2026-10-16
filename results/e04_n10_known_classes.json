@@ -1,6 +1,6 @@
 {
  "experiment": "e04_n10_known_classes",
- "date": "2026-10-02 16:40:58",
+ "date": "2026-10-16 13:52:12",
  "instances": 6366,
  "apn_instances": 1266,
  "classes": 20,
@@ -55,7 +55,8 @@
     "5": 11
    },
    "spaces_found": 0,
-   "condition2_inconclusive": true
+   "condition2_inconclusive": true,
+   "decided_by": "Theorem 8"
   },
   {
    "family": "Gold",
@@ -67,7 +68,8 @@
     "5": 11
    },
    "spaces_found": 0,
-   "condition2_inconclusive": true
+   "condition2_inconclusive": true,
+   "decided_by": "Theorem 8"
   },
   {
    "family": "F4",
@@ -79,7 +81,8 @@
     "5": 1
    },
    "spaces_found": 0,
-   "condition2_inconclusive": false
+   "condition2_inconclusive": false,
+   "decided_by": "Proposition 7 (no two candidate projections span F_2^10)"
   },
   {
    "family": "F4",
@@ -91,7 +94,8 @@
     "5": 1
    },
    "spaces_found": 0,
-   "condition2_inconclusive": false
+   "condition2_inconclusive": false,
+   "decided_by": "Proposition 7 (no two candidate projections span F_2^10)"
   },
   {
    "family": "F3",
@@ -101,7 +105,8 @@
    "max_dim_NB": 4,
    "projections_tested": {},
    "spaces_found": 0,
-   "condition2_inconclusive": false
+   "condition2_inconclusive": false,
+   "decided_by": "dimension bound (M < n/2)"
   },
   {
    "family": "F3",
@@ -111,7 +116,8 @@
    "max_dim_NB": 4,
    "projections_tested": {},
    "spaces_found": 0,
-   "condition2_inconclusive": false
+   "condition2_inconclusive": false,
+   "decided_by": "dimension bound (M < n/2)"
   },
   {
    "family": "F12",
@@ -121,7 +127,8 @@
    "max_dim_NB": 3,
    "projections_tested": {},
    "spaces_found": 0,
-   "condition2_inconclusive": false
+   "condition2_inconclusive": false,
+   "decided_by": "dimension bound (M < n/2)"
   },
   {
    "family": "F12",
@@ -131,7 +138,8 @@
    "max_dim_NB": 4,
    "projections_tested": {},
    "spaces_found": 0,
-   "condition2_inconclusive": false
+   "condition2_inconclusive": false,
+   "decided_by": "dimension bound (M < n/2)"
   },
   {
    "family": "F12",
@@ -141,7 +149,8 @@
    "max_dim_NB": 3,
    "projections_tested": {},
    "spaces_found": 0,
-   "condition2_inconclusive": false
+   "condition2_inconclusive": false,
+   "decided_by": "dimension bound (M < n/2)"
   },
   {
    "family": "F12",
@@ -151,7 +160,8 @@
    "max_dim_NB": 4,
    "projections_tested": {},
    "spaces_found": 0,
-   "condition2_inconclusive": false
+   "condition2_inconclusive": false,
+   "decided_by": "dimension bound (M < n/2)"
   },
   {
    "family": "F12",
@@ -161,7 +171,8 @@
    "max_dim_NB": 3,
    "projections_tested": {},
    "spaces_found": 0,
-   "condition2_inconclusive": false
+   "condition2_inconclusive": false,
+   "decided_by": "dimension bound (M < n/2)"
   },
   {
    "family": "F12",
@@ -171,7 +182,8 @@
    "max_dim_NB": 4,
    "projections_tested": {},
    "spaces_found": 0,
-   "condition2_inconclusive": false
+   "condition2_inconclusive": false,
+   "decided_by": "dimension bound (M < n/2)"
   },
   {
    "family": "F13",
@@ -183,7 +195,8 @@
     "5": 1
    },
    "spaces_found": 0,
-   "condition2_inconclusive": false
+   "condition2_inconclusive": false,
+   "decided_by": "Proposition 7 (no two candidate projections span F_2^10)"
   },
   {
    "family": "F13",
@@ -195,7 +208,8 @@
     "5": 1
    },
    "spaces_found": 0,
-   "condition2_inconclusive": false
+   "condition2_inconclusive": false,
+   "decided_by": "Proposition 7 (no two candidate projections span F_2^10)"
   },
   {
    "family": "F13",
@@ -205,7 +219,8 @@
    "max_dim_NB": 4,
    "projections_tested": {},
    "spaces_found": 0,
-   "condition2_inconclusive": false
+   "condition2_inconclusive": false,
+   "decided_by": "dimension bound (M < n/2)"
   },
   {
    "family": "F13",
@@ -215,7 +230,8 @@
    "max_dim_NB": 3,
    "projections_tested": {},
    "spaces_found": 0,
-   "condition2_inconclusive": false
+   "condition2_inconclusive": false,
+   "decided_by": "dimension bound (M < n/2)"
   },
   {
    "family": "F13",
@@ -225,7 +241,8 @@
    "max_dim_NB": 3,
    "projections_tested": {},
    "spaces_found": 0,
-   "condition2_inconclusive": false
+   "condition2_inconclusive": false,
+   "decided_by": "dimension bound (M < n/2)"
   },
   {
    "family": "Beierle-Leander",
@@ -235,7 +252,8 @@
    "max_dim_NB": 3,
    "projections_tested": {},
    "spaces_found": 0,
-   "condition2_inconclusive": false
+   "condition2_inconclusive": false,
+   "decided_by": "dimension bound (M < n/2)"
   },
   {
    "family": "Beierle-Leander",
@@ -247,7 +265,8 @@
     "5": 2
    },
    "spaces_found": 0,
-   "condition2_inconclusive": true
+   "condition2_inconclusive": true,
+   "decided_by": "Theorem 8"
   },
   {
    "family": "Beierle-Leander",
@@ -257,7 +276,8 @@
    "max_dim_NB": 4,
    "projections_tested": {},
    "spaces_found": 0,
-   "condition2_inconclusive": false
+   "condition2_inconclusive": false,
+   "decided_by": "dimension bound (M < n/2)"
   }
  ],
  "all_instances": {
@@ -265,6 +285,7 @@
   "verdicts": {
    "none": 402
   },
-  "excluded_by_counting": 256
+  "excluded_by_counting": 256,
+  "certified_equivalent_to_class_representative": 402
  }
 }

@@ -5,9 +5,11 @@ E7: sampling symmetry-restricted families of univariate quadratic functions in d
   subfield  c_e in GF(2^k), k | 10, sparse support
   sparse    2-5 random terms
   residue   exponents e = d (mod m), m | 1023 (F(zeta x) = zeta^d F(x), zeta of order m)
-APN-ness from the bilinear matrix (fast.bilinear_apn_filter); classes from ortho-derivative
-spectra, compared with the 20 known classes (data/n10_known_classes.json from e04); every
-new class is tested with the projection test.
+APN-ness from the bilinear matrix (fast.bilinear_apn_filter). Each family gets a fixed budget of
+BATCHES batches of 2000 candidates (seed = index of the family), and at most 2000 APN functions
+are kept per family. Every distinct APN function kept is tested individually with the projection
+test, and its ortho-derivative spectra are compared with the 20 known classes
+(data/n10_known_classes.json from e04).
 """
 import json
 import os
@@ -59,8 +61,11 @@ def exponents_for(fam, exps):
     return exps
 
 
+BATCHES = 2560
+
+
 def worker(args):
-    n, fam, seconds, seed = args
+    n, fam, batches, seed = args
     g, exps, V = setup(n)
     N = g.N
     rng = np.random.default_rng(seed)
@@ -72,10 +77,11 @@ def worker(args):
     sub = None
     if kind == "subfield":
         sub = np.array([x for x in range(N) if g.pow(x, 1 << par) == x])
-    t0 = time.time()
     tried, hits = 0, []
     batch = 2000
-    while time.time() - t0 < seconds and len(hits) < 2000:
+    for _ in range(batches):
+        if len(hits) >= 2000:
+            break
         if kind == "gf2":
             C = (rng.random((batch, len(E))) < par).astype(np.int64)
         elif kind == "subfield":
@@ -110,48 +116,53 @@ def table(g, E, coefs):
 
 
 
-def inv_job(args):
-    n, i, F = args
-    return i, ortho_invariant(np.array(F), n)
+def test_job(args):
+    """Ortho-derivative invariant and projection-test verdict of one function."""
+    n, i, E, c = args
+    F = table(GF(n), E, c)
+    st, info = ccz.ccz_to_permutation_projection(F, n, mode="pairs", quadratic=True)
+    return i, ortho_invariant(F, n), st, info["max_dim_NB"]
 
 
 def main():
-    a = parser(__doc__).parse_args()
+    p = parser(__doc__)
+    p.add_argument("--workers", type=int, default=os.cpu_count())
+    a = p.parse_args()
     n = 10
-    seconds = 10 if a.quick else 60
-    per_family = 50 if a.quick else 150
+    batches = BATCHES // 10 if a.quick else BATCHES
     g, exps, V = setup(n)
     known = {ortho_invariant(np.array(F), n): name
              for name, F in json.load(open(os.path.join(ROOT, "data", "n10_known_classes.json")))}
     fams = families(n)
     t0 = time.time()
-    with ProcessPoolExecutor(os.cpu_count()) as ex:
-        results = list(ex.map(worker, [(n, fam, seconds, s) for s, fam in enumerate(fams)]))
+    with ProcessPoolExecutor(a.workers) as ex:
+        results = list(ex.map(worker, [(n, fam, batches, s) for s, fam in enumerate(fams)]))
     tried = sum(r[1] for r in results)
-    todo, seen, cnt = [], set(), {}
+    todo, seen = [], set()
     for fam, _, hs in results:
         for E, c in hs:
             key = (tuple(E), tuple(c))
-            if key in seen or cnt.get(fam, 0) >= per_family:
-                continue
-            seen.add(key)
-            cnt[fam] = cnt.get(fam, 0) + 1
-            todo.append((fam, E, c))
+            if key not in seen:
+                seen.add(key)
+                todo.append((fam, E, c))
     apn_total = sum(len(r[2]) for r in results)
-    print(f"{len(fams)} families, {tried} candidates, {apn_total} APN; classifying {len(todo)}",
+    print(f"{len(fams)} families, {tried} candidates, {apn_total} APN, {len(todo)} distinct; testing all",
           flush=True)
-    tables = [(n, i, table(g, E, c).tolist()) for i, (fam, E, c) in enumerate(todo)]
-    new = {}
-    with ProcessPoolExecutor(os.cpu_count()) as ex:
-        for i, inv in ex.map(inv_job, tables, chunksize=8):
-            if inv not in known:
-                new.setdefault(inv, i)
+    verdicts, classes, new, M = {}, {}, {}, {}
+    with ProcessPoolExecutor(a.workers) as ex:
+        for i, inv, st, m in ex.map(test_job, [(n, i, E, c) for i, (_, E, c) in enumerate(todo)],
+                                    chunksize=16):
+            verdicts[st] = verdicts.get(st, 0) + 1
+            M[m] = M.get(m, 0) + 1
+            if inv in known:
+                classes[known[inv]] = classes.get(known[inv], 0) + 1
+            else:
+                new.setdefault(inv, (i, st, m))
     rows = []
-    for inv, i in new.items():
+    for inv, (i, st, m) in new.items():
         fam, E, c = todo[i]
-        st, info = ccz.ccz_to_permutation_projection(np.array(tables[i][2]), n, mode="pairs")
         rows.append({"family": [str(x) for x in fam], "terms": [(e, cc) for e, cc in zip(E, c) if cc],
-                     "verdict": st, "max_dim_NB": info["max_dim_NB"]})
+                     "verdict": st, "max_dim_NB": m})
         print("NEW class:", rows[-1], flush=True)
     by_kind = {}
     for fam, tr, hs in results:
@@ -159,8 +170,11 @@ def main():
         by_kind.setdefault(k, [0, 0])
         by_kind[k][0] += tr
         by_kind[k][1] += len(hs)
-    save("e07_n10_sampling", {"families": len(fams), "candidates": tried, "apn": apn_total,
-                              "classified": len(todo), "new_classes": rows,
+    save("e07_n10_sampling", {"families": len(fams), "batches_per_family": batches,
+                              "candidates": tried, "apn": apn_total, "distinct": len(todo),
+                              "tested": sum(verdicts.values()), "verdicts": verdicts,
+                              "max_dim_NB": {str(k): v for k, v in sorted(M.items())},
+                              "classes": classes, "new_classes": rows,
                               "by_kind": by_kind, "seconds": round(time.time() - t0)})
 
 

@@ -15,8 +15,8 @@ APN instances are grouped by the ortho-derivative invariant. Every instance is t
 EA-equivalent to a reference function of its group by an explicit, independently checked
 certificate (apnsearch/equivalence.py): the representative of the E4 class with the same
 invariant, or, for a class not among those of E4, the first instance of the group. New classes
-are tested for CCZ-equivalence to a permutation as in E4, and their switching neighbourhoods
-are explored as in E5. The two Beierle-Leander functions that E4 identifies with F13-type classes
+are tested for CCZ-equivalence to a permutation as in E4; their switching closure is part of
+E5. The two Beierle-Leander functions that E4 identifies with F13-type classes
 by the invariant are also certified. Run E4 first.
 """
 import json
@@ -32,7 +32,7 @@ from common import ROOT, parser, save
 from apnsearch import ccz, equivalence, families, fast
 from apnsearch.gf import GF
 from apnsearch.invariants import ortho_invariant
-from apnsearch.switching import switch_once, walk
+from apnsearch.switching import switch_once
 from e04_n10_known_classes import condition2_inconclusive
 
 
@@ -130,23 +130,6 @@ def main():
                        "switching_nontrivial_u": sum(1 for x in sw if x[2] > 0)})
         print(tested[-1], flush=True)
 
-    # switching walk from the new classes (as in E5); the classes reached are compared with E4
-    sw_ccz = []
-
-    def on_new(label, G):
-        st, info = ccz.ccz_to_permutation_projection(G, 10, mode="pairs")
-        sw_ccz.append({"class": label, "verdict": st, "max_dim_NB": info["max_dim_NB"]})
-
-    res = walk([(d, F, False) for d, F in new_classes.values()], 10, seconds=3600,
-               samples_per_u=3, on_new_class=on_new)
-    reached = [ortho_invariant(np.array(G), 10) for _, G in res["classes"]]
-    switching = {"complete": res["complete"], "classes_reached": len(reached),
-                 "in_e4_classes": sum(1 for v in reached if v in by_inv),
-                 "in_new_classes": sum(1 for v in reached if v in new_classes),
-                 "other": sum(1 for v in reached if v not in by_inv and v not in new_classes),
-                 "nonquadratic": res["nonquadratic"], "new_class_ccz": sw_ccz}
-    print("switching from the new classes:", switching, flush=True)
-
     per_source = {}
     for r, _ in apn:
         key = f"{r['source']}: {r['name']}"
@@ -162,7 +145,7 @@ def main():
                                           if r["name"] == "Zheng et al. Example 1" and r["apn"]],
     }
     print(json.dumps(summary, indent=1))
-    save("e11_n10_recent_instances", {"summary": summary, "switching": switching,
+    save("e11_n10_recent_instances", {"summary": summary,
                                        "e4_invariant_matches": e4_pairs, "rows": rows,
                                        "new_classes": tested})
 

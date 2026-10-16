@@ -1,10 +1,13 @@
 """
-E5: exact switching walks (Section 5) in dimensions 6, 8, 9 and 10.
+E5: exact switching closure (Section 5) in dimensions 6, 8, 9 and 10.
 
-Sources: the APN power maps, x^3 + a^-1 Tr(a^3 x^9), and at n = 10 all known quadratic
-classes (data/n10_known_classes.json written by e04). For every source and every u the
-switching kernel is computed exactly; every new quadratic class is queued, and tested for
-CCZ-equivalence to a permutation with the projection test. Non-quadratic APN switchings are
+Sources: the APN power maps, x^3 + a^-1 Tr(a^3 x^9), and at n = 10 all 25 known quadratic
+classes (the 20 of data/n10_known_classes.json, written by e04, and the six instances of
+Budaghyan-Ivkovic-Kaleyski). For every class representative and every u the switching kernel is
+computed exactly, and every nonzero class of the kernel modulo the trivial part gives one
+neighbour (switching.closure). Each quadratic neighbour is either certified EA-equivalent to a
+stored representative or becomes a new class; every new class is switched in turn and tested
+for CCZ-equivalence to a permutation with the projection test. Non-quadratic APN switchings are
 recorded (n = 6 must reproduce the Edel-Pott function).
 """
 import json
@@ -15,7 +18,7 @@ import numpy as np
 from common import ROOT, parser, save
 from apnsearch import ccz, families
 from apnsearch.gf import GF
-from apnsearch.switching import walk
+from apnsearch.switching import closure
 
 
 def sources(n):
@@ -31,6 +34,10 @@ def sources(n):
         path = os.path.join(ROOT, "data", "n10_known_classes.json")
         if os.path.exists(path):
             src += [(name, np.array(F), False) for name, F in json.load(open(path))]
+        g = GF(10)
+        beta = min(x for x in range(2, g.N) if g.pow(x, 4) == x)
+        src += [(f"Budaghyan-Ivkovic-Kaleyski #{i}", families.bik_instance_10(i, beta), False)
+                for i in families.BIK_TABLE2]
     return src
 
 
@@ -48,9 +55,10 @@ def main():
             print(f"    new class {label}: CCZ to permutation: {st}", flush=True)
 
         print(f"n = {n}", flush=True)
-        res = walk(sources(n), n, seconds=600 if a.quick else 7200, samples_per_u=3,
-                   on_new_class=on_new)
+        res = closure(sources(n), n, on_new_class=on_new)
         out[str(n)] = {"sources": len(sources(n)), "classes_reached": res["class_count"],
+                       "distinct_invariants": res["distinct_invariants"],
+                       "certificates": res["certificates"],
                        "walk_complete": res["complete"], "nonquadratic": res["nonquadratic"],
                        "new_class_ccz": ccz_results, "stats": res["stats"]}
         print(f"  n = {n}: {res['class_count']} quadratic classes, complete {res['complete']}, "

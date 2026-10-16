@@ -3,7 +3,10 @@ E2: structured permutation families in even dimension (paper, Section 4).
 
 (a) Open butterflies H(x, y) = (R_t(y), t), t = R_y^{-1}(x), on n = 2k bits with
     R_z(x) = (x + alpha z)^e + beta z^f, x^e a permutation of GF(2^k): exhaustive over
-    e (up to cyclotomic equivalence), f, alpha, beta, for k = 3, 4, 5.
+    e (one representative per cyclotomic class of exponents coprime to 2^k - 1), f in
+    {0, ..., 2^k - 2} (z^0 is read as 1 for z != 0 and 0 for z = 0), and all alpha, beta in
+    GF(2^k), including 0, for k = 3, 4, 5. "count" is the number of parameter tuples; every
+    tuple gives a permutation, and equal tables are not merged.
 (b) Cyclotomic maps x^r h(x^((2^n-1)/3)) at n = 8: all 24 exponent classes r, h exhaustive.
 (c) Switched inverse x^254 + gamma Tr(delta x^d) at n = 8: all d (cyclotomic classes), delta, gamma.
 Only permutations are scored; the score is the cost (3 x number of affine 2-flats).
@@ -65,7 +68,7 @@ def cyclotomic(n=8, l=3):
     s = q1 // l
     X = np.arange(1, N)
     idx = (g.log[X] * s % q1) // s
-    best = {}
+    best, perms = {}, 0
     for r in classes_mod(q1, n, False):
         if math.gcd(r, s) != 1:
             continue
@@ -76,10 +79,12 @@ def cyclotomic(n=8, l=3):
             S[1:] = g.exp[(base + np.array((0,) + hl)[idx]) % q1]
             if np.bincount(S, minlength=N).max() != 1:
                 continue
+            perms += 1
             c = fast.ddt_cost(S)
             mins = c if mins is None else min(mins, c)
         best[int(r)] = mins
-    return {"n": n, "l": l, "exponent_classes": len(best), "best_cost_per_r": best,
+    return {"n": n, "l": l, "exponent_classes": len(best), "permutations": perms,
+            "best_cost_per_r": best,
             "min_cost": min(best.values())}
 
 

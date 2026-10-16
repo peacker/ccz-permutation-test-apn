@@ -114,3 +114,15 @@ def test_ea_equivalence_certificate():
     assert cert is not None and equivalence.check_certificate(F, G, n, *cert)
     # x^3 and the Kim function are inequivalent; the exhaustive search must say so
     assert equivalence.ea_equivalence(F, families.kim6()[1], n) is None
+
+
+def test_switching_closure_dimension_six():
+    """The exact switching closure from the E5 sources gives the 13 quadratic APN classes of
+    dimension six, with certified equivalences, and finds non-quadratic switchings."""
+    import sys
+    sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "experiments"))
+    from apnsearch.switching import closure
+    from e05_switching_walks import sources
+    r = closure(sources(6), 6, log=lambda *a: None)
+    assert r["class_count"] == r["distinct_invariants"] == 13
+    assert r["certificates"] > 0 and r["nonquadratic"]

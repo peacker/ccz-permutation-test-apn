@@ -1,9 +1,11 @@
 {
  "experiment": "e05_switching_walks",
- "date": "2026-10-01 15:48:54",
+ "date": "2026-10-16 13:33:29",
  "6": {
   "sources": 4,
   "classes_reached": 13,
+  "distinct_invariants": 13,
+  "certificates": 1186,
   "walk_complete": true,
   "nonquadratic": [
    {
@@ -22,28 +24,28 @@
     "nonquadratic_rank": 1
    },
    {
-    "source": "switch[5]",
-    "u": 29,
-    "nonquadratic_rank": 1
-   },
-   {
-    "source": "switch[8]",
-    "u": 26,
-    "nonquadratic_rank": 1
-   },
-   {
-    "source": "switch[8]",
+    "source": "switch[4]",
     "u": 30,
     "nonquadratic_rank": 1
    },
    {
-    "source": "switch[9]",
-    "u": 57,
+    "source": "switch[4]",
+    "u": 34,
     "nonquadratic_rank": 1
    },
    {
-    "source": "switch[9]",
-    "u": 63,
+    "source": "switch[5]",
+    "u": 25,
+    "nonquadratic_rank": 1
+   },
+   {
+    "source": "switch[8]",
+    "u": 14,
+    "nonquadratic_rank": 1
+   },
+   {
+    "source": "switch[8]",
+    "u": 25,
     "nonquadratic_rank": 1
    }
   ],
@@ -76,7 +78,7 @@
    {
     "class": "switch[7]",
     "verdict": "none",
-    "max_dim_NB": 3
+    "max_dim_NB": 2
    },
    {
     "class": "switch[8]",
@@ -86,7 +88,7 @@
    {
     "class": "switch[9]",
     "verdict": "none",
-    "max_dim_NB": 2
+    "max_dim_NB": 3
    },
    {
     "class": "switch[10]",
@@ -108,150 +110,147 @@
    {
     "source": "x^3 (Gold)",
     "nontrivial_u": 2,
-    "kernel_dims": [
-     12,
-     13
-    ]
+    "quotient_dims": {
+     "1": 2
+    },
+    "neighbours_examined": 2
    },
    {
     "source": "x^3 + a(x^17 + x^18 + x^20 + x^24)",
     "nontrivial_u": 31,
-    "kernel_dims": [
-     12,
-     13,
-     14,
-     15,
-     16,
-     17
-    ]
+    "quotient_dims": {
+     "1": 24,
+     "2": 1,
+     "3": 4,
+     "4": 1,
+     "5": 1
+    },
+    "neighbours_examined": 101
    },
    {
     "source": "switch[2]",
     "nontrivial_u": 42,
-    "kernel_dims": [
-     12,
-     13
-    ]
+    "quotient_dims": {
+     "1": 42
+    },
+    "neighbours_examined": 42
    },
    {
     "source": "switch[3]",
     "nontrivial_u": 31,
-    "kernel_dims": [
-     12,
-     13,
-     14,
-     15,
-     16,
-     17
-    ]
+    "quotient_dims": {
+     "1": 21,
+     "2": 4,
+     "3": 3,
+     "4": 2,
+     "5": 1
+    },
+    "neighbours_examined": 115
    },
    {
     "source": "switch[4]",
-    "nontrivial_u": 33,
-    "kernel_dims": [
-     12,
-     13,
-     14,
-     15,
-     17
-    ]
+    "nontrivial_u": 27,
+    "quotient_dims": {
+     "1": 20,
+     "2": 1,
+     "3": 3,
+     "4": 2,
+     "5": 1
+    },
+    "neighbours_examined": 105
    },
    {
     "source": "switch[5]",
     "nontrivial_u": 32,
-    "kernel_dims": [
-     12,
-     13,
-     14,
-     15,
-     16,
-     17
-    ]
+    "quotient_dims": {
+     "1": 23,
+     "2": 3,
+     "3": 4,
+     "4": 1,
+     "5": 1
+    },
+    "neighbours_examined": 106
    },
    {
     "source": "switch[6]",
-    "nontrivial_u": 46,
-    "kernel_dims": [
-     12,
-     13,
-     15,
-     17
-    ]
+    "nontrivial_u": 33,
+    "quotient_dims": {
+     "1": 23,
+     "2": 4,
+     "3": 5,
+     "5": 1
+    },
+    "neighbours_examined": 101
    },
    {
     "source": "switch[7]",
-    "nontrivial_u": 35,
-    "kernel_dims": [
-     12,
-     13,
-     14,
-     15
-    ]
+    "nontrivial_u": 46,
+    "quotient_dims": {
+     "1": 40,
+     "3": 5,
+     "5": 1
+    },
+    "neighbours_examined": 106
    },
    {
     "source": "switch[8]",
     "nontrivial_u": 34,
-    "kernel_dims": [
-     12,
-     13,
-     14,
-     15,
-     16
-    ]
+    "quotient_dims": {
+     "1": 23,
+     "2": 5,
+     "3": 4,
+     "4": 2
+    },
+    "neighbours_examined": 96
    },
    {
     "source": "switch[9]",
-    "nontrivial_u": 27,
-    "kernel_dims": [
-     12,
-     13,
-     14,
-     15,
-     16,
-     17
-    ]
+    "nontrivial_u": 35,
+    "quotient_dims": {
+     "1": 23,
+     "2": 6,
+     "3": 6
+    },
+    "neighbours_examined": 83
    },
    {
     "source": "switch[10]",
     "nontrivial_u": 42,
-    "kernel_dims": [
-     12,
-     13
-    ]
+    "quotient_dims": {
+     "1": 42
+    },
+    "neighbours_examined": 42
    },
    {
     "source": "switch[11]",
     "nontrivial_u": 26,
-    "kernel_dims": [
-     12,
-     13,
-     14,
-     15,
-     17
-    ]
+    "quotient_dims": {
+     "1": 5,
+     "2": 5,
+     "3": 10,
+     "5": 6
+    },
+    "neighbours_examined": 276
    },
    {
     "source": "switch[12]",
     "nontrivial_u": 42,
-    "kernel_dims": [
-     12,
-     13,
-     14
-    ]
+    "quotient_dims": {
+     "1": 21,
+     "2": 21
+    },
+    "neighbours_examined": 84
    }
   ]
  },
  "8": {
   "sources": 5,
   "classes_reached": 17,
+  "distinct_invariants": 17,
+  "certificates": 83,
   "walk_complete": true,
   "nonquadratic": [],
   "new_class_ccz": [
-   {
-    "class": "switch[4]",
-    "verdict": "none",
-    "max_dim_NB": 3
-   },
    {
     "class": "switch[5]",
     "verdict": "none",
@@ -265,7 +264,7 @@
    {
     "class": "switch[7]",
     "verdict": "none",
-    "max_dim_NB": 2
+    "max_dim_NB": 3
    },
    {
     "class": "switch[8]",
@@ -275,7 +274,7 @@
    {
     "class": "switch[9]",
     "verdict": "none",
-    "max_dim_NB": 3
+    "max_dim_NB": 2
    },
    {
     "class": "switch[10]",
@@ -311,159 +310,166 @@
     "class": "switch[16]",
     "verdict": "none",
     "max_dim_NB": 3
+   },
+   {
+    "class": "switch[17]",
+    "verdict": "none",
+    "max_dim_NB": 3
    }
   ],
   "stats": [
    {
     "source": "x^3 (Gold)",
     "nontrivial_u": 3,
-    "kernel_dims": [
-     17
-    ]
+    "quotient_dims": {
+     "1": 3
+    },
+    "neighbours_examined": 3
    },
    {
     "source": "x^9 (Gold)",
     "nontrivial_u": 1,
-    "kernel_dims": [
-     16,
-     18
-    ]
+    "quotient_dims": {
+     "2": 1
+    },
+    "neighbours_examined": 3
    },
    {
     "source": "x^57 (Kasami)",
     "nontrivial_u": 0,
-    "kernel_dims": [
-     16
-    ]
+    "quotient_dims": {},
+    "neighbours_examined": 0
    },
    {
     "source": "x^3 + Tr(x^9)",
     "nontrivial_u": 15,
-    "kernel_dims": [
-     16,
-     17
-    ]
+    "quotient_dims": {
+     "1": 15
+    },
+    "neighbours_examined": 15
    },
    {
     "source": "x^3 + b^-1 Tr(b^3 x^9), b in GF(4)",
     "nontrivial_u": 9,
-    "kernel_dims": [
-     16,
-     17
-    ]
-   },
-   {
-    "source": "switch[4]",
-    "nontrivial_u": 7,
-    "kernel_dims": [
-     16,
-     17,
-     18
-    ]
+    "quotient_dims": {
+     "1": 9
+    },
+    "neighbours_examined": 9
    },
    {
     "source": "switch[5]",
-    "nontrivial_u": 5,
-    "kernel_dims": [
-     16,
-     17
-    ]
+    "nontrivial_u": 7,
+    "quotient_dims": {
+     "1": 6,
+     "2": 1
+    },
+    "neighbours_examined": 9
    },
    {
     "source": "switch[6]",
-    "nontrivial_u": 3,
-    "kernel_dims": [
-     16,
-     17
-    ]
+    "nontrivial_u": 13,
+    "quotient_dims": {
+     "1": 12,
+     "2": 1
+    },
+    "neighbours_examined": 15
    },
    {
     "source": "switch[7]",
-    "nontrivial_u": 3,
-    "kernel_dims": [
-     16,
-     17
-    ]
+    "nontrivial_u": 5,
+    "quotient_dims": {
+     "1": 5
+    },
+    "neighbours_examined": 5
    },
    {
     "source": "switch[8]",
-    "nontrivial_u": 13,
-    "kernel_dims": [
-     16,
-     17,
-     18
-    ]
+    "nontrivial_u": 3,
+    "quotient_dims": {
+     "1": 3
+    },
+    "neighbours_examined": 3
    },
    {
     "source": "switch[9]",
     "nontrivial_u": 3,
-    "kernel_dims": [
-     16,
-     17
-    ]
+    "quotient_dims": {
+     "1": 3
+    },
+    "neighbours_examined": 3
    },
    {
     "source": "switch[10]",
     "nontrivial_u": 3,
-    "kernel_dims": [
-     16,
-     17
-    ]
+    "quotient_dims": {
+     "1": 3
+    },
+    "neighbours_examined": 3
    },
    {
     "source": "switch[11]",
-    "nontrivial_u": 5,
-    "kernel_dims": [
-     16,
-     17
-    ]
+    "nontrivial_u": 3,
+    "quotient_dims": {
+     "1": 3
+    },
+    "neighbours_examined": 3
    },
    {
     "source": "switch[12]",
     "nontrivial_u": 5,
-    "kernel_dims": [
-     16,
-     17
-    ]
+    "quotient_dims": {
+     "1": 5
+    },
+    "neighbours_examined": 5
    },
    {
     "source": "switch[13]",
     "nontrivial_u": 5,
-    "kernel_dims": [
-     16,
-     17
-    ]
+    "quotient_dims": {
+     "1": 5
+    },
+    "neighbours_examined": 5
    },
    {
     "source": "switch[14]",
-    "nontrivial_u": 3,
-    "kernel_dims": [
-     16,
-     17,
-     18
-    ]
+    "nontrivial_u": 5,
+    "quotient_dims": {
+     "1": 5
+    },
+    "neighbours_examined": 5
    },
    {
     "source": "switch[15]",
-    "nontrivial_u": 2,
-    "kernel_dims": [
-     16,
-     17
-    ]
+    "nontrivial_u": 3,
+    "quotient_dims": {
+     "1": 2,
+     "2": 1
+    },
+    "neighbours_examined": 5
    },
    {
     "source": "switch[16]",
+    "nontrivial_u": 2,
+    "quotient_dims": {
+     "1": 2
+    },
+    "neighbours_examined": 2
+   },
+   {
+    "source": "switch[17]",
     "nontrivial_u": 1,
-    "kernel_dims": [
-     16,
-     18
-    ]
+    "quotient_dims": {
+     "2": 1
+    },
+    "neighbours_examined": 3
    }
   ]
  },
  "9": {
   "sources": 8,
   "classes_reached": 6,
+  "distinct_invariants": 6,
+  "certificates": 12,
   "walk_complete": true,
   "nonquadratic": [],
   "new_class_ccz": [],
@@ -471,81 +477,78 @@
    {
     "source": "x^3 (Gold)",
     "nontrivial_u": 1,
-    "kernel_dims": [
-     19
-    ]
+    "quotient_dims": {
+     "1": 1
+    },
+    "neighbours_examined": 1
    },
    {
     "source": "x^5 (Gold)",
     "nontrivial_u": 0,
-    "kernel_dims": [
-     18
-    ]
+    "quotient_dims": {},
+    "neighbours_examined": 0
    },
    {
     "source": "x^17 (Gold)",
     "nontrivial_u": 0,
-    "kernel_dims": [
-     18
-    ]
+    "quotient_dims": {},
+    "neighbours_examined": 0
    },
    {
     "source": "x^13 (Kasami)",
     "nontrivial_u": 0,
-    "kernel_dims": [
-     18
-    ]
+    "quotient_dims": {},
+    "neighbours_examined": 0
    },
    {
     "source": "x^241 (Kasami)",
     "nontrivial_u": 0,
-    "kernel_dims": [
-     18
-    ]
+    "quotient_dims": {},
+    "neighbours_examined": 0
    },
    {
     "source": "x^19 (Welch/Niho)",
     "nontrivial_u": 0,
-    "kernel_dims": [
-     18
-    ]
+    "quotient_dims": {},
+    "neighbours_examined": 0
    },
    {
     "source": "x^510 (inverse)",
     "nontrivial_u": 0,
-    "kernel_dims": [
-     18
-    ]
+    "quotient_dims": {},
+    "neighbours_examined": 0
    },
    {
     "source": "x^3 + Tr(x^9)",
     "nontrivial_u": 7,
-    "kernel_dims": [
-     18,
-     19
-    ]
+    "quotient_dims": {
+     "1": 7
+    },
+    "neighbours_examined": 7
    },
    {
-    "source": "switch[4]",
+    "source": "switch[8]",
     "nontrivial_u": 3,
-    "kernel_dims": [
-     18,
-     19
-    ]
+    "quotient_dims": {
+     "1": 3
+    },
+    "neighbours_examined": 3
    },
    {
-    "source": "switch[5]",
+    "source": "switch[9]",
     "nontrivial_u": 3,
-    "kernel_dims": [
-     18,
-     19
-    ]
+    "quotient_dims": {
+     "1": 3
+    },
+    "neighbours_examined": 3
    }
   ]
  },
  "10": {
-  "sources": 26,
-  "classes_reached": 20,
+  "sources": 32,
+  "classes_reached": 25,
+  "distinct_invariants": 25,
+  "certificates": 18,
   "walk_complete": true,
   "nonquadratic": [],
   "new_class_ccz": [],
@@ -553,158 +556,178 @@
    {
     "source": "x^3 (Gold)",
     "nontrivial_u": 3,
-    "kernel_dims": [
-     21
-    ]
+    "quotient_dims": {
+     "1": 3
+    },
+    "neighbours_examined": 3
    },
    {
     "source": "x^9 (Gold)",
     "nontrivial_u": 0,
-    "kernel_dims": [
-     20
-    ]
+    "quotient_dims": {},
+    "neighbours_examined": 0
    },
    {
     "source": "x^57 (Kasami)",
     "nontrivial_u": 0,
-    "kernel_dims": [
-     20
-    ]
+    "quotient_dims": {},
+    "neighbours_examined": 0
    },
    {
     "source": "x^339 (Dobbertin)",
     "nontrivial_u": 0,
-    "kernel_dims": [
-     20
-    ]
+    "quotient_dims": {},
+    "neighbours_examined": 0
    },
    {
     "source": "x^3 + Tr(x^9)",
     "nontrivial_u": 3,
-    "kernel_dims": [
-     20,
-     21
-    ]
+    "quotient_dims": {
+     "1": 3
+    },
+    "neighbours_examined": 3
    },
    {
     "source": "x^3 + b^-1 Tr(b^3 x^9), b in GF(4)",
     "nontrivial_u": 3,
-    "kernel_dims": [
-     20,
-     21
-    ]
+    "quotient_dims": {
+     "1": 3
+    },
+    "neighbours_examined": 3
    },
    {
     "source": "F3 i=1 c=1014 s=807",
     "nontrivial_u": 0,
-    "kernel_dims": [
-     20
-    ]
+    "quotient_dims": {},
+    "neighbours_examined": 0
    },
    {
     "source": "F3 i=2 c=941 s=1007",
     "nontrivial_u": 0,
-    "kernel_dims": [
-     20
-    ]
+    "quotient_dims": {},
+    "neighbours_examined": 0
    },
    {
     "source": "F12 i=3 u=729 a=84 b=14",
     "nontrivial_u": 0,
-    "kernel_dims": [
-     20
-    ]
+    "quotient_dims": {},
+    "neighbours_examined": 0
    },
    {
     "source": "F12 i=4 u=748 a=770 b=85",
     "nontrivial_u": 0,
-    "kernel_dims": [
-     20
-    ]
+    "quotient_dims": {},
+    "neighbours_examined": 0
    },
    {
     "source": "F12 i=2 u=62 a=366 b=308",
     "nontrivial_u": 0,
-    "kernel_dims": [
-     20
-    ]
+    "quotient_dims": {},
+    "neighbours_examined": 0
    },
    {
     "source": "F12 i=1 u=362 a=857 b=568",
     "nontrivial_u": 0,
-    "kernel_dims": [
-     20
-    ]
+    "quotient_dims": {},
+    "neighbours_examined": 0
    },
    {
     "source": "F12 i=3 u=940 a=567 b=781",
     "nontrivial_u": 0,
-    "kernel_dims": [
-     20
-    ]
+    "quotient_dims": {},
+    "neighbours_examined": 0
    },
    {
     "source": "F12 i=1 u=66 a=314 b=568",
     "nontrivial_u": 0,
-    "kernel_dims": [
-     20
-    ]
+    "quotient_dims": {},
+    "neighbours_examined": 0
    },
    {
     "source": "F13 i=3 k=0 a=1 b=1 c=236",
     "nontrivial_u": 0,
-    "kernel_dims": [
-     20
-    ]
+    "quotient_dims": {},
+    "neighbours_examined": 0
    },
    {
     "source": "F13 i=3 k=0 a=1 b=236 c=1",
     "nontrivial_u": 0,
-    "kernel_dims": [
-     20
-    ]
+    "quotient_dims": {},
+    "neighbours_examined": 0
    },
    {
     "source": "F13 i=3 k=0 a=1 b=236 c=237",
     "nontrivial_u": 0,
-    "kernel_dims": [
-     20
-    ]
+    "quotient_dims": {},
+    "neighbours_examined": 0
    },
    {
     "source": "F13 i=3 k=0 a=236 b=236 c=237",
     "nontrivial_u": 0,
-    "kernel_dims": [
-     20
-    ]
+    "quotient_dims": {},
+    "neighbours_examined": 0
    },
    {
     "source": "F13 i=3 k=2 a=236 b=0 c=0",
     "nontrivial_u": 0,
-    "kernel_dims": [
-     20
-    ]
+    "quotient_dims": {},
+    "neighbours_examined": 0
    },
    {
     "source": "Beierle-Leander #1",
     "nontrivial_u": 0,
-    "kernel_dims": [
-     20
-    ]
+    "quotient_dims": {},
+    "neighbours_examined": 0
    },
    {
     "source": "Beierle-Leander #3",
     "nontrivial_u": 0,
-    "kernel_dims": [
-     20
-    ]
+    "quotient_dims": {},
+    "neighbours_examined": 0
    },
    {
     "source": "Beierle-Leander #5",
     "nontrivial_u": 0,
-    "kernel_dims": [
-     20
-    ]
+    "quotient_dims": {},
+    "neighbours_examined": 0
+   },
+   {
+    "source": "Budaghyan-Ivkovic-Kaleyski #1",
+    "nontrivial_u": 1,
+    "quotient_dims": {
+     "1": 1
+    },
+    "neighbours_examined": 1
+   },
+   {
+    "source": "Budaghyan-Ivkovic-Kaleyski #3",
+    "nontrivial_u": 1,
+    "quotient_dims": {
+     "1": 1
+    },
+    "neighbours_examined": 1
+   },
+   {
+    "source": "Budaghyan-Ivkovic-Kaleyski #4",
+    "nontrivial_u": 1,
+    "quotient_dims": {
+     "1": 1
+    },
+    "neighbours_examined": 1
+   },
+   {
+    "source": "Budaghyan-Ivkovic-Kaleyski #5",
+    "nontrivial_u": 0,
+    "quotient_dims": {},
+    "neighbours_examined": 0
+   },
+   {
+    "source": "Budaghyan-Ivkovic-Kaleyski #6",
+    "nontrivial_u": 1,
+    "quotient_dims": {
+     "1": 1
+    },
+    "neighbours_examined": 1
    }
   ]
  }

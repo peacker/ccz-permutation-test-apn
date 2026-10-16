@@ -1,6 +1,6 @@
 {
  "experiment": "e11_n10_recent_instances",
- "date": "2026-10-06 11:18:38",
+ "date": "2026-10-16 13:56:57",
  "summary": {
   "instances": 507,
   "apn_instances": 373,
@@ -73,15 +73,6 @@
    "alpha = g^13",
    "alpha = g^367"
   ]
- },
- "switching": {
-  "complete": true,
-  "classes_reached": 5,
-  "in_e4_classes": 0,
-  "in_new_classes": 5,
-  "other": 0,
-  "nonquadratic": [],
-  "new_class_ccz": []
  },
  "e4_invariant_matches": [
   {

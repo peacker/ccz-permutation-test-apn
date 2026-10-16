@@ -92,13 +92,34 @@ if e4:
     check("Sec. 8.4: Beierle-Leander #2 and #4 belong to F13",
           [r["in_family_classes"] for r in e4["beierle_leander"]] == [False, True, False, True, False])
 
+if e4:
+    ai = e4["all_instances"]
+    check("Sec. 8.4 (E4): every distinct APN instance certified EA-equivalent to its class representative",
+          ai.get("certified_equivalent_to_class_representative") == ai["tested"] == 402,
+          str(ai.get("certified_equivalent_to_class_representative")))
+    db = [r.get("decided_by", "") for r in e4["rows"]]
+    check("Table 4 (E4): of the 20 classes, 13 by M < 5, 4 by a single projection, 3 need Theorem 8",
+          (sum("dimension bound" in d for d in db), sum("Proposition 7" in d for d in db),
+           sum(d == "Theorem 8" for d in db)) == (13, 4, 3), str(db))
+
+e2c = load("e02_structured_constructions")
+if e2c:
+    cy = e2c["cyclotomic"]
+    check("Table 1: cyclotomic maps, 24 exponent classes, 346,800 permutations, smallest cost 255",
+          (cy["exponent_classes"], cy.get("permutations"), cy["min_cost"]) == (24, 346800, 255))
+    si = e2c["switched_inverse"]
+    check("Sec. 4: switched inverse, 32,385 of 33,660 tuples have cost 255",
+          (si["count_at_255"], si["permutations"]) == (32385, 33660))
+
 e5 = load("e05_switching_walks")
 if e5:
-    exp = {"6": 13, "8": 17, "9": 6, "10": 20}
+    exp = {"6": 13, "8": 17, "9": 6, "10": 25}
     for n, c in exp.items():
         r = e5[n]
-        check(f"Table 5: n={n} walk closes with {c} quadratic classes",
+        check(f"Table 5: n={n} exact switching closure has {c} quadratic classes",
               r["walk_complete"] and r["classes_reached"] == c, str(r["classes_reached"]))
+        check(f"Table 5: n={n} classes are pairwise inequivalent, every other neighbour certified",
+              r.get("distinct_invariants") == c and r.get("certificates", 0) > 0, str(r.get("certificates")))
     check("Table 5: non-quadratic switchings exist for n = 6 (Edel-Pott)", len(e5["6"]["nonquadratic"]) > 0)
     for n in ("8", "9", "10"):
         check(f"Table 5: no non-quadratic switching for n = {n}", not e5[n]["nonquadratic"])
@@ -122,6 +143,12 @@ e7 = load("e07_n10_sampling")
 if e7:
     check("Sec. 8.7: symmetric sampling for n = 10 finds no class outside the 20 known",
           len(e7["new_classes"]) == 0, f"{e7['apn']} APN functions")
+    check("Sec. 8.7: every distinct APN function of E7 tested individually, none CCZ to a permutation",
+          e7.get("tested") == e7.get("distinct") and set(e7.get("verdicts", {})) == {"none"},
+          f"{e7.get('tested')} of {e7.get('distinct')}")
+    check("Sec. 8.7: E7 counts (535,492,000 candidates, 166,157 APN, 106,450 distinct, 11 classes)",
+          (e7["candidates"], e7["apn"], e7.get("distinct"), len(e7.get("classes", {}))) ==
+          (535492000, 166157, 106450, 11))
 
 e8 = load("e08_tree_search")
 if e8:
@@ -183,6 +210,21 @@ if e10b:
           r["all_spread_lines"] and r["contains_a_line"])
     check("Table 2: n=18, a=1 (independent local run): decided by Theorem 8, none",
           r["verdict"].startswith("none (Theorem 8)"))
+
+esc = load("e10_symmetry_check")
+if esc:
+    rows = esc["rows"]
+    check("Sec. 7.1 (E10): symmetry-reduced search equals the plain search in all 18 cases (n = 14, 18)",
+          len(rows) == 18 and all(r["equal"] for r in rows) and {r["n"] for r in rows} == {14, 18}
+          and max(r["plain"] for r in rows) == 5348, str(len(rows)))
+efs = load("e10_n18_failure_stage")
+if efs:
+    rows = efs["rows"]
+    check("Sec. 7.1 (E10): n = 18, a = 1: each candidate B has dim L_b = 2, three admissible P, "
+          "|P n L_b| = 2, and no Psi",
+          len(rows) == 3 and all(r["dim_Lb"] == [2] and r["admissible_P"] == 3 and
+                                 all(p["nonzero_in_P_cap_Lb"] == [1] and p["psi_solutions"] == 0
+                                     for p in r["per_P"]) for r in rows))
 
 e22 = load("e10_f4_n22_a1_m")
 if e22:
@@ -258,9 +300,6 @@ if e11:
                                          for t in e11["new_classes"]))
     check("Sec. 8.4 (E11): Beierle-Leander #2 and #4 are EA-equivalent to F13-type functions",
           len(e11["e4_invariant_matches"]) == 2 and all(p["ea_equivalent"] for p in e11["e4_invariant_matches"]))
-    sw = e11["switching"]
-    check("Table 5 (E11): switching from the five further classes is complete and reaches no other class",
-          sw["complete"] and sw["classes_reached"] == sw["in_new_classes"] == 5 and not sw["nonquadratic"], str(sw))
     check("Sec. 2 (E11): the representative of Yu et al. is EA-equivalent to x^3 + Tr(x^9)",
           cps["Yu-Li-Ichanska-Kaleyski: x^513+x^192+x^96+x^48+x^33+x^18+x^12"] == ["F4 a=1"])
 
