@@ -226,6 +226,31 @@ if efs:
                                  all(p["nonzero_in_P_cap_Lb"] == [1] and p["psi_solutions"] == 0
                                      for p in r["per_P"]) for r in rows))
 
+if efs:
+    def _span(B):
+        out = [0]
+        for v in B:
+            out += [x ^ v for x in out]
+        return out                                    # out[t] = sum_k t_k B[k]
+
+    def _witness_ok(r, p):
+        m, Pel = len(p["P"]), _span(p["P"])
+        coord = {v: t for t, v in enumerate(Pel)}
+        lhs, rhs = 0, 0
+        for t, y, sy in p["witness"]:
+            if y not in coord:
+                return False
+            c = coord[y]
+            for i in range(m):
+                if t >> i & 1:
+                    for k in range(m):
+                        if c >> k & 1:
+                            lhs ^= 1 << (i * m + k)
+            rhs ^= sy ^ 1
+        return lhs == 0 and rhs == 1
+    check("Sec. 7.1 (E10): n = 18, each of the nine linear systems for Psi has a valid infeasibility witness",
+          all("witness" in p and _witness_ok(r, p) for r in efs["rows"] for p in r["per_P"]))
+
 e22 = load("e10_f4_n22_a1_m")
 if e22:
     r = e22["rows"][0]

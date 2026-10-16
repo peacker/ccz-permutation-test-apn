@@ -39,7 +39,9 @@ from e04_n10_known_classes import condition2_inconclusive
 def certify(args):
     G, F = (np.array(x) for x in args)
     cert = equivalence.ea_equivalence(G, F, 10)
-    return bool(cert and equivalence.check_certificate(G, F, 10, *cert))
+    if cert and equivalence.check_certificate(G, F, 10, *cert):
+        return [int(c) for c in cert[0]], [int(c) for c in cert[1]]
+    return None
 
 
 def inv_job(F):
@@ -86,7 +88,11 @@ def main():
     pairs = [(m[0], (d, F)) for m in by_inv.values() for d, F in m[1:]]
     with ProcessPoolExecutor(workers) as ex:
         ok = list(ex.map(certify, [(r[1].tolist(), F.tolist()) for r, (_, F) in pairs]))
-    e4_pairs = [{"function": d, "class": r[0], "ea_equivalent": o} for (r, (d, _)), o in zip(pairs, ok)]
+    e4_pairs = [{"function": d, "class": r[0], "ea_equivalent": o is not None}
+                for (r, (d, _)), o in zip(pairs, ok)]
+    cert_rows = [{"reference": r[0], "reference_table": r[1].tolist(), "instance": d,
+                  "instance_table": F.tolist(), "L1": o[0], "L2": o[1]}
+                 for (r, (d, F)), o in zip(pairs, ok) if o]
     print(e4_pairs, flush=True)
 
     inst = instances(g, 40 if a.quick else 200)
@@ -114,8 +120,12 @@ def main():
         jobs.append((G.tolist(), F.tolist()))
     t = time.time()
     with ProcessPoolExecutor(workers) as ex:
-        for (r, _), o in zip(apn, ex.map(certify, jobs)):
-            r["ea_equivalent_to_reference"] = o
+        for (r, F), (G, _), o in zip(apn, jobs, ex.map(certify, jobs)):
+            r["ea_equivalent_to_reference"] = o is not None
+            if o:
+                cert_rows.append({"reference": r["known_class"] or r["new_class"], "reference_table": G,
+                                  "instance": f"{r['source']}: {r['name']} {r['parameter']}".strip(),
+                                  "instance_table": F.tolist(), "L1": o[0], "L2": o[1]})
     print(f"certificates: {sum(r['ea_equivalent_to_reference'] for r, _ in apn)}/{len(apn)} "
           f"[{time.time() - t:.0f}s]", flush=True)
 
@@ -145,6 +155,8 @@ def main():
                                           if r["name"] == "Zheng et al. Example 1" and r["apn"]],
     }
     print(json.dumps(summary, indent=1))
+    save("ea_certificates_e11", {"n": 10, "meaning": "instance + L1 o reference o L2 is affine",
+                                 "certificates": cert_rows})
     save("e11_n10_recent_instances", {"summary": summary,
                                        "e4_invariant_matches": e4_pairs, "rows": rows,
                                        "new_classes": tested})

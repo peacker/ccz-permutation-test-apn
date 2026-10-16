@@ -48,7 +48,9 @@ def condition2_inconclusive(F):
 def cert_job(args):
     G, F = (np.array(x) for x in args)
     cert = equivalence.ea_equivalence(G, F, 10)
-    return bool(cert and equivalence.check_certificate(G, F, 10, *cert))
+    if cert and equivalence.check_certificate(G, F, 10, *cert):
+        return [int(c) for c in cert[0]], [int(c) for c in cert[1]]
+    return None
 
 
 def decided_by(M, inconclusive):
@@ -109,11 +111,17 @@ def main():
                      "verdicts": {v: sum(1 for x, _ in verdicts if x == v) for v in {x for x, _ in verdicts}},
                      "excluded_by_counting": sum(1 for _, M in verdicts if M < 5)}
     # every distinct instance is EA-equivalent to the representative with the same invariant
-    rep_of = {inv: F for inv, (_, _, F) in classes.items()}
-    pairs = [(rep_of[ortho_invariant(F, 10)].tolist(), F.tolist()) for F in distinct.values()]
+    rep_of = {inv: (d, F) for inv, (_, d, F) in classes.items()}
+    owners = [rep_of[ortho_invariant(F, 10)] for F in distinct.values()]
+    pairs = [(R.tolist(), F.tolist()) for (_, R), F in zip(owners, distinct.values())]
     with ProcessPoolExecutor(os.cpu_count()) as ex:
-        certified = list(ex.map(cert_job, pairs, chunksize=2))
-    all_instances["certified_equivalent_to_class_representative"] = sum(certified)
+        certs = list(ex.map(cert_job, pairs, chunksize=2))
+    all_instances["certified_equivalent_to_class_representative"] = sum(c is not None for c in certs)
+    save("ea_certificates_e04", {
+        "n": 10, "meaning": "instance + L1 o reference o L2 is affine",
+        "references": {d: R.tolist() for d, R in {d: R for d, R in owners}.items()},
+        "certificates": [{"reference": d, "instance": F.tolist(), "L1": c[0], "L2": c[1]}
+                         for (d, _), F, c in zip(owners, distinct.values(), certs) if c]})
     print("all distinct APN instances:", all_instances, flush=True)
     os.makedirs(os.path.join(ROOT, "data"), exist_ok=True)
     with open(os.path.join(ROOT, "data", "n10_known_classes.json"), "w") as f:

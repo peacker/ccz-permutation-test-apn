@@ -43,7 +43,7 @@ def sources(n):
 
 def main():
     a = parser(__doc__).parse_args()
-    out = {}
+    out, certs = {}, {}
     for n in (6, 8, 9, 10):
         ccz_results = []
 
@@ -56,6 +56,7 @@ def main():
 
         print(f"n = {n}", flush=True)
         res = closure(sources(n), n, on_new_class=on_new)
+        certs[str(n)] = {"references": res["reference_tables"], "certificates": res["certificate_list"]}
         out[str(n)] = {"sources": len(sources(n)), "classes_reached": res["class_count"],
                        "distinct_invariants": res["distinct_invariants"],
                        "certificates": res["certificates"],
@@ -64,6 +65,7 @@ def main():
         print(f"  n = {n}: {res['class_count']} quadratic classes, complete {res['complete']}, "
               f"non-quadratic switchings: {len(res['nonquadratic'])}", flush=True)
     save("e05_switching_walks", out)
+    save("ea_certificates_e05", {"meaning": "instance + L1 o reference o L2 is affine", **certs})
 
 
 if __name__ == "__main__":

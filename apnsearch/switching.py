@@ -204,7 +204,7 @@ def closure(sources, n, on_new_class=None, log=print, threads=None):
     reachable from the sources. Non-quadratic switchings are recorded but not switched further.
     """
     from . import equivalence
-    reps, by_inv, nonquad, stats = [], {}, [], []
+    reps, by_inv, nonquad, stats, certs = [], {}, [], [], []
     certificates = 0
 
     def lookup(G):
@@ -215,6 +215,8 @@ def closure(sources, n, on_new_class=None, log=print, threads=None):
             if cert is not None:
                 assert equivalence.check_certificate(reps[i][1], G, n, *cert)
                 certificates += 1
+                certs.append({"reference": reps[i][0], "instance_table": np.asarray(G).tolist(),
+                              "L1": [int(c) for c in cert[0]], "L2": [int(c) for c in cert[1]]})
                 return i
         return None
 
@@ -270,4 +272,6 @@ def closure(sources, n, on_new_class=None, log=print, threads=None):
     return {"classes": [(lab, F.tolist()) for lab, F, _ in reps if algebraic_degree(F, n) == 2],
             "class_count": sum(len(v) for v in by_inv.values()),
             "distinct_invariants": len(by_inv), "certificates": certificates,
+            "certificate_list": certs,
+            "reference_tables": {lab: np.asarray(F).tolist() for lab, F, _ in reps},
             "nonquadratic": nonquad, "stats": stats, "complete": True}

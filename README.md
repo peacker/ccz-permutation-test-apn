@@ -28,6 +28,7 @@ python3 -m pytest tests -q      # unit tests, a few seconds
 ./run_all.sh --quick            # E1-E7, E9 and E11 with reduced budgets, then verify.py (~30 min)
 ./run_all.sh                    # full budgets (a few hours on 18 cores)
 python3 verify.py               # check the numbers of the paper against results/*.json
+python3 check_certificates.py   # re-check every stored EA-equivalence certificate (NumPy only)
 ```
 
 The `results/` directory already contains the output of the full runs used in the paper, so
@@ -47,7 +48,7 @@ The `results/` directory already contains the output of the full runs used in th
 | `apnsearch/families.py` | known APN functions used in the experiments (power functions, Kim, Edel-Pott, F3/F4/F12/F13 in dimension 10, Beierle-Leander data, and the further dimension-10 sources of E11) |
 | `experiments/e0*.py` | one script per experiment, writing `results/<name>.json` |
 | `data/` | `n10_known_classes.json` (written by E4); `n10_25_classes.json` (the 25 classes of dimension ten: representative lookup table, source, invariant, M, what excludes a permutation, certified members; written by `experiments/manifest_n10.py`); `apn_10bit.txt` (downloaded from Zenodo by E4) |
-| `results/` | results of the full runs; `e08_raw/` contains the tree-search solutions |
+| `results/` | results of the full runs; `e08_raw/` contains the tree-search solutions; `ea_certificates_e04/e05/e11.json` contain every EA-equivalence certificate (L1, L2) with the two tables, checked by `check_certificates.py`; `SHA256SUMS` |
 
 ## Experiments and paper items
 
@@ -64,7 +65,7 @@ The `results/` directory already contains the output of the full runs used in th
 | `e12_benchmark_sboxu.py` | Table 3, Sec. 8.3 | projection test vs the generic search of sboxU on the same machine (`sage -python`, sboxU installed; functions in `results/e12_bench_functions.json`); results in `results/e12_benchmark_sboxu_small.json` (n <= 10) and `results/e12_benchmark_sboxu_n12.json` | ~2 h, mostly sboxU at n = 12 |
 | `e09_f4_family.py` | Table 2, Sec. 7, 8.5 | x^3 + a^-1 Tr(a^3 x^9) for n = 6, 10, 14; subspaces of the cubes | ~5 min |
 | `e10_symmetry_check.py` | Sec. 7.1, 8.5 | orbit-pruned search vs plain search with the same groups: n = 14 (dimensions 5-8) and n = 18 (dimensions 9, 10), a in {1, alpha, alpha^2} | n = 14: ~3 min (laptop); n = 18: ~30 min on 128 threads |
-| `e10_n18_failure_stage.py` | Sec. 7.1 | where Theorem 8 fails for the three 9-dimensional candidate projections at n = 18, a = 1 | ~1 min |
+| `e10_n18_failure_stage.py` | Sec. 7.1 | where Theorem 8 fails for the three 9-dimensional candidate projections at n = 18, a = 1, with an infeasibility witness for each of the nine linear systems (checked by `verify.py`) | ~1 min |
 | `e10_f4_n18.py`, `e10_lanes.py`, `e10_cost_sample.py` | Table 2, Cor. 11, Sec. 7, 8.5 | the same family for n = 18 and n = 22: `e10_f4_n18.py --n 22 --a 1 --sym --dims m` (one run); for a = alpha `e10_lanes.py` splits the search into 12 lanes that can run on several machines with checkpoints (`prepare`, `run`, `status`, `merge`; the lane data are in `results/n22_a2_lanes/`, so `merge` can be rerun); `e10_cost_sample.py` times a matched sample of 800 searches for a = 1 and a = alpha (cost per search, total thread-hours) | n = 18: ~20 min on 128 threads; n = 22: ~63 h (a = 1, 128 threads), ~3 days (a = alpha, up to 600 threads); cost sample ~2 h on 200 threads |
 | `e08_tree_search.py` | Sec. 8.7 | tree search of Beierle and Leander for n = 10 (`build`, `sweep`, `campaign`, `collect`) | 1 h sweep + campaign |
 
