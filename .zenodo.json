@@ -1,0 +1,22 @@
+{
+  "title": "Code and data for \"Testing CCZ-equivalence to permutations via projections of Walsh zero spaces, with applications to APN functions\"",
+  "upload_type": "software",
+  "version": "1.0",
+  "creators": [
+    {
+      "name": "Bellini, Emanuele",
+      "affiliation": "Technology Innovation Institute, Abu Dhabi, UAE",
+      "orcid": "0000-0002-2349-0247"
+    }
+  ],
+  "description": "Scripts, C and Python sources, generated data and expected results of the paper by E. Bellini, \"Testing CCZ-equivalence to permutations via projections of Walsh zero spaces, with applications to APN functions\", submitted to Cryptography and Communications. The repository contains the projection test for CCZ-equivalence to a permutation, the exact switching closure with EA-equivalence certificates, the searches for the family x^3 + a^-1 Tr(a^3 x^9) up to dimension 22, and one script per experiment, with verify.py and check_certificates.py to check the reported numbers and certificates.",
+  "license": "MIT",
+  "keywords": [
+    "APN permutation",
+    "big APN problem",
+    "CCZ-equivalence",
+    "Walsh zero space",
+    "switching construction",
+    "vectorial Boolean function"
+  ]
+}
