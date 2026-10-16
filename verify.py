@@ -146,6 +146,22 @@ if e7:
     check("Sec. 8.7: every distinct APN function of E7 tested individually, none CCZ to a permutation",
           e7.get("tested") == e7.get("distinct") and set(e7.get("verdicts", {})) == {"none"},
           f"{e7.get('tested')} of {e7.get('distinct')}")
+    pf = e7.get("per_family", [])
+
+    def _stop_ok(f):
+        if f["exponents"] == 0:
+            return f["stop"] == "no exponents" and f["candidates"] == f["apn_hits"] == 0
+        if f["candidates"] != f["executed_batches"] * f["batch_size"]:
+            return False
+        if f["stop"] == "budget":
+            return f["executed_batches"] == f["max_batches"]
+        return f["stop"] == "APN cap" and f["apn_hits"] >= 2000 and f["executed_batches"] < f["max_batches"]
+    check("Sec. 8.7: E7 per-family records sum to the totals, and every family obeys the stopping rule",
+          len(pf) == e7["families"] and sum(f["candidates"] for f in pf) == e7["candidates"]
+          and sum(f["apn_hits"] for f in pf) == e7["apn"] and all(map(_stop_ok, pf))
+          and all(f["tested"] == f["distinct_apn"] for f in pf)
+          and sum(f["permutation_found"] for f in pf) == 0,
+          str({k: sum(1 for f in pf if f["stop"] == k) for k in ("no exponents", "APN cap", "budget")}))
     check("Sec. 8.7: E7 counts (535,492,000 candidates, 166,157 APN, 106,450 distinct, 11 classes)",
           (e7["candidates"], e7["apn"], e7.get("distinct"), len(e7.get("classes", {}))) ==
           (535492000, 166157, 106450, 11))

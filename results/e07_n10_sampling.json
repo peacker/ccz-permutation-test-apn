@@ -1,6 +1,6 @@
 {
  "experiment": "e07_n10_sampling",
- "date": "2026-10-16 10:01:40",
+ "date": "2026-10-16 13:40:57",
  "families": 522,
  "batches_per_family": 2560,
  "candidates": 535492000,
@@ -47,5 +47,8881 @@
    153268
   ]
  },
- "seconds": 890
+ "per_family": [
+  {
+   "family": [
+    "gf2",
+    "0.1"
+   ],
+   "seed": 0,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 45,
+   "executed_batches": 47,
+   "stop": "APN cap",
+   "candidates": 94000,
+   "apn_hits": 2014,
+   "distinct_apn": 185,
+   "tested": 185,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "gf2",
+    "0.2"
+   ],
+   "seed": 1,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 45,
+   "executed_batches": 2434,
+   "stop": "APN cap",
+   "candidates": 4868000,
+   "apn_hits": 2000,
+   "distinct_apn": 335,
+   "tested": 335,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "gf2",
+    "0.35"
+   ],
+   "seed": 2,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 45,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 2,
+   "distinct_apn": 2,
+   "tested": 2,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "gf2",
+    "0.5"
+   ],
+   "seed": 3,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 45,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "subfield",
+    "2"
+   ],
+   "seed": 4,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 45,
+   "executed_batches": 1308,
+   "stop": "APN cap",
+   "candidates": 2616000,
+   "apn_hits": 2000,
+   "distinct_apn": 749,
+   "tested": 749,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "subfield",
+    "5"
+   ],
+   "seed": 5,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 45,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 200,
+   "distinct_apn": 186,
+   "tested": 186,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "sparse",
+    "2"
+   ],
+   "seed": 6,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 45,
+   "executed_batches": 26,
+   "stop": "APN cap",
+   "candidates": 52000,
+   "apn_hits": 2035,
+   "distinct_apn": 2035,
+   "tested": 2035,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "sparse",
+    "3"
+   ],
+   "seed": 7,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 45,
+   "executed_batches": 151,
+   "stop": "APN cap",
+   "candidates": 302000,
+   "apn_hits": 2003,
+   "distinct_apn": 2003,
+   "tested": 2003,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "sparse",
+    "4"
+   ],
+   "seed": 8,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 45,
+   "executed_batches": 1175,
+   "stop": "APN cap",
+   "candidates": 2350000,
+   "apn_hits": 2000,
+   "distinct_apn": 2000,
+   "tested": 2000,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "sparse",
+    "5"
+   ],
+   "seed": 9,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 45,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 635,
+   "distinct_apn": 635,
+   "tested": 635,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(3, 0)"
+   ],
+   "seed": 10,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 25,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(3, 1)"
+   ],
+   "seed": 11,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 10,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(3, 2)"
+   ],
+   "seed": 12,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 10,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(11, 0)"
+   ],
+   "seed": 13,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 5,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(11, 1)"
+   ],
+   "seed": 14,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 4,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 5,
+   "distinct_apn": 5,
+   "tested": 5,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(11, 2)"
+   ],
+   "seed": 15,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 4,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 2,
+   "distinct_apn": 2,
+   "tested": 2,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(11, 3)"
+   ],
+   "seed": 16,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 4,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 2,
+   "distinct_apn": 2,
+   "tested": 2,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(11, 4)"
+   ],
+   "seed": 17,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 4,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 1,
+   "distinct_apn": 1,
+   "tested": 1,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(11, 5)"
+   ],
+   "seed": 18,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 4,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 2,
+   "distinct_apn": 2,
+   "tested": 2,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(11, 6)"
+   ],
+   "seed": 19,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 4,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 2,
+   "distinct_apn": 2,
+   "tested": 2,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(11, 7)"
+   ],
+   "seed": 20,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 4,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 3,
+   "distinct_apn": 3,
+   "tested": 3,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(11, 8)"
+   ],
+   "seed": 21,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 4,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 2,
+   "distinct_apn": 2,
+   "tested": 2,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(11, 9)"
+   ],
+   "seed": 22,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 4,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 2,
+   "distinct_apn": 2,
+   "tested": 2,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(11, 10)"
+   ],
+   "seed": 23,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 4,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(31, 0)"
+   ],
+   "seed": 24,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(31, 1)"
+   ],
+   "seed": 25,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(31, 2)"
+   ],
+   "seed": 26,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(31, 3)"
+   ],
+   "seed": 27,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 4,
+   "executed_batches": 2148,
+   "stop": "APN cap",
+   "candidates": 4296000,
+   "apn_hits": 2001,
+   "distinct_apn": 2001,
+   "tested": 2001,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(31, 4)"
+   ],
+   "seed": 28,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(31, 5)"
+   ],
+   "seed": 29,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 4,
+   "executed_batches": 2184,
+   "stop": "APN cap",
+   "candidates": 4368000,
+   "apn_hits": 2001,
+   "distinct_apn": 2001,
+   "tested": 2001,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(31, 6)"
+   ],
+   "seed": 30,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 4,
+   "executed_batches": 2143,
+   "stop": "APN cap",
+   "candidates": 4286000,
+   "apn_hits": 2000,
+   "distinct_apn": 2000,
+   "tested": 2000,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(31, 7)"
+   ],
+   "seed": 31,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(31, 8)"
+   ],
+   "seed": 32,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(31, 9)"
+   ],
+   "seed": 33,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 4,
+   "executed_batches": 2217,
+   "stop": "APN cap",
+   "candidates": 4434000,
+   "apn_hits": 2000,
+   "distinct_apn": 2000,
+   "tested": 2000,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(31, 10)"
+   ],
+   "seed": 34,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 4,
+   "executed_batches": 2193,
+   "stop": "APN cap",
+   "candidates": 4386000,
+   "apn_hits": 2000,
+   "distinct_apn": 2000,
+   "tested": 2000,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(31, 11)"
+   ],
+   "seed": 35,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(31, 12)"
+   ],
+   "seed": 36,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 4,
+   "executed_batches": 2123,
+   "stop": "APN cap",
+   "candidates": 4246000,
+   "apn_hits": 2001,
+   "distinct_apn": 2001,
+   "tested": 2001,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(31, 13)"
+   ],
+   "seed": 37,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(31, 14)"
+   ],
+   "seed": 38,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(31, 15)"
+   ],
+   "seed": 39,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(31, 16)"
+   ],
+   "seed": 40,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(31, 17)"
+   ],
+   "seed": 41,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 4,
+   "executed_batches": 2201,
+   "stop": "APN cap",
+   "candidates": 4402000,
+   "apn_hits": 2000,
+   "distinct_apn": 2000,
+   "tested": 2000,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(31, 18)"
+   ],
+   "seed": 42,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 4,
+   "executed_batches": 2208,
+   "stop": "APN cap",
+   "candidates": 4416000,
+   "apn_hits": 2000,
+   "distinct_apn": 2000,
+   "tested": 2000,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(31, 19)"
+   ],
+   "seed": 43,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(31, 20)"
+   ],
+   "seed": 44,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 4,
+   "executed_batches": 2171,
+   "stop": "APN cap",
+   "candidates": 4342000,
+   "apn_hits": 2000,
+   "distinct_apn": 2000,
+   "tested": 2000,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(31, 21)"
+   ],
+   "seed": 45,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(31, 22)"
+   ],
+   "seed": 46,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(31, 23)"
+   ],
+   "seed": 47,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(31, 24)"
+   ],
+   "seed": 48,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 4,
+   "executed_batches": 2157,
+   "stop": "APN cap",
+   "candidates": 4314000,
+   "apn_hits": 2001,
+   "distinct_apn": 2001,
+   "tested": 2001,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(31, 25)"
+   ],
+   "seed": 49,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(31, 26)"
+   ],
+   "seed": 50,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(31, 27)"
+   ],
+   "seed": 51,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(31, 28)"
+   ],
+   "seed": 52,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(31, 29)"
+   ],
+   "seed": 53,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(31, 30)"
+   ],
+   "seed": 54,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(33, 0)"
+   ],
+   "seed": 55,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 5,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(33, 1)"
+   ],
+   "seed": 56,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(33, 2)"
+   ],
+   "seed": 57,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(33, 3)"
+   ],
+   "seed": 58,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 2,
+   "executed_batches": 16,
+   "stop": "APN cap",
+   "candidates": 32000,
+   "apn_hits": 2018,
+   "distinct_apn": 1970,
+   "tested": 1970,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(33, 4)"
+   ],
+   "seed": 59,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(33, 5)"
+   ],
+   "seed": 60,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(33, 6)"
+   ],
+   "seed": 61,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 2,
+   "executed_batches": 17,
+   "stop": "APN cap",
+   "candidates": 34000,
+   "apn_hits": 2065,
+   "distinct_apn": 2028,
+   "tested": 2028,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(33, 7)"
+   ],
+   "seed": 62,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(33, 8)"
+   ],
+   "seed": 63,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(33, 9)"
+   ],
+   "seed": 64,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 2,
+   "executed_batches": 16,
+   "stop": "APN cap",
+   "candidates": 32000,
+   "apn_hits": 2026,
+   "distinct_apn": 1989,
+   "tested": 1989,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(33, 10)"
+   ],
+   "seed": 65,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(33, 11)"
+   ],
+   "seed": 66,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(33, 12)"
+   ],
+   "seed": 67,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 2,
+   "executed_batches": 17,
+   "stop": "APN cap",
+   "candidates": 34000,
+   "apn_hits": 2100,
+   "distinct_apn": 2071,
+   "tested": 2071,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(33, 13)"
+   ],
+   "seed": 68,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(33, 14)"
+   ],
+   "seed": 69,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(33, 15)"
+   ],
+   "seed": 70,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 2,
+   "executed_batches": 16,
+   "stop": "APN cap",
+   "candidates": 32000,
+   "apn_hits": 2045,
+   "distinct_apn": 2014,
+   "tested": 2014,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(33, 16)"
+   ],
+   "seed": 71,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(33, 17)"
+   ],
+   "seed": 72,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(33, 18)"
+   ],
+   "seed": 73,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 2,
+   "executed_batches": 16,
+   "stop": "APN cap",
+   "candidates": 32000,
+   "apn_hits": 2054,
+   "distinct_apn": 2028,
+   "tested": 2028,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(33, 19)"
+   ],
+   "seed": 74,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(33, 20)"
+   ],
+   "seed": 75,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(33, 21)"
+   ],
+   "seed": 76,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 2,
+   "executed_batches": 16,
+   "stop": "APN cap",
+   "candidates": 32000,
+   "apn_hits": 2032,
+   "distinct_apn": 1994,
+   "tested": 1994,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(33, 22)"
+   ],
+   "seed": 77,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(33, 23)"
+   ],
+   "seed": 78,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(33, 24)"
+   ],
+   "seed": 79,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 2,
+   "executed_batches": 16,
+   "stop": "APN cap",
+   "candidates": 32000,
+   "apn_hits": 2109,
+   "distinct_apn": 2070,
+   "tested": 2070,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(33, 25)"
+   ],
+   "seed": 80,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(33, 26)"
+   ],
+   "seed": 81,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(33, 27)"
+   ],
+   "seed": 82,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 2,
+   "executed_batches": 16,
+   "stop": "APN cap",
+   "candidates": 32000,
+   "apn_hits": 2082,
+   "distinct_apn": 2053,
+   "tested": 2053,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(33, 28)"
+   ],
+   "seed": 83,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(33, 29)"
+   ],
+   "seed": 84,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(33, 30)"
+   ],
+   "seed": 85,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 2,
+   "executed_batches": 17,
+   "stop": "APN cap",
+   "candidates": 34000,
+   "apn_hits": 2034,
+   "distinct_apn": 2005,
+   "tested": 2005,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(33, 31)"
+   ],
+   "seed": 86,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(33, 32)"
+   ],
+   "seed": 87,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 0)"
+   ],
+   "seed": 88,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 1)"
+   ],
+   "seed": 89,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 2)"
+   ],
+   "seed": 90,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 3)"
+   ],
+   "seed": 91,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 2,
+   "executed_batches": 2,
+   "stop": "APN cap",
+   "candidates": 4000,
+   "apn_hits": 3888,
+   "distinct_apn": 3880,
+   "tested": 3880,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 4)"
+   ],
+   "seed": 92,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 5)"
+   ],
+   "seed": 93,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 6)"
+   ],
+   "seed": 94,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 2,
+   "executed_batches": 2,
+   "stop": "APN cap",
+   "candidates": 4000,
+   "apn_hits": 3890,
+   "distinct_apn": 3881,
+   "tested": 3881,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 7)"
+   ],
+   "seed": 95,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 8)"
+   ],
+   "seed": 96,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 9)"
+   ],
+   "seed": 97,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 2,
+   "executed_batches": 2,
+   "stop": "APN cap",
+   "candidates": 4000,
+   "apn_hits": 3870,
+   "distinct_apn": 3863,
+   "tested": 3863,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 10)"
+   ],
+   "seed": 98,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 11)"
+   ],
+   "seed": 99,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 12)"
+   ],
+   "seed": 100,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 2,
+   "executed_batches": 2,
+   "stop": "APN cap",
+   "candidates": 4000,
+   "apn_hits": 3875,
+   "distinct_apn": 3864,
+   "tested": 3864,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 13)"
+   ],
+   "seed": 101,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 14)"
+   ],
+   "seed": 102,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 15)"
+   ],
+   "seed": 103,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 16)"
+   ],
+   "seed": 104,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 17)"
+   ],
+   "seed": 105,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 18)"
+   ],
+   "seed": 106,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 2,
+   "executed_batches": 2,
+   "stop": "APN cap",
+   "candidates": 4000,
+   "apn_hits": 3871,
+   "distinct_apn": 3863,
+   "tested": 3863,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 19)"
+   ],
+   "seed": 107,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 20)"
+   ],
+   "seed": 108,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 21)"
+   ],
+   "seed": 109,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 22)"
+   ],
+   "seed": 110,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 23)"
+   ],
+   "seed": 111,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 24)"
+   ],
+   "seed": 112,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 2,
+   "executed_batches": 2,
+   "stop": "APN cap",
+   "candidates": 4000,
+   "apn_hits": 3867,
+   "distinct_apn": 3858,
+   "tested": 3858,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 25)"
+   ],
+   "seed": 113,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 26)"
+   ],
+   "seed": 114,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 27)"
+   ],
+   "seed": 115,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 28)"
+   ],
+   "seed": 116,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 29)"
+   ],
+   "seed": 117,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 30)"
+   ],
+   "seed": 118,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 31)"
+   ],
+   "seed": 119,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 32)"
+   ],
+   "seed": 120,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 33)"
+   ],
+   "seed": 121,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 34)"
+   ],
+   "seed": 122,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 35)"
+   ],
+   "seed": 123,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 36)"
+   ],
+   "seed": 124,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 2,
+   "executed_batches": 2,
+   "stop": "APN cap",
+   "candidates": 4000,
+   "apn_hits": 3880,
+   "distinct_apn": 3872,
+   "tested": 3872,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 37)"
+   ],
+   "seed": 125,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 38)"
+   ],
+   "seed": 126,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 39)"
+   ],
+   "seed": 127,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 40)"
+   ],
+   "seed": 128,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 41)"
+   ],
+   "seed": 129,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 42)"
+   ],
+   "seed": 130,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 43)"
+   ],
+   "seed": 131,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 44)"
+   ],
+   "seed": 132,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 45)"
+   ],
+   "seed": 133,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 46)"
+   ],
+   "seed": 134,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 47)"
+   ],
+   "seed": 135,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 48)"
+   ],
+   "seed": 136,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 2,
+   "executed_batches": 2,
+   "stop": "APN cap",
+   "candidates": 4000,
+   "apn_hits": 3882,
+   "distinct_apn": 3870,
+   "tested": 3870,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 49)"
+   ],
+   "seed": 137,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 50)"
+   ],
+   "seed": 138,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 51)"
+   ],
+   "seed": 139,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 2,
+   "executed_batches": 2,
+   "stop": "APN cap",
+   "candidates": 4000,
+   "apn_hits": 3860,
+   "distinct_apn": 3849,
+   "tested": 3849,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 52)"
+   ],
+   "seed": 140,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 53)"
+   ],
+   "seed": 141,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 54)"
+   ],
+   "seed": 142,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 55)"
+   ],
+   "seed": 143,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 56)"
+   ],
+   "seed": 144,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 57)"
+   ],
+   "seed": 145,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 58)"
+   ],
+   "seed": 146,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 59)"
+   ],
+   "seed": 147,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 60)"
+   ],
+   "seed": 148,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 61)"
+   ],
+   "seed": 149,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 62)"
+   ],
+   "seed": 150,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 63)"
+   ],
+   "seed": 151,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 64)"
+   ],
+   "seed": 152,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 65)"
+   ],
+   "seed": 153,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 66)"
+   ],
+   "seed": 154,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 67)"
+   ],
+   "seed": 155,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 68)"
+   ],
+   "seed": 156,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 69)"
+   ],
+   "seed": 157,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 70)"
+   ],
+   "seed": 158,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 71)"
+   ],
+   "seed": 159,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 72)"
+   ],
+   "seed": 160,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 2,
+   "executed_batches": 2,
+   "stop": "APN cap",
+   "candidates": 4000,
+   "apn_hits": 3868,
+   "distinct_apn": 3861,
+   "tested": 3861,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 73)"
+   ],
+   "seed": 161,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 74)"
+   ],
+   "seed": 162,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 75)"
+   ],
+   "seed": 163,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 76)"
+   ],
+   "seed": 164,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 77)"
+   ],
+   "seed": 165,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 78)"
+   ],
+   "seed": 166,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 79)"
+   ],
+   "seed": 167,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 80)"
+   ],
+   "seed": 168,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 81)"
+   ],
+   "seed": 169,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 82)"
+   ],
+   "seed": 170,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 83)"
+   ],
+   "seed": 171,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 84)"
+   ],
+   "seed": 172,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 85)"
+   ],
+   "seed": 173,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 86)"
+   ],
+   "seed": 174,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 87)"
+   ],
+   "seed": 175,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 88)"
+   ],
+   "seed": 176,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 89)"
+   ],
+   "seed": 177,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 90)"
+   ],
+   "seed": 178,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 91)"
+   ],
+   "seed": 179,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(93, 92)"
+   ],
+   "seed": 180,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 0)"
+   ],
+   "seed": 181,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 1)"
+   ],
+   "seed": 182,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 2)"
+   ],
+   "seed": 183,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 3)"
+   ],
+   "seed": 184,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2,
+   "stop": "APN cap",
+   "candidates": 4000,
+   "apn_hits": 3994,
+   "distinct_apn": 999,
+   "tested": 999,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 4)"
+   ],
+   "seed": 185,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 5)"
+   ],
+   "seed": 186,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 6)"
+   ],
+   "seed": 187,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2,
+   "stop": "APN cap",
+   "candidates": 4000,
+   "apn_hits": 3997,
+   "distinct_apn": 1000,
+   "tested": 1000,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 7)"
+   ],
+   "seed": 188,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 8)"
+   ],
+   "seed": 189,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 9)"
+   ],
+   "seed": 190,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 1,
+   "stop": "APN cap",
+   "candidates": 2000,
+   "apn_hits": 2000,
+   "distinct_apn": 873,
+   "tested": 873,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 10)"
+   ],
+   "seed": 191,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 11)"
+   ],
+   "seed": 192,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 12)"
+   ],
+   "seed": 193,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2,
+   "stop": "APN cap",
+   "candidates": 4000,
+   "apn_hits": 3996,
+   "distinct_apn": 1001,
+   "tested": 1001,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 13)"
+   ],
+   "seed": 194,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 14)"
+   ],
+   "seed": 195,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 15)"
+   ],
+   "seed": 196,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 16)"
+   ],
+   "seed": 197,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 17)"
+   ],
+   "seed": 198,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 18)"
+   ],
+   "seed": 199,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2,
+   "stop": "APN cap",
+   "candidates": 4000,
+   "apn_hits": 3996,
+   "distinct_apn": 999,
+   "tested": 999,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 19)"
+   ],
+   "seed": 200,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 20)"
+   ],
+   "seed": 201,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 21)"
+   ],
+   "seed": 202,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 22)"
+   ],
+   "seed": 203,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 23)"
+   ],
+   "seed": 204,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 24)"
+   ],
+   "seed": 205,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2,
+   "stop": "APN cap",
+   "candidates": 4000,
+   "apn_hits": 3996,
+   "distinct_apn": 1007,
+   "tested": 1007,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 25)"
+   ],
+   "seed": 206,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 26)"
+   ],
+   "seed": 207,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 27)"
+   ],
+   "seed": 208,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 28)"
+   ],
+   "seed": 209,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 29)"
+   ],
+   "seed": 210,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 30)"
+   ],
+   "seed": 211,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 31)"
+   ],
+   "seed": 212,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 32)"
+   ],
+   "seed": 213,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 33)"
+   ],
+   "seed": 214,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 34)"
+   ],
+   "seed": 215,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 35)"
+   ],
+   "seed": 216,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 36)"
+   ],
+   "seed": 217,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 1,
+   "stop": "APN cap",
+   "candidates": 2000,
+   "apn_hits": 2000,
+   "distinct_apn": 861,
+   "tested": 861,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 37)"
+   ],
+   "seed": 218,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 38)"
+   ],
+   "seed": 219,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 39)"
+   ],
+   "seed": 220,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 40)"
+   ],
+   "seed": 221,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 41)"
+   ],
+   "seed": 222,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 42)"
+   ],
+   "seed": 223,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 43)"
+   ],
+   "seed": 224,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 1,
+   "stop": "APN cap",
+   "candidates": 2000,
+   "apn_hits": 2000,
+   "distinct_apn": 878,
+   "tested": 878,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 44)"
+   ],
+   "seed": 225,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 45)"
+   ],
+   "seed": 226,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 46)"
+   ],
+   "seed": 227,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 47)"
+   ],
+   "seed": 228,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 48)"
+   ],
+   "seed": 229,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2,
+   "stop": "APN cap",
+   "candidates": 4000,
+   "apn_hits": 3998,
+   "distinct_apn": 1001,
+   "tested": 1001,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 49)"
+   ],
+   "seed": 230,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 50)"
+   ],
+   "seed": 231,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 51)"
+   ],
+   "seed": 232,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 52)"
+   ],
+   "seed": 233,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 53)"
+   ],
+   "seed": 234,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 54)"
+   ],
+   "seed": 235,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 55)"
+   ],
+   "seed": 236,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 56)"
+   ],
+   "seed": 237,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 57)"
+   ],
+   "seed": 238,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 58)"
+   ],
+   "seed": 239,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 59)"
+   ],
+   "seed": 240,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 60)"
+   ],
+   "seed": 241,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 61)"
+   ],
+   "seed": 242,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 62)"
+   ],
+   "seed": 243,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 63)"
+   ],
+   "seed": 244,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 64)"
+   ],
+   "seed": 245,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 65)"
+   ],
+   "seed": 246,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 66)"
+   ],
+   "seed": 247,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 67)"
+   ],
+   "seed": 248,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 68)"
+   ],
+   "seed": 249,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 69)"
+   ],
+   "seed": 250,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 70)"
+   ],
+   "seed": 251,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 71)"
+   ],
+   "seed": 252,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 72)"
+   ],
+   "seed": 253,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2,
+   "stop": "APN cap",
+   "candidates": 4000,
+   "apn_hits": 3997,
+   "distinct_apn": 1004,
+   "tested": 1004,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 73)"
+   ],
+   "seed": 254,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 74)"
+   ],
+   "seed": 255,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 75)"
+   ],
+   "seed": 256,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 76)"
+   ],
+   "seed": 257,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 77)"
+   ],
+   "seed": 258,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 78)"
+   ],
+   "seed": 259,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 79)"
+   ],
+   "seed": 260,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 80)"
+   ],
+   "seed": 261,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 81)"
+   ],
+   "seed": 262,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 82)"
+   ],
+   "seed": 263,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 83)"
+   ],
+   "seed": 264,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 84)"
+   ],
+   "seed": 265,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 85)"
+   ],
+   "seed": 266,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 86)"
+   ],
+   "seed": 267,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2,
+   "stop": "APN cap",
+   "candidates": 4000,
+   "apn_hits": 3994,
+   "distinct_apn": 996,
+   "tested": 996,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 87)"
+   ],
+   "seed": 268,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 88)"
+   ],
+   "seed": 269,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 89)"
+   ],
+   "seed": 270,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 90)"
+   ],
+   "seed": 271,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 91)"
+   ],
+   "seed": 272,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 92)"
+   ],
+   "seed": 273,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 93)"
+   ],
+   "seed": 274,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 94)"
+   ],
+   "seed": 275,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 95)"
+   ],
+   "seed": 276,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 96)"
+   ],
+   "seed": 277,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2,
+   "stop": "APN cap",
+   "candidates": 4000,
+   "apn_hits": 3993,
+   "distinct_apn": 999,
+   "tested": 999,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 97)"
+   ],
+   "seed": 278,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 98)"
+   ],
+   "seed": 279,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 99)"
+   ],
+   "seed": 280,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 100)"
+   ],
+   "seed": 281,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 101)"
+   ],
+   "seed": 282,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 102)"
+   ],
+   "seed": 283,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 103)"
+   ],
+   "seed": 284,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 104)"
+   ],
+   "seed": 285,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 105)"
+   ],
+   "seed": 286,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 106)"
+   ],
+   "seed": 287,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 107)"
+   ],
+   "seed": 288,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 108)"
+   ],
+   "seed": 289,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 109)"
+   ],
+   "seed": 290,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 110)"
+   ],
+   "seed": 291,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 111)"
+   ],
+   "seed": 292,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 112)"
+   ],
+   "seed": 293,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 113)"
+   ],
+   "seed": 294,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 114)"
+   ],
+   "seed": 295,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 115)"
+   ],
+   "seed": 296,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 116)"
+   ],
+   "seed": 297,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 117)"
+   ],
+   "seed": 298,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 118)"
+   ],
+   "seed": 299,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 119)"
+   ],
+   "seed": 300,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 120)"
+   ],
+   "seed": 301,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 121)"
+   ],
+   "seed": 302,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 122)"
+   ],
+   "seed": 303,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 123)"
+   ],
+   "seed": 304,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 124)"
+   ],
+   "seed": 305,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 125)"
+   ],
+   "seed": 306,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 126)"
+   ],
+   "seed": 307,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 127)"
+   ],
+   "seed": 308,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 128)"
+   ],
+   "seed": 309,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 129)"
+   ],
+   "seed": 310,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2,
+   "stop": "APN cap",
+   "candidates": 4000,
+   "apn_hits": 3996,
+   "distinct_apn": 1000,
+   "tested": 1000,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 130)"
+   ],
+   "seed": 311,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 131)"
+   ],
+   "seed": 312,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 132)"
+   ],
+   "seed": 313,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 133)"
+   ],
+   "seed": 314,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 134)"
+   ],
+   "seed": 315,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 135)"
+   ],
+   "seed": 316,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 136)"
+   ],
+   "seed": 317,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 137)"
+   ],
+   "seed": 318,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 138)"
+   ],
+   "seed": 319,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 139)"
+   ],
+   "seed": 320,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 140)"
+   ],
+   "seed": 321,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 141)"
+   ],
+   "seed": 322,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 142)"
+   ],
+   "seed": 323,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 143)"
+   ],
+   "seed": 324,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 144)"
+   ],
+   "seed": 325,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2,
+   "stop": "APN cap",
+   "candidates": 4000,
+   "apn_hits": 3995,
+   "distinct_apn": 1000,
+   "tested": 1000,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 145)"
+   ],
+   "seed": 326,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 146)"
+   ],
+   "seed": 327,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 147)"
+   ],
+   "seed": 328,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 148)"
+   ],
+   "seed": 329,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 149)"
+   ],
+   "seed": 330,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 150)"
+   ],
+   "seed": 331,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 151)"
+   ],
+   "seed": 332,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 152)"
+   ],
+   "seed": 333,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 153)"
+   ],
+   "seed": 334,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 154)"
+   ],
+   "seed": 335,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 155)"
+   ],
+   "seed": 336,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 156)"
+   ],
+   "seed": 337,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 157)"
+   ],
+   "seed": 338,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 158)"
+   ],
+   "seed": 339,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 159)"
+   ],
+   "seed": 340,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 160)"
+   ],
+   "seed": 341,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 161)"
+   ],
+   "seed": 342,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 162)"
+   ],
+   "seed": 343,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 163)"
+   ],
+   "seed": 344,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 164)"
+   ],
+   "seed": 345,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 165)"
+   ],
+   "seed": 346,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 166)"
+   ],
+   "seed": 347,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 167)"
+   ],
+   "seed": 348,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 168)"
+   ],
+   "seed": 349,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 169)"
+   ],
+   "seed": 350,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 170)"
+   ],
+   "seed": 351,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 171)"
+   ],
+   "seed": 352,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 172)"
+   ],
+   "seed": 353,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2,
+   "stop": "APN cap",
+   "candidates": 4000,
+   "apn_hits": 3998,
+   "distinct_apn": 1003,
+   "tested": 1003,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 173)"
+   ],
+   "seed": 354,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 174)"
+   ],
+   "seed": 355,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 175)"
+   ],
+   "seed": 356,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2,
+   "stop": "APN cap",
+   "candidates": 4000,
+   "apn_hits": 3998,
+   "distinct_apn": 1002,
+   "tested": 1002,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 176)"
+   ],
+   "seed": 357,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 177)"
+   ],
+   "seed": 358,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 178)"
+   ],
+   "seed": 359,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 179)"
+   ],
+   "seed": 360,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 180)"
+   ],
+   "seed": 361,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 181)"
+   ],
+   "seed": 362,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 182)"
+   ],
+   "seed": 363,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 183)"
+   ],
+   "seed": 364,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 184)"
+   ],
+   "seed": 365,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 185)"
+   ],
+   "seed": 366,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 186)"
+   ],
+   "seed": 367,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 187)"
+   ],
+   "seed": 368,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 188)"
+   ],
+   "seed": 369,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 189)"
+   ],
+   "seed": 370,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 190)"
+   ],
+   "seed": 371,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 191)"
+   ],
+   "seed": 372,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 192)"
+   ],
+   "seed": 373,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2,
+   "stop": "APN cap",
+   "candidates": 4000,
+   "apn_hits": 3994,
+   "distinct_apn": 1010,
+   "tested": 1010,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 193)"
+   ],
+   "seed": 374,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 194)"
+   ],
+   "seed": 375,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 195)"
+   ],
+   "seed": 376,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 196)"
+   ],
+   "seed": 377,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 197)"
+   ],
+   "seed": 378,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 198)"
+   ],
+   "seed": 379,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 199)"
+   ],
+   "seed": 380,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 200)"
+   ],
+   "seed": 381,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 201)"
+   ],
+   "seed": 382,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 202)"
+   ],
+   "seed": 383,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 203)"
+   ],
+   "seed": 384,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 204)"
+   ],
+   "seed": 385,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 205)"
+   ],
+   "seed": 386,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 206)"
+   ],
+   "seed": 387,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 207)"
+   ],
+   "seed": 388,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 208)"
+   ],
+   "seed": 389,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 209)"
+   ],
+   "seed": 390,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 210)"
+   ],
+   "seed": 391,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 211)"
+   ],
+   "seed": 392,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 212)"
+   ],
+   "seed": 393,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 213)"
+   ],
+   "seed": 394,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 214)"
+   ],
+   "seed": 395,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 215)"
+   ],
+   "seed": 396,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 216)"
+   ],
+   "seed": 397,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 217)"
+   ],
+   "seed": 398,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 218)"
+   ],
+   "seed": 399,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 219)"
+   ],
+   "seed": 400,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 220)"
+   ],
+   "seed": 401,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 221)"
+   ],
+   "seed": 402,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 222)"
+   ],
+   "seed": 403,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 223)"
+   ],
+   "seed": 404,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 224)"
+   ],
+   "seed": 405,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 225)"
+   ],
+   "seed": 406,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 226)"
+   ],
+   "seed": 407,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 227)"
+   ],
+   "seed": 408,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 228)"
+   ],
+   "seed": 409,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 229)"
+   ],
+   "seed": 410,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 230)"
+   ],
+   "seed": 411,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 231)"
+   ],
+   "seed": 412,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 232)"
+   ],
+   "seed": 413,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 233)"
+   ],
+   "seed": 414,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 234)"
+   ],
+   "seed": 415,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 235)"
+   ],
+   "seed": 416,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2,
+   "stop": "APN cap",
+   "candidates": 4000,
+   "apn_hits": 3995,
+   "distinct_apn": 1003,
+   "tested": 1003,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 236)"
+   ],
+   "seed": 417,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 237)"
+   ],
+   "seed": 418,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 238)"
+   ],
+   "seed": 419,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 239)"
+   ],
+   "seed": 420,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 240)"
+   ],
+   "seed": 421,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 241)"
+   ],
+   "seed": 422,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 242)"
+   ],
+   "seed": 423,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 243)"
+   ],
+   "seed": 424,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 244)"
+   ],
+   "seed": 425,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 245)"
+   ],
+   "seed": 426,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 246)"
+   ],
+   "seed": 427,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 247)"
+   ],
+   "seed": 428,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 248)"
+   ],
+   "seed": 429,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 249)"
+   ],
+   "seed": 430,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 250)"
+   ],
+   "seed": 431,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 251)"
+   ],
+   "seed": 432,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 252)"
+   ],
+   "seed": 433,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 253)"
+   ],
+   "seed": 434,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 254)"
+   ],
+   "seed": 435,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 255)"
+   ],
+   "seed": 436,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 256)"
+   ],
+   "seed": 437,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 257)"
+   ],
+   "seed": 438,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 258)"
+   ],
+   "seed": 439,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2,
+   "stop": "APN cap",
+   "candidates": 4000,
+   "apn_hits": 3995,
+   "distinct_apn": 996,
+   "tested": 996,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 259)"
+   ],
+   "seed": 440,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 260)"
+   ],
+   "seed": 441,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 261)"
+   ],
+   "seed": 442,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 262)"
+   ],
+   "seed": 443,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 263)"
+   ],
+   "seed": 444,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 264)"
+   ],
+   "seed": 445,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 265)"
+   ],
+   "seed": 446,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 266)"
+   ],
+   "seed": 447,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 267)"
+   ],
+   "seed": 448,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 268)"
+   ],
+   "seed": 449,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 269)"
+   ],
+   "seed": 450,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 270)"
+   ],
+   "seed": 451,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 271)"
+   ],
+   "seed": 452,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 272)"
+   ],
+   "seed": 453,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 273)"
+   ],
+   "seed": 454,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 274)"
+   ],
+   "seed": 455,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 275)"
+   ],
+   "seed": 456,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 276)"
+   ],
+   "seed": 457,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 277)"
+   ],
+   "seed": 458,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 278)"
+   ],
+   "seed": 459,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 279)"
+   ],
+   "seed": 460,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 280)"
+   ],
+   "seed": 461,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 281)"
+   ],
+   "seed": 462,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 282)"
+   ],
+   "seed": 463,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 283)"
+   ],
+   "seed": 464,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 284)"
+   ],
+   "seed": 465,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 285)"
+   ],
+   "seed": 466,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 286)"
+   ],
+   "seed": 467,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 287)"
+   ],
+   "seed": 468,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 288)"
+   ],
+   "seed": 469,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2,
+   "stop": "APN cap",
+   "candidates": 4000,
+   "apn_hits": 3995,
+   "distinct_apn": 1004,
+   "tested": 1004,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 289)"
+   ],
+   "seed": 470,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 290)"
+   ],
+   "seed": 471,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 291)"
+   ],
+   "seed": 472,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 292)"
+   ],
+   "seed": 473,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 293)"
+   ],
+   "seed": 474,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 294)"
+   ],
+   "seed": 475,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 295)"
+   ],
+   "seed": 476,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 296)"
+   ],
+   "seed": 477,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 297)"
+   ],
+   "seed": 478,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 298)"
+   ],
+   "seed": 479,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 299)"
+   ],
+   "seed": 480,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 300)"
+   ],
+   "seed": 481,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 301)"
+   ],
+   "seed": 482,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 302)"
+   ],
+   "seed": 483,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 303)"
+   ],
+   "seed": 484,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 304)"
+   ],
+   "seed": 485,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 305)"
+   ],
+   "seed": 486,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 306)"
+   ],
+   "seed": 487,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 307)"
+   ],
+   "seed": 488,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 308)"
+   ],
+   "seed": 489,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 309)"
+   ],
+   "seed": 490,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 310)"
+   ],
+   "seed": 491,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 311)"
+   ],
+   "seed": 492,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 312)"
+   ],
+   "seed": 493,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 313)"
+   ],
+   "seed": 494,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 314)"
+   ],
+   "seed": 495,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 315)"
+   ],
+   "seed": 496,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 316)"
+   ],
+   "seed": 497,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 317)"
+   ],
+   "seed": 498,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 318)"
+   ],
+   "seed": 499,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 319)"
+   ],
+   "seed": 500,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 320)"
+   ],
+   "seed": 501,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 1,
+   "executed_batches": 2560,
+   "stop": "budget",
+   "candidates": 5120000,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 321)"
+   ],
+   "seed": 502,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 322)"
+   ],
+   "seed": 503,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 323)"
+   ],
+   "seed": 504,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 324)"
+   ],
+   "seed": 505,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 325)"
+   ],
+   "seed": 506,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 326)"
+   ],
+   "seed": 507,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 327)"
+   ],
+   "seed": 508,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 328)"
+   ],
+   "seed": 509,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 329)"
+   ],
+   "seed": 510,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 330)"
+   ],
+   "seed": 511,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 331)"
+   ],
+   "seed": 512,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 332)"
+   ],
+   "seed": 513,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 333)"
+   ],
+   "seed": 514,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 334)"
+   ],
+   "seed": 515,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 335)"
+   ],
+   "seed": 516,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 336)"
+   ],
+   "seed": 517,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 337)"
+   ],
+   "seed": 518,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 338)"
+   ],
+   "seed": 519,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 339)"
+   ],
+   "seed": 520,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  },
+  {
+   "family": [
+    "residue",
+    "(341, 340)"
+   ],
+   "seed": 521,
+   "max_batches": 2560,
+   "batch_size": 2000,
+   "exponents": 0,
+   "executed_batches": 0,
+   "stop": "no exponents",
+   "candidates": 0,
+   "apn_hits": 0,
+   "distinct_apn": 0,
+   "tested": 0,
+   "permutation_found": 0
+  }
+ ],
+ "seconds": 882
 }

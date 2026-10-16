@@ -5,9 +5,13 @@ E7: sampling symmetry-restricted families of univariate quadratic functions in d
   subfield  c_e in GF(2^k), k | 10, sparse support
   sparse    2-5 random terms
   residue   exponents e = d (mod m), m | 1023 (F(zeta x) = zeta^d F(x), zeta of order m)
-APN-ness from the bilinear matrix (fast.bilinear_apn_filter). Each family gets a fixed budget of
-BATCHES batches of 2000 candidates (seed = index of the family), and at most 2000 APN functions
-are kept per family. Every distinct APN function kept is tested individually with the projection
+APN-ness from the bilinear matrix (fast.bilinear_apn_filter). Each family gets a maximum budget
+of BATCHES batches of 2000 candidates (seed = index of the family). Before each batch the family
+stops if it has already found 2000 APN functions (raw hits, with repetitions), so it can end
+with slightly more; all hits are kept. A residue family whose class contains no quadratic
+exponent has no candidates. results/e07_n10_sampling.json records, for every family, the seed,
+the budget, the batches executed, the candidates, the raw APN hits, the distinct APN functions,
+the stopping reason and the number of functions tested. Every distinct APN function kept is tested individually with the projection
 test, and its ortho-derivative spectra are compared with the 20 known classes
 (data/n10_known_classes.json from e04).
 """
@@ -72,16 +76,18 @@ def worker(args):
     kind, par = fam
     E = exponents_for(fam, exps)
     if not E:
-        return fam, 0, []
+        return fam, 0, [], {"exponents": 0, "executed_batches": 0, "stop": "no exponents"}
     Vs = np.array([V[e] for e in E])                      # (len(E), n, n)
     sub = None
     if kind == "subfield":
         sub = np.array([x for x in range(N) if g.pow(x, 1 << par) == x])
-    tried, hits = 0, []
+    tried, hits, done, stop = 0, [], 0, "budget"
     batch = 2000
     for _ in range(batches):
         if len(hits) >= 2000:
+            stop = "APN cap"
             break
+        done += 1
         if kind == "gf2":
             C = (rng.random((batch, len(E))) < par).astype(np.int64)
         elif kind == "subfield":
@@ -103,7 +109,7 @@ def worker(args):
         tried += batch
         for r in np.nonzero(flags)[0]:
             hits.append([int(c) for c in C[r]])
-    return fam, tried, [(E, c) for c in hits]
+    return fam, tried, [(E, c) for c in hits], {"exponents": len(E), "executed_batches": done, "stop": stop}
 
 
 def table(g, E, coefs):
@@ -138,26 +144,35 @@ def main():
     with ProcessPoolExecutor(a.workers) as ex:
         results = list(ex.map(worker, [(n, fam, batches, s) for s, fam in enumerate(fams)]))
     tried = sum(r[1] for r in results)
-    todo, seen = [], set()
-    for fam, _, hs in results:
+    todo, index = [], {}
+    for fam, _, hs, _ in results:
         for E, c in hs:
             key = (tuple(E), tuple(c))
-            if key not in seen:
-                seen.add(key)
+            if key not in index:
+                index[key] = len(todo)
                 todo.append((fam, E, c))
     apn_total = sum(len(r[2]) for r in results)
     print(f"{len(fams)} families, {tried} candidates, {apn_total} APN, {len(todo)} distinct; testing all",
           flush=True)
     verdicts, classes, new, M = {}, {}, {}, {}
+    verdict_of = {}
     with ProcessPoolExecutor(a.workers) as ex:
         for i, inv, st, m in ex.map(test_job, [(n, i, E, c) for i, (_, E, c) in enumerate(todo)],
                                     chunksize=16):
+            verdict_of[i] = st
             verdicts[st] = verdicts.get(st, 0) + 1
             M[m] = M.get(m, 0) + 1
             if inv in known:
                 classes[known[inv]] = classes.get(known[inv], 0) + 1
             else:
                 new.setdefault(inv, (i, st, m))
+    per_family = []
+    for s_, (fam, tr, hs, info) in enumerate(results):
+        keys = {index[(tuple(E), tuple(c))] for E, c in hs}
+        per_family.append({"family": [str(x) for x in fam], "seed": s_, "max_batches": batches,
+                           "batch_size": 2000, **info, "candidates": tr, "apn_hits": len(hs),
+                           "distinct_apn": len(keys), "tested": sum(1 for k in keys if k in verdict_of),
+                           "permutation_found": sum(1 for k in keys if verdict_of.get(k) == "permutation")})
     rows = []
     for inv, (i, st, m) in new.items():
         fam, E, c = todo[i]
@@ -165,7 +180,7 @@ def main():
                      "verdict": st, "max_dim_NB": m})
         print("NEW class:", rows[-1], flush=True)
     by_kind = {}
-    for fam, tr, hs in results:
+    for fam, tr, hs, _ in results:
         k = fam[0]
         by_kind.setdefault(k, [0, 0])
         by_kind[k][0] += tr
@@ -175,7 +190,8 @@ def main():
                               "tested": sum(verdicts.values()), "verdicts": verdicts,
                               "max_dim_NB": {str(k): v for k, v in sorted(M.items())},
                               "classes": classes, "new_classes": rows,
-                              "by_kind": by_kind, "seconds": round(time.time() - t0)})
+                              "by_kind": by_kind, "per_family": per_family,
+                              "seconds": round(time.time() - t0)})
 
 
 if __name__ == "__main__":
