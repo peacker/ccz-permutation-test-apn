@@ -10,8 +10,10 @@ of BATCHES batches of 2000 candidates (seed = index of the family). Before each 
 stops if it has already found 2000 APN functions (raw hits, with repetitions), so it can end
 with slightly more; all hits are kept. A residue family whose class contains no quadratic
 exponent has no candidates. results/e07_n10_sampling.json records, for every family, the seed,
-the budget, the batches executed, the candidates, the raw APN hits, the distinct APN functions,
-the stopping reason and the number of functions tested. Every distinct APN function kept is tested individually with the projection
+the budget, the batches executed, the APN hits before the last batch, the candidates, the raw
+APN hits, the distinct APN functions, the stopping reason and the number of functions tested.
+results/e07_functions.csv.gz lists every distinct APN function (families that produced it,
+nonzero terms e:c of the polynomial, projection-test verdict, class whose invariant it has). Every distinct APN function kept is tested individually with the projection
 test, and its ortho-derivative spectra are compared with the 20 known classes
 (data/n10_known_classes.json from e04).
 """
@@ -81,13 +83,14 @@ def worker(args):
     sub = None
     if kind == "subfield":
         sub = np.array([x for x in range(N) if g.pow(x, 1 << par) == x])
-    tried, hits, done, stop = 0, [], 0, "budget"
+    tried, hits, done, stop, before_last = 0, [], 0, "budget", 0
     batch = 2000
     for _ in range(batches):
         if len(hits) >= 2000:
             stop = "APN cap"
             break
         done += 1
+        before_last = len(hits)
         if kind == "gf2":
             C = (rng.random((batch, len(E))) < par).astype(np.int64)
         elif kind == "subfield":
@@ -109,7 +112,10 @@ def worker(args):
         tried += batch
         for r in np.nonzero(flags)[0]:
             hits.append([int(c) for c in C[r]])
-    return fam, tried, [(E, c) for c in hits], {"exponents": len(E), "executed_batches": done, "stop": stop}
+    if stop == "budget" and len(hits) >= 2000:
+        stop = "budget (APN cap reached in the final batch)"
+    return fam, tried, [(E, c) for c in hits], {"exponents": len(E), "executed_batches": done, "stop": stop,
+                                                "apn_hits_before_last_batch": before_last}
 
 
 def table(g, E, coefs):
@@ -155,11 +161,12 @@ def main():
     print(f"{len(fams)} families, {tried} candidates, {apn_total} APN, {len(todo)} distinct; testing all",
           flush=True)
     verdicts, classes, new, M = {}, {}, {}, {}
-    verdict_of = {}
+    verdict_of, class_of = {}, {}
     with ProcessPoolExecutor(a.workers) as ex:
         for i, inv, st, m in ex.map(test_job, [(n, i, E, c) for i, (_, E, c) in enumerate(todo)],
                                     chunksize=16):
             verdict_of[i] = st
+            class_of[i] = known.get(inv, "new")
             verdicts[st] = verdicts.get(st, 0) + 1
             M[m] = M.get(m, 0) + 1
             if inv in known:
@@ -173,6 +180,20 @@ def main():
                            "batch_size": 2000, **info, "candidates": tr, "apn_hits": len(hs),
                            "distinct_apn": len(keys), "tested": sum(1 for k in keys if k in verdict_of),
                            "permutation_found": sum(1 for k in keys if verdict_of.get(k) == "permutation")})
+    # one line per distinct function: index, families (seeds) that produced it, nonzero terms
+    # e:c of the polynomial, projection-test verdict, class whose invariant it has
+    fams_of = {}
+    for s_, (fam, tr, hs, info) in enumerate(results):
+        for E, c in hs:
+            fams_of.setdefault(index[(tuple(E), tuple(c))], set()).add(s_)
+    import gzip
+    import io
+    path = os.path.join(ROOT, "results", "e07_functions.csv.gz")
+    with io.TextIOWrapper(gzip.GzipFile(path, "wb", mtime=0)) as f:     # mtime=0: reproducible file
+        f.write("index,families,terms,verdict,invariant_of_class\n")
+        for i, (_, E, c) in enumerate(todo):
+            terms = " ".join(f"{e}:{cc}" for e, cc in zip(E, c) if cc)
+            f.write(f"{i},{';'.join(map(str, sorted(fams_of[i])))},{terms},{verdict_of[i]},{class_of[i]}\n")
     rows = []
     for inv, (i, st, m) in new.items():
         fam, E, c = todo[i]

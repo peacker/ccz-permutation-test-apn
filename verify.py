@@ -155,13 +155,32 @@ if e7:
             return False
         if f["stop"] == "budget":
             return f["executed_batches"] == f["max_batches"]
-        return f["stop"] == "APN cap" and f["apn_hits"] >= 2000 and f["executed_batches"] < f["max_batches"]
+        if f["stop"] == "budget (APN cap reached in the final batch)":
+            return f["executed_batches"] == f["max_batches"] and f["apn_hits"] >= 2000 > f["apn_hits_before_last_batch"]
+        return (f["stop"] == "APN cap" and f["executed_batches"] < f["max_batches"]
+                and f["apn_hits_before_last_batch"] < 2000 <= f["apn_hits"])
     check("Sec. 8.7: E7 per-family records sum to the totals, and every family obeys the stopping rule",
           len(pf) == e7["families"] and sum(f["candidates"] for f in pf) == e7["candidates"]
           and sum(f["apn_hits"] for f in pf) == e7["apn"] and all(map(_stop_ok, pf))
           and all(f["tested"] == f["distinct_apn"] for f in pf)
           and sum(f["permutation_found"] for f in pf) == 0,
           str({k: sum(1 for f in pf if f["stop"] == k) for k in ("no exponents", "APN cap", "budget")}))
+    fpath = os.path.join(R, "e07_functions.csv.gz")
+    if os.path.exists(fpath):
+        import gzip
+        lines = gzip.open(fpath, "rt").read().splitlines()[1:]
+        per_seed, verdicts7 = {}, set()
+        for ln in lines:
+            idx, fams, terms, verdict, cls = ln.split(",")
+            verdicts7.add(verdict)
+            for sd in fams.split(";"):
+                per_seed[int(sd)] = per_seed.get(int(sd), 0) + 1
+        check("Sec. 8.7: E7 per-function list has one line per distinct function, each tested, none a permutation, "
+              "and matches the per-family distinct counts",
+              len(lines) == e7["distinct"] and verdicts7 == {"none"}
+              and all(per_seed.get(f["seed"], 0) == f["distinct_apn"] for f in pf), str(len(lines)))
+    else:
+        failures.append("missing results/e07_functions.csv.gz")
     check("Sec. 8.7: E7 counts (535,492,000 candidates, 166,157 APN, 106,450 distinct, 11 classes)",
           (e7["candidates"], e7["apn"], e7.get("distinct"), len(e7.get("classes", {}))) ==
           (535492000, 166157, 106450, 11))
