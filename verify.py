@@ -175,15 +175,16 @@ if e7:
             verdicts7.add(verdict)
             for sd in fams.split(";"):
                 per_seed[int(sd)] = per_seed.get(int(sd), 0) + 1
-        check("Sec. 8.7: E7 per-function list has one line per distinct function, each tested, none a permutation, "
-              "and matches the per-family distinct counts",
-              len(lines) == e7["distinct"] and verdicts7 == {"none"}
+        check("Sec. 8.7: E7 per-function list has one line per distinct function (unique polynomials), each tested, "
+              "none a permutation, and matches the per-family distinct counts",
+              len(lines) == e7["distinct"] and len({ln.split(",")[2] for ln in lines}) == len(lines)
+              and verdicts7 == {"none"}
               and all(per_seed.get(f["seed"], 0) == f["distinct_apn"] for f in pf), str(len(lines)))
     else:
         failures.append("missing results/e07_functions.csv.gz")
-    check("Sec. 8.7: E7 counts (535,492,000 candidates, 166,157 APN, 106,450 distinct, 11 classes)",
+    check("Sec. 8.7: E7 counts (535,492,000 candidates, 166,157 APN, 105,595 distinct, 11 classes)",
           (e7["candidates"], e7["apn"], e7.get("distinct"), len(e7.get("classes", {}))) ==
-          (535492000, 166157, 106450, 11))
+          (535492000, 166157, 105595, 11))
 
 e8 = load("e08_tree_search")
 if e8:

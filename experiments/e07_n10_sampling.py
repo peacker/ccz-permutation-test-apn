@@ -128,6 +128,12 @@ def table(g, E, coefs):
 
 
 
+def poly_key(E, c):
+    """The polynomial sum c_e x^e as its sorted nonzero terms. Two candidates are the same function
+    if and only if they have the same key (exponents < 2^n - 1), whatever family produced them."""
+    return tuple(sorted((int(e), int(cc)) for e, cc in zip(E, c) if cc))
+
+
 def test_job(args):
     """Ortho-derivative invariant and projection-test verdict of one function."""
     n, i, E, c = args
@@ -153,7 +159,7 @@ def main():
     todo, index = [], {}
     for fam, _, hs, _ in results:
         for E, c in hs:
-            key = (tuple(E), tuple(c))
+            key = poly_key(E, c)
             if key not in index:
                 index[key] = len(todo)
                 todo.append((fam, E, c))
@@ -175,7 +181,7 @@ def main():
                 new.setdefault(inv, (i, st, m))
     per_family = []
     for s_, (fam, tr, hs, info) in enumerate(results):
-        keys = {index[(tuple(E), tuple(c))] for E, c in hs}
+        keys = {index[poly_key(E, c)] for E, c in hs}
         per_family.append({"family": [str(x) for x in fam], "seed": s_, "max_batches": batches,
                            "batch_size": 2000, **info, "candidates": tr, "apn_hits": len(hs),
                            "distinct_apn": len(keys), "tested": sum(1 for k in keys if k in verdict_of),
@@ -185,14 +191,14 @@ def main():
     fams_of = {}
     for s_, (fam, tr, hs, info) in enumerate(results):
         for E, c in hs:
-            fams_of.setdefault(index[(tuple(E), tuple(c))], set()).add(s_)
+            fams_of.setdefault(index[poly_key(E, c)], set()).add(s_)
     import gzip
     import io
     path = os.path.join(ROOT, "results", "e07_functions.csv.gz")
     with io.TextIOWrapper(gzip.GzipFile(path, "wb", mtime=0)) as f:     # mtime=0: reproducible file
         f.write("index,families,terms,verdict,invariant_of_class\n")
         for i, (_, E, c) in enumerate(todo):
-            terms = " ".join(f"{e}:{cc}" for e, cc in zip(E, c) if cc)
+            terms = " ".join(f"{e}:{cc}" for e, cc in poly_key(E, c))
             f.write(f"{i},{';'.join(map(str, sorted(fams_of[i])))},{terms},{verdict_of[i]},{class_of[i]}\n")
     rows = []
     for inv, (i, st, m) in new.items():
